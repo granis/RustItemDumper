@@ -9,8 +9,22 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
+      - name: Restore cached steamcmd
+        id: cache-steamcmd-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: /home/runner/Steam
+          key: steamcmd-${{ runner.os }}
+
       - name: Setup steamcmd
         uses: CyberAndrii/setup-steamcmd@v1
+
+      - name: Cache steamcmd
+        id: cache-steamcmd-save
+        uses: actions/cache/save@v4
+        with:
+          path: /home/runner/Steam
+          key: steamcmd-${{ runner.os }}
 
       - name: Restore cached rustserver
         id: cache-rustserver-restore
@@ -21,7 +35,7 @@ jobs:
 
       - name: Update app
         run: |
-          mkdir ${{ github.workspace }}/rustserver
+          mkdir -p ${{ github.workspace }}/rustserver
           steamcmd +force_install_dir ${{ github.workspace }}/rustserver +login anonymous +app_update 258550 validate +quit
 
       - name: Cache rustserver
