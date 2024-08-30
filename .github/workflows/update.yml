@@ -20,7 +20,9 @@ jobs:
           key: rustserver-${{ runner.os }}
 
       - name: Update app
-        run: steamcmd +force_install_dir rustserver +login anonymous +app_update 258550 validate +quit
+        run: |
+          mkdir ${{ github.workspace }}/rustserver
+          steamcmd +force_install_dir ${{ github.workspace }}/rustserver +login anonymous +app_update 258550 validate +quit
 
       - name: Cache rustserver
         id: cache-rustserver-save
@@ -37,4 +39,5 @@ jobs:
 
       - name: Install plugin
         run: |
+          mkdir -p rustserver/oxide/plugins/
           cp RustItemDumper.cs rustserver/oxide/plugins/
