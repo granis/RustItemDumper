@@ -35,7 +35,7 @@ jobs:
         run: |
           ls -la
           curl -L https://umod.org/games/rust/download?tag=public -o oxide.zip
-          unzip oxide.zip -d rustserver/
+          unzip -o oxide.zip -d rustserver/
 
       - name: Install plugin
         run: |
