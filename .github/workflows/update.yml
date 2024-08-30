@@ -7,11 +7,27 @@ jobs:
   prep_rust:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v4
+
       - name: Setup steamcmd
         uses: CyberAndrii/setup-steamcmd@v1
 
+      - name: Restore cached rustserver
+        id: cache-rustserver-restore
+        uses: actions/cache/restore@v4
+        with:
+          path: rustserver
+          key: rustserver-${{ runner.os }}
+
       - name: Update app
-        run: steamcmd +login anonymous +app_update 258550 validate +quit
+        run: steamcmd +force_install_dir rustserver +login anonymous +app_update 258550 validate +quit
+
+      - name: Cache rustserver
+        id: cache-rustserver-save
+        uses: actions/cache/save@v4
+        with:
+          path: rustserver
+          key: rustserver-${{ runner.os }}
 
       - name: Install oxide
         run: |
