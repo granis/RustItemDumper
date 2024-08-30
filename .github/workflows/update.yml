@@ -1,0 +1,19 @@
+name: update items
+
+on:
+  workflow_dispatch:
+
+jobs:
+  prep_rust:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Setup steamcmd
+        uses: CyberAndrii/setup-steamcmd@v1
+
+      - name: Update app
+        run: steamcmd +login anonymous +app_update 258550 validate +quit
+
+      - name: Install oxide
+        run: |
+          curl -sL https://umod.org/games/rust/download/develop | bsdtar -xvf- -C rustserver/
+          ls -la rustserver
