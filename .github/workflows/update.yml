@@ -15,5 +15,10 @@ jobs:
 
       - name: Install oxide
         run: |
-          curl -sL https://umod.org/games/rust/download/develop | bsdtar -xvf- -C rustserver/
-          ls -la rustserver
+          ls -la
+          curl -L https://umod.org/games/rust/download?tag=public -o oxide.zip
+          unzip oxide.zip -d rustserver/
+
+      - name: Install plugin
+        run: |
+          cp RustItemDumper.cs rustserver/oxide/plugins/
