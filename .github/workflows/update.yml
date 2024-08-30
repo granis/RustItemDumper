@@ -55,3 +55,9 @@ jobs:
         run: |
           mkdir -p rustserver/oxide/plugins/
           cp RustItemDumper.cs rustserver/oxide/plugins/
+
+      - name: Run RustItemDumper
+        run: |
+          cd rustserver
+          ./RustDedicated -batchmode +server.worldsize 1000
+          ls -la oxide/data/*
