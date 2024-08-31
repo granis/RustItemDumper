@@ -47,10 +47,13 @@ jobs:
           cp RustItemDumper.cs rustserver/oxide/plugins/
 
       - name: Run RustItemDumper
+        continue-on-error: true
         run: |
           cd rustserver
           export LD_LIBRARY_PATH=$LD_LIBRARY_PATH:$(pwd)
           ln -s steamclient.so ./steamservice.so
-          ls -la
           ./RustDedicated -batchmode +server.worldsize 1000
-          ls -la oxide/data/*
+
+      - name: Check dump file
+        run: |
+          ls -la rustserver/oxide/data/*
