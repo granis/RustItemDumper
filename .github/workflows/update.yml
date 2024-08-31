@@ -3,6 +3,9 @@ name: update items
 on:
   workflow_dispatch:
 
+  schedule:
+    - cron: "0 6 * * *"
+
 jobs:
   prep_rust:
     runs-on: ubuntu-latest
