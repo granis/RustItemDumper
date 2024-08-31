@@ -54,6 +54,13 @@ jobs:
           ln -s steamclient.so ./steamservice.so
           ./RustDedicated -batchmode +server.worldsize 1000
 
-      - name: Check dump file
+      - name: Copy Items.json
         run: |
-          ls -la rustserver/oxide/data/*
+          cp rustserver/oxide/data/Items.json Items.json
+
+      - uses: EndBug/add-and-commit@v9
+        name: Commit Items.json
+        with:
+          add: 'Items.json'
+          committer_email: actions@github.com
+          committer_name: GitHub Actions
