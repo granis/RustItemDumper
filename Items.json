@@ -724,8 +724,8 @@
   {
     "ItemId": -1884328185,
     "ShortName": "scraptransportheli.repair",
-    "DisplayName": "ScrapTransportHeliRepair",
-    "DisplayDescription": "ScrapTransportHeliRepair Dummy",
+    "DisplayName": "Scrap Transport Helicopter",
+    "DisplayDescription": "",
     "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
@@ -1161,10 +1161,19 @@
     "Wearable": null
   },
   {
+    "ItemId": -1767794021,
+    "ShortName": "weapon.mod.gascompressionovedrive",
+    "DisplayName": "Gas Compression Overdrive",
+    "DisplayDescription": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
+    "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1759188988,
     "ShortName": "habrepair",
-    "DisplayName": "Hab Repair",
-    "DisplayDescription": "Hab repair",
+    "DisplayName": "Hot Air Balloon",
+    "DisplayDescription": "A Hot Air Balloon.",
     "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
@@ -1940,6 +1949,15 @@
     "DisplayName": "Cockpit Vehicle Module",
     "DisplayDescription": "Single module cockpit for a driver and one passenger.",
     "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1501434104,
+    "ShortName": "wallpaper",
+    "DisplayName": "Wallpaper",
+    "DisplayDescription": "Transform your base from a rusty shack to a cozy hideout with this sleek wallpaper. A nice touch of style - until the next raid, at least.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9843,8 +9861,8 @@
   {
     "ItemId": 1426574435,
     "ShortName": "minihelicopter.repair",
-    "DisplayName": "MC repair",
-    "DisplayDescription": "MC repair dummy",
+    "DisplayName": "Minicopter",
+    "DisplayDescription": "",
     "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
@@ -10373,6 +10391,15 @@
         "Fun_Water": 0.0
       }
     }
+  },
+  {
+    "ItemId": 1619039771,
+    "ShortName": "electric.digitalclock",
+    "DisplayName": "Digital Clock",
+    "DisplayDescription": "A digital clock that displays the server time and lets you set alarms to pass power through when ringing. Ideal for synchronizing traps or timed events.",
+    "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 1623701499,
