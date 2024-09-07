@@ -1165,7 +1165,7 @@
     "ShortName": "weapon.mod.gascompressionovedrive",
     "DisplayName": "Gas Compression Overdrive",
     "DisplayDescription": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
-    "Category": "Component",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
