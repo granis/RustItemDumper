@@ -120,7 +120,7 @@
     "ItemId": -2084071424,
     "ShortName": "seed.potato",
     "DisplayName": "Potato Seed",
-    "DisplayDescription": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "DisplayDescription": "These potato seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more potatoes and faster growth.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -1448,6 +1448,46 @@
     "Wearable": null
   },
   {
+    "ItemId": -1647389398,
+    "ShortName": "frankensteinmask",
+    "DisplayName": "Frankenstein Mask",
+    "DisplayDescription": "Frankenstein halloween costume mask which provides decent protection.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 7,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.2,
+        "Slash": 0.25,
+        "Blunt": 0.25,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.4,
+        "Stab": 0.25,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.05,
+        "ColdExposure": 0.6,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.25,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0
+      }
+    }
+  },
+  {
     "ItemId": -1624770297,
     "ShortName": "frankensteins.monster.01.torso",
     "DisplayName": "Light Frankenstein Torso",
@@ -1871,7 +1911,7 @@
     "ItemId": -1511285251,
     "ShortName": "seed.pumpkin",
     "DisplayName": "Pumpkin Seed",
-    "DisplayDescription": "Pumpkin Seeds can be found when picking wild Pumpkin plants. These seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Pumpkins and faster groth.",
+    "DisplayDescription": "Pumpkin Seeds can be found when picking wild Pumpkin plants. These seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more pumpkins and faster growth.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -3093,6 +3133,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1056824343,
+    "ShortName": "skidoo",
+    "DisplayName": "Diver propulsion vehicle",
+    "DisplayDescription": "A personal underwater propulsion device",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1050697733,
     "ShortName": "scrapmirror.small",
     "DisplayName": "Scrap Mirror Small",
@@ -3409,7 +3458,7 @@
     "ItemId": -992286106,
     "ShortName": "seed.white.berry",
     "DisplayName": "White Berry Seed",
-    "DisplayDescription": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "DisplayDescription": "These white berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -3657,7 +3706,7 @@
     "ItemId": -888153050,
     "ShortName": "halloween.candy",
     "DisplayName": "Halloween Candy",
-    "DisplayDescription": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bat!",
+    "DisplayDescription": "Some loose halloween candy Collect 10 to upgrade to a Small Loot Bag!",
     "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
@@ -3679,6 +3728,55 @@
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": -880412831,
+    "ShortName": "blunderbuss",
+    "DisplayName": "Blunderbuss",
+    "DisplayDescription": "A Shotgun with two barrels allowing two shots to be fired in quick succession before needing to reload.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -874908751,
+    "ShortName": "jumpsuit.waterwellnpc",
+    "DisplayName": "Waterwell NPC Jumpsuit",
+    "DisplayDescription": "A green jumpsuit and gasmask worn by the waterwell NPC",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2,
+      "OccupationUnder": 129528,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.25,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.25,
+        "Slash": 0.4,
+        "Blunt": 0.4,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.8,
+        "Stab": 0.4,
+        "Explosion": 0.4,
+        "RadiationExposure": 0.04,
+        "ColdExposure": 0.0,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.25,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0
+      }
+    }
   },
   {
     "ItemId": -869598982,
@@ -4243,7 +4341,7 @@
     "ItemId": -699558439,
     "ShortName": "roadsign.gloves",
     "DisplayName": "Roadsign Gloves",
-    "DisplayDescription": "Gloves made out of metal offers a good amount of protection to the upper body.",
+    "DisplayDescription": "Gloves made out of metal, offer a good amount of protection to the upper body.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -4715,7 +4813,7 @@
     "ItemId": -520133715,
     "ShortName": "seed.yellow.berry",
     "DisplayName": "Yellow Berry Seed",
-    "DisplayDescription": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "DisplayDescription": "These yellow berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -4908,7 +5006,7 @@
     "ItemId": -384243979,
     "ShortName": "ammo.rocket.sam",
     "DisplayName": "SAM Ammo",
-    "DisplayDescription": "Ammunition for a Sam Site, This missile contains a rudimentary guidance system to help it navigate through strong winds.",
+    "DisplayDescription": "Ammunition for a SAM Site. This missile contains a rudimentary guidance system to help it navigate through strong winds.",
     "Category": "Ammunition",
     "IsWearable": false,
     "Wearable": null
@@ -5284,7 +5382,7 @@
     "ItemId": -237809779,
     "ShortName": "seed.hemp",
     "DisplayName": "Hemp Seed",
-    "DisplayDescription": "Hemp seeds can be found when picking wild Hemp. These seeds can be planted in the ground and grown to collect additional cloth.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more cloth and faster groth.",
+    "DisplayDescription": "Hemp seeds can be found when picking wild Hemp. These seeds can be planted in the ground and grown to collect additional cloth.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more cloth and faster growth.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -5717,6 +5815,46 @@
     "Wearable": null
   },
   {
+    "ItemId": -105415879,
+    "ShortName": "hazmatsuit.frontier",
+    "DisplayName": "Frontier Suit",
+    "DisplayDescription": "A Frontier suit",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097151,
+      "OccupationUnder": -1,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.5,
+        "Drowned": 1.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.3,
+        "Slash": 0.3,
+        "Blunt": 0.3,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.5,
+        "Stab": 0.3,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.5,
+        "ColdExposure": 0.5,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0
+      }
+    }
+  },
+  {
     "ItemId": -99886070,
     "ShortName": "firework.romancandle.violet",
     "DisplayName": "Violet Roman Candle",
@@ -5789,6 +5927,15 @@
     "DisplayName": "Wooden Floor Spikes",
     "DisplayDescription": "A set of spikes that will slow down and hurt anyone that walks over them.",
     "Category": "Traps",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -92315244,
+    "ShortName": "revolver.hc",
+    "DisplayName": "High Caliber Revolver",
+    "DisplayDescription": "A High Caliber six-shooter.",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
@@ -6042,7 +6189,7 @@
     "ItemId": -20045316,
     "ShortName": "mobilephone",
     "DisplayName": "Mobile Phone",
-    "DisplayDescription": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialler.",
+    "DisplayDescription": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialer.",
     "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
@@ -7484,7 +7631,7 @@
   {
     "ItemId": 567871954,
     "ShortName": "secretlabchair",
-    "DisplayName": "Secret Lab Chair",
+    "DisplayName": "Secretlab Chair",
     "DisplayDescription": "A luxurious, comfortable chair for long sessions of CCTV watching.",
     "Category": "Items",
     "IsWearable": false,
@@ -8055,7 +8202,7 @@
     "ItemId": 803954639,
     "ShortName": "seed.blue.berry",
     "DisplayName": "Blue Berry Seed",
-    "DisplayDescription": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "DisplayDescription": "These blue berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -8068,6 +8215,46 @@
     "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": 809689733,
+    "ShortName": "mummymask",
+    "DisplayName": "Mummy Mask",
+    "DisplayDescription": "A classic halloween costume mask which provides decent protection.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 7,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.2,
+        "Slash": 0.25,
+        "Blunt": 0.25,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.4,
+        "Stab": 0.25,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.05,
+        "ColdExposure": 0.6,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.25,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0
+      }
+    }
   },
   {
     "ItemId": 809942731,
@@ -8158,7 +8345,7 @@
     "ItemId": 830839496,
     "ShortName": "seed.red.berry",
     "DisplayName": "Red Berry Seed",
-    "DisplayDescription": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "DisplayDescription": "These red berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -8726,7 +8913,7 @@
     "ItemId": 998894949,
     "ShortName": "seed.corn",
     "DisplayName": "Corn Seed",
-    "DisplayDescription": "Corn seeds can be found when picking wild Corn plants. These seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "DisplayDescription": "Corn seeds can be found when picking wild Corn plants. These seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more corn and faster growth.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -9449,7 +9636,7 @@
     "ItemId": 1293102274,
     "ShortName": "electric.xorswitch",
     "DisplayName": "XOR Switch",
-    "DisplayDescription": "An exclusive-or logic gate that allows electrical passthrough if ONLY ONE input receives power, passthrough amount is whichever single input is active. if BOTH inputs recieve power, passthrough will be zero.",
+    "DisplayDescription": "An exclusive-or logic gate that allows electrical passthrough if ONLY ONE input receives power, passthrough amount is whichever single input is active. If BOTH inputs recieve power, passthrough will be zero.",
     "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
@@ -9596,7 +9783,7 @@
   {
     "ItemId": 1346158228,
     "ShortName": "pumpkinbasket",
-    "DisplayName": "Pumpkin Bucket",
+    "DisplayName": "Pumpkin Basket",
     "DisplayDescription": "A pumpkin basket to help you collect candy much faster during Trick or Treat events with left click. Use right click to throw candy",
     "Category": "Misc",
     "IsWearable": false,
@@ -9808,7 +9995,7 @@
     "ItemId": 1409529282,
     "ShortName": "door.closer",
     "DisplayName": "Door Closer",
-    "DisplayDescription": "Auotmatically closes your doors when left open.",
+    "DisplayDescription": "Automatically closes your doors when left open.",
     "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
@@ -11016,6 +11203,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1811780502,
+    "ShortName": "water.radioactive",
+    "DisplayName": "Radioactive Water",
+    "DisplayDescription": "Glowing water. Consuming will damage your health and irradiate you.",
+    "Category": "Resources",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1814288539,
     "ShortName": "knife.bone",
     "DisplayName": "Bone Knife",
@@ -11346,7 +11542,7 @@
     "ItemId": 1911552868,
     "ShortName": "seed.black.berry",
     "DisplayName": "Black Berry Seed",
-    "DisplayDescription": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more Corn and faster groth.",
+    "DisplayDescription": "These black berry seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more berries and faster growth.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -11384,6 +11580,15 @@
     "DisplayName": "Black Raspberries",
     "DisplayDescription": "Black Raspberries picked from berry bushes. Eating it provides a small boost to health, hunger, and thirst.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1937380239,
+    "ShortName": "frontier_hatchet",
+    "DisplayName": "Frontier Hatchet",
+    "DisplayDescription": "A Frontier Hatchet, useful for chopping trees and dismembering corpses.",
+    "Category": "Tool",
     "IsWearable": false,
     "Wearable": null
   },
