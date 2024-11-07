@@ -5051,7 +5051,7 @@
     "ItemId": -348232115,
     "ShortName": "rifle.sks",
     "DisplayName": "SKS",
-    "DisplayDescription": "A Semi Automatic Rifle.",
+    "DisplayDescription": "A Military-Grade Semi Automatic Rifle.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -11895,6 +11895,15 @@
     "DisplayName": "Large Banner on pole",
     "DisplayDescription": "A large banner hanging on a pole.",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2083256995,
+    "ShortName": "t1_smg",
+    "DisplayName": "Handmade SMG",
+    "DisplayDescription": "An extremely basic automatic firearm. Low damage and accuracy.",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
