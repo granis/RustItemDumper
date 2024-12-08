@@ -4253,6 +4253,20 @@
     "Wearable": null
   },
   {
+    "ItemId": -739993590,
+    "ShortName": "twitchrivalsflag",
+    "DisplayName": "Twitch Rivals Flag",
+    "DisplayDescription": "A wearable flag for Twitch Rivals",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097152,
+      "OccupationUnder": 0,
+      "IsBackpack": true,
+      "ProtectionProperties": null
+    }
+  },
+  {
     "ItemId": -733625651,
     "ShortName": "paddlingpool",
     "DisplayName": "Paddling Pool",
@@ -6743,8 +6757,8 @@
   {
     "ItemId": 174866732,
     "ShortName": "weapon.mod.8x.scope",
-    "DisplayName": "16x Zoom Scope",
-    "DisplayDescription": "A large 16x zoom scope.",
+    "DisplayName": "Variable Zoom Scope",
+    "DisplayDescription": "A large military-grade scope that can be configured from 4x zoom to 16x zoom.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -7566,6 +7580,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 504109620,
+    "ShortName": "sculpture.ice",
+    "DisplayName": "Ice Sculpture",
+    "DisplayDescription": "An block of ice you can sculpt.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 524678627,
     "ShortName": "scraptea.advanced",
     "DisplayName": "Advanced Scrap Tea",
@@ -8040,6 +8063,15 @@
         "Fun_Water": 0.0
       }
     }
+  },
+  {
+    "ItemId": 721798950,
+    "ShortName": "vehicle.car_radio",
+    "DisplayName": "Car Radio",
+    "DisplayDescription": "A small radio to use in cars. Will only work while the car is turned on.",
+    "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 722955039,
@@ -10410,6 +10442,15 @@
     "ShortName": "frankensteintable",
     "DisplayName": "Frankenstein Table",
     "DisplayDescription": "Place a monsters head, torso and legs into the table to summon Frankensteins monster.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1578317134,
+    "ShortName": "hazmat.plushy",
+    "DisplayName": "Hazmat Plushy",
+    "DisplayDescription": "A plushy of your favourite outfit made by the fabulous people at YouTooz.com",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
