@@ -350,6 +350,15 @@
     }
   },
   {
+    "ItemId": -2016974826,
+    "ShortName": "wall.frame.lunar2025_c",
+    "DisplayName": "Lunar Wall Frame Floral",
+    "DisplayDescription": "A Lunar New Year themed decorative wall divider with floral inlay",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -2012470695,
     "ShortName": "mask.balaclava",
     "DisplayName": "Improvised Balaclava",
@@ -2494,6 +2503,46 @@
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": -1314079879,
+    "ShortName": "hat.snakemask",
+    "DisplayName": "Snake mask",
+    "DisplayDescription": "A Beautifully crafted Snake mask to celebrate the 2025 Lunar New Year",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 1048581,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.3,
+        "Slash": 0.6,
+        "Blunt": 0.6,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.6,
+        "Stab": 0.6,
+        "Explosion": 0.8,
+        "RadiationExposure": 0.04,
+        "ColdExposure": 0.35,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0
+      }
+    }
   },
   {
     "ItemId": -1310391395,
@@ -4986,6 +5035,15 @@
     "DisplayName": "Red Volcano Firework",
     "DisplayDescription": "Emits a beautiful shower of red sparks",
     "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -450890885,
+    "ShortName": "wall.frame.lunar2025_b",
+    "DisplayName": "Lunar Wall Frame Swirling",
+    "DisplayDescription": "A Lunar New Year themed decorative wall divider with swirling inlay",
+    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9229,6 +9287,15 @@
     "DisplayName": "Attack Helicopter",
     "DisplayDescription": "A fairly solid helicopter with weapons capability.",
     "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1115193056,
+    "ShortName": "wall.frame.lunar2025_a",
+    "DisplayName": "Lunar Wall Frame Inlay",
+    "DisplayDescription": "A Lunar New Year themed decorative wall divider with geometric inlay",
+    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   },
