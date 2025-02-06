@@ -250,7 +250,7 @@
     "ItemId": -2026042603,
     "ShortName": "mace.baseballbat",
     "DisplayName": "Baseball Bat",
-    "DisplayDescription": "",
+    "DisplayDescription": "A baseball bat wrapped in barbed wire",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -503,6 +503,15 @@
     "DisplayName": "Hot Air Balloon Armor",
     "DisplayDescription": "Armor for the Hot Air Balloon",
     "Category": "Attire",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1987565603,
+    "ShortName": "ballista.bolt.incendiary",
+    "DisplayName": "Incendiary Bolt",
+    "DisplayDescription": "A fire-tipped bolt for a ballista, wrapped in burning cloth, ignites upon impact.",
+    "Category": "Ammunition",
     "IsWearable": false,
     "Wearable": null
   },
@@ -857,6 +866,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1827561369,
+    "ShortName": "catapult.ammo.explosive",
+    "DisplayName": "Propane Explosive Bomb",
+    "DisplayDescription": "An explosive propane-filled keg, devastating to structures. Can be placed or used as a projectile in a catapult.",
+    "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1824943010,
     "ShortName": "jackolantern.happy",
     "DisplayName": "Jack O Lantern Happy",
@@ -1030,7 +1048,7 @@
         "Thirst": 0.0,
         "Cold": 0.0,
         "Drowned": 0.0,
-        "Heat": -2.0,
+        "Heat": -2.5,
         "Bleeding": 0.0,
         "Poison": 0.0,
         "Suicide": 0.0,
@@ -1426,6 +1444,15 @@
     "DisplayName": "Homemade Landmine",
     "DisplayDescription": "Homemade Landmine. If you stand on one, you can ask a friend to disarm it before it explodes.",
     "Category": "Traps",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1654401345,
+    "ShortName": "medieval.door.hinged.metal",
+    "DisplayName": "Medieval Sheet Metal Door",
+    "DisplayDescription": "Medium strength door, vulnerable to explosives.",
+    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2288,7 +2315,7 @@
     "ItemId": -1405508498,
     "ShortName": "weapon.mod.muzzleboost",
     "DisplayName": "Muzzle Boost",
-    "DisplayDescription": "Increases weapon fire rate by channeling gasses back into the weapon cycling it faster, at the cost of bullet velocity and accuracy.",
+    "DisplayDescription": "Increases weapon fire rate by channeling gasses back into the weapon cycling it faster, at the cost of bullet accuracy.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -2404,7 +2431,7 @@
   {
     "ItemId": -1335497659,
     "ShortName": "rifle.ak.ice",
-    "DisplayName": "Assault Rifle - ICE",
+    "DisplayName": "Ice Assault Rifle",
     "DisplayDescription": "Ice-covered high damage machine rifle.",
     "Category": "Weapon",
     "IsWearable": false,
@@ -2595,6 +2622,15 @@
     "DisplayName": "Small Oil Refinery",
     "DisplayDescription": "A small refinery which can produce Low Grade Fuel from Crude Oil.",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1290278434,
+    "ShortName": "siegetower",
+    "DisplayName": "Siege Tower",
+    "DisplayDescription": "A rolling siege tower, providing cover and access to enemy bases. Can be locked with your own door. Can be towed by horses.",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2963,6 +2999,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1127003365,
+    "ShortName": "ballista.bolt.piercer",
+    "DisplayName": "Piercer Bolt",
+    "DisplayDescription": "A piercing bolt for a ballista, capable of penetrating armored vehicles.",
+    "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1123473824,
     "ShortName": "multiplegrenadelauncher",
     "DisplayName": "Multiple Grenade Launcher",
@@ -3064,7 +3109,7 @@
         "Thirst": 0.0,
         "Cold": 0.0,
         "Drowned": 0.0,
-        "Heat": -2.0,
+        "Heat": -2.5,
         "Bleeding": 0.0,
         "Poison": 0.0,
         "Suicide": 0.0,
@@ -3641,6 +3686,46 @@
     "Category": "Resources",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": -945708533,
+    "ShortName": "knightsarmour.skirt",
+    "DisplayName": "Knights armour skirt plates",
+    "DisplayDescription": "A well made set of knights plate that covers the hips and thighs. Made of scrap metal.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 129024,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.2,
+        "Slash": 0.25,
+        "Blunt": 0.2,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.6,
+        "Stab": 0.25,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.0,
+        "ColdExposure": -0.5,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.2,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0
+      }
+    }
   },
   {
     "ItemId": -939424778,
@@ -4224,6 +4309,15 @@
         "Fun_Water": 0.0
       }
     }
+  },
+  {
+    "ItemId": -759279626,
+    "ShortName": "ballista.mounted",
+    "DisplayName": "Mounted Ballista",
+    "DisplayDescription": "A ballista mounted on wheels, designed for mobility and capable of firing bolts at distant targets. Can be towed by horses.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": -751151717,
@@ -4891,6 +4985,46 @@
     "Wearable": null
   },
   {
+    "ItemId": -507248640,
+    "ShortName": "hat.wellipets",
+    "DisplayName": "Wellipets Hat",
+    "DisplayDescription": "A hat made of wellipets boots",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 5,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.2,
+        "Slash": 0.25,
+        "Blunt": 0.25,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.4,
+        "Stab": 0.25,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.05,
+        "ColdExposure": 0.6,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.25,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0
+      }
+    }
+  },
+  {
     "ItemId": -502177121,
     "ShortName": "electric.doorcontroller",
     "DisplayName": "Door Controller",
@@ -4950,6 +5084,33 @@
     "DisplayName": "Blue Keycard",
     "DisplayDescription": "A keycard with medium level clearance.",
     "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -484006286,
+    "ShortName": "catapult.ammo.incendiary",
+    "DisplayName": "Firebomb",
+    "DisplayDescription": "A crude firebomb made of fuel-filled jugs wrapped in a net. Can be placed or used as a projectile in a catapult.",
+    "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -482348853,
+    "ShortName": "minicrossbow",
+    "DisplayName": "Mini Crossbow",
+    "DisplayDescription": "A very accurate ranged weapon with a rotating barrel.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -479314201,
+    "ShortName": "batteringram.head.repair",
+    "DisplayName": "Battering Ram Head",
+    "DisplayDescription": "",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5048,6 +5209,55 @@
     "Wearable": null
   },
   {
+    "ItemId": -427072335,
+    "ShortName": "knightsarmour.helmet",
+    "DisplayName": "Knights armour helmet",
+    "DisplayDescription": "A medieval knights helmet. Made from scrap metal. Excellent craftmanship.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 1048583,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.35,
+        "Slash": 0.5,
+        "Blunt": 0.5,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.5,
+        "Stab": 0.5,
+        "Explosion": 0.5,
+        "RadiationExposure": 0.05,
+        "ColdExposure": 0.0,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.35,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0
+      }
+    }
+  },
+  {
+    "ItemId": -424687710,
+    "ShortName": "barricade.medieval",
+    "DisplayName": "Medieval Barricade",
+    "DisplayDescription": "A medieval barricade. Designed to block paths and provide defensive cover as well as being an effective tool to fortify your base.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -399173933,
     "ShortName": "lumberjack.hatchet",
     "DisplayName": "Prototype Hatchet",
@@ -5084,6 +5294,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -380502678,
+    "ShortName": "medieval.door.double.hinged.metal",
+    "DisplayName": "Medieval Sheet Metal Double Door",
+    "DisplayDescription": "Medium strength door, vulnerable to explosives.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -379734527,
     "ShortName": "firework.boomer.pattern",
     "DisplayName": "Pattern Boomer",
@@ -5116,6 +5335,24 @@
     "DisplayName": "Snowball",
     "DisplayDescription": "A snowball, throw it!",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -361911645,
+    "ShortName": "dart.bone",
+    "DisplayName": "Bone Dart",
+    "DisplayDescription": "A basic damage dart.",
+    "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -357442017,
+    "ShortName": "ballista.bolt.pitchfork",
+    "DisplayName": "Pitchfork Bolt",
+    "DisplayDescription": "A wide-impact bolt for a ballista, covering a large area while dealing moderate damage.",
+    "Category": "Ammunition",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5558,6 +5795,15 @@
     "ShortName": "knife.butcher",
     "DisplayName": "Butcher Knife",
     "DisplayDescription": "A sharp butcher knife. Extremely good at harvesting flesh from both dead or alive bodies.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -187304968,
+    "ShortName": "batteringram",
+    "DisplayName": "Battering Ram",
+    "DisplayDescription": "A reinforced siege weapon built for smashing through wooden and stone constructions with brute force. Must be repaired with high quality metal to keep functioning.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -6267,6 +6513,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -19318653,
+    "ShortName": "ballista.bolt.hammerhead",
+    "DisplayName": "Hammerhead Bolt",
+    "DisplayDescription": "Heavy and solid bolt for a ballista, designed to hammer through doors.",
+    "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -17123659,
     "ShortName": "ammo.rocket.smoke",
     "DisplayName": "Smoke Rocket WIP!!!!",
@@ -6916,6 +7171,20 @@
     }
   },
   {
+    "ItemId": 196784377,
+    "ShortName": "improvised.shield",
+    "DisplayName": "Improvised Shield",
+    "DisplayDescription": "A makeshift metal shield, sturdy but only protects a small area. Usable with single handed weapons and tools.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097152,
+      "OccupationUnder": 0,
+      "IsBackpack": true,
+      "ProtectionProperties": null
+    }
+  },
+  {
     "ItemId": 198438816,
     "ShortName": "vending.machine",
     "DisplayName": "Vending Machine",
@@ -7553,6 +7822,15 @@
     }
   },
   {
+    "ItemId": 472505338,
+    "ShortName": "rifle.ak.med",
+    "DisplayName": "Medieval Assault Rifle",
+    "DisplayDescription": "Medieval themed high damage machine rifle.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 476066818,
     "ShortName": "cassette",
     "DisplayName": "Cassette - Long",
@@ -7663,6 +7941,46 @@
     "Category": "Traps",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": 547862680,
+    "ShortName": "knighttorso.armour",
+    "DisplayName": "Knights armour cuirass",
+    "DisplayDescription": "A well made collection of scrap metal formed into a knights armour.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 120,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.2,
+        "Slash": 0.25,
+        "Blunt": 0.2,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.6,
+        "Stab": 0.25,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.0,
+        "ColdExposure": -0.5,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.2,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0
+      }
+    }
   },
   {
     "ItemId": 550753330,
@@ -7848,7 +8166,7 @@
     "ItemId": 607400343,
     "ShortName": "legacy.shelter.wood",
     "DisplayName": "Legacy Wood Shelter",
-    "DisplayDescription": "The classic s*** shack. A great starter base for any fresh spawn. There is a limit to how many you can place.",
+    "DisplayDescription": "The classic s*** shack. A great starter base for any fresh spawn. You can only have one shelter deployed at anytime.",
     "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
@@ -7897,6 +8215,20 @@
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": 625599716,
+    "ShortName": "metal.shield",
+    "DisplayName": "Metal Shield",
+    "DisplayDescription": "A large sturdy metal shield, keeps arrows and bullets at bay. Usable\r with single handed weapons and tools.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097152,
+      "OccupationUnder": 0,
+      "IsBackpack": true,
+      "ProtectionProperties": null
+    }
   },
   {
     "ItemId": 634478325,
@@ -8392,6 +8724,15 @@
     "DisplayName": "Cooked Wolf Meat",
     "DisplayDescription": "Cooked Wolf Meat. Eating it will restore some health, hunger, and thirst.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 814297925,
+    "ShortName": "medieval.box.wooden.large",
+    "DisplayName": "Medieval Large Wood Box",
+    "DisplayDescription": "Keep your things in this medieval themed wooden storage box. Stores up to 48 items.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8906,6 +9247,20 @@
     "Wearable": null
   },
   {
+    "ItemId": 969768382,
+    "ShortName": "reinforced.wooden.shield",
+    "DisplayName": "Reinforced Wooden Shield",
+    "DisplayDescription": "A basic wooden shield with added protection, keeps you safe but not for long. Usable with single handed weapons and tools.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097152,
+      "OccupationUnder": 0,
+      "IsBackpack": true,
+      "ProtectionProperties": null
+    }
+  },
+  {
     "ItemId": 971362526,
     "ShortName": "skull.trophy.jar",
     "DisplayName": "Skull Trophy",
@@ -9327,6 +9682,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1145722690,
+    "ShortName": "catapult",
+    "DisplayName": "Catapult",
+    "DisplayDescription": "An improvised catapult siege weapon. Built for flinging destructive projectiles with questionable accuracy. Can be towed by horses.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1149964039,
     "ShortName": "storage.monitor",
     "DisplayName": "Storage Monitor",
@@ -9451,7 +9815,7 @@
         "Thirst": 0.0,
         "Cold": 0.0,
         "Drowned": 0.0,
-        "Heat": -1.0,
+        "Heat": -1.5,
         "Bleeding": 0.0,
         "Poison": 0.0,
         "Suicide": 0.0,
@@ -10608,6 +10972,20 @@
     "Wearable": null
   },
   {
+    "ItemId": 1604837581,
+    "ShortName": "wooden.shield",
+    "DisplayName": "Wooden Shield",
+    "DisplayDescription": "A basic wooden shield, won't last very long. Usable with single handed weapons and tools.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097152,
+      "OccupationUnder": 0,
+      "IsBackpack": true,
+      "ProtectionProperties": null
+    }
+  },
+  {
     "ItemId": 1608640313,
     "ShortName": "shirt.tanktop",
     "DisplayName": "Tank Top",
@@ -10979,6 +11357,15 @@
     }
   },
   {
+    "ItemId": 1714509152,
+    "ShortName": "ballista.static",
+    "DisplayName": "Ballista",
+    "DisplayDescription": "A stationary ballista, perfect for defence. Can fire deadly bolts at distant targets.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1719978075,
     "ShortName": "bone.fragments",
     "DisplayName": "Bone Fragments",
@@ -11343,6 +11730,15 @@
     "DisplayName": "Burnt Wolf Meat",
     "DisplayDescription": "Spoiled Wolf Meat. Consuming will damage your health.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1831249347,
+    "ShortName": "catapult.ammo.boulder",
+    "DisplayName": "Scattershot",
+    "DisplayDescription": "A cluster of heavy rock projectiles for a catapult. Wide spread, pure kinetic damage on impact.",
+    "Category": "Ammunition",
     "IsWearable": false,
     "Wearable": null
   },
