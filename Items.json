@@ -21,7 +21,7 @@
     "ItemId": -2123125470,
     "ShortName": "healingtea.advanced",
     "DisplayName": "Advanced Healing Tea",
-    "DisplayDescription": "A tea that restores health over time.",
+    "DisplayDescription": "An advanced healing tea, provides hydration and heals you a moderate amount over time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -103,7 +103,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -215,7 +216,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -225,6 +227,15 @@
     "DisplayName": "Pan Flute",
     "DisplayDescription": "A set of repurposed PVC pipes that can be used to play a variety of melodies.",
     "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -2035449523,
+    "ShortName": "deermeat.spoiled",
+    "DisplayName": "Spoiled Deer Meat",
+    "DisplayDescription": "Spoiled Deer Meat. Consuming will damage your health.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -291,7 +302,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -331,7 +343,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -348,6 +361,15 @@
       "IsBackpack": true,
       "ProtectionProperties": null
     }
+  },
+  {
+    "ItemId": -2018158920,
+    "ShortName": "chickencoop",
+    "DisplayName": "Chicken Coop",
+    "DisplayDescription": "An enclosure to keep some chickens around.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": -2016974826,
@@ -394,7 +416,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -434,7 +457,8 @@
         "Arrow": 0.2,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -614,7 +638,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -717,7 +742,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -929,6 +955,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1811234677,
+    "ShortName": "nucleus",
+    "DisplayName": "Beehive Nucleus",
+    "DisplayDescription": "The heart of any hive, needed for raising bees. Produce honeycomb to earn XP and increase its grade. Higher grades will produce more honeycomb at once.",
+    "Category": "Resources",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1804515496,
     "ShortName": "goldmirror.medium",
     "DisplayName": "Gold Mirror Medium",
@@ -952,6 +987,24 @@
     "DisplayName": "Speargun Spear",
     "DisplayDescription": "Ammunition for a speargun.",
     "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1790885730,
+    "ShortName": "seed.wheat",
+    "DisplayName": "Wheat Seed",
+    "DisplayDescription": "Wheat seeds can be found when picking wild Wheat plants. These seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more corn and faster growth.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1785248332,
+    "ShortName": "pie.fish",
+    "DisplayName": "Fish Pie",
+    "DisplayDescription": "Delightful fish pie. Provides a boost to hunger, health and hydration and increases base comfort level for a short time.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -991,7 +1044,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1067,7 +1121,8 @@
         "Arrow": 0.75,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1125,7 +1180,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1165,7 +1221,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1268,15 +1325,16 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
   {
     "ItemId": -1729415579,
     "ShortName": "radiationresisttea.advanced",
-    "DisplayName": "Adv. Anti-Rad Tea",
-    "DisplayDescription": "A tea that reduces the amount of health lost due to radiation.",
+    "DisplayName": "Advanced Anti-Rad Tea",
+    "DisplayDescription": "An advanced tea that provides some hydration and temporarily increases your resistance to radiation a moderate amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -1353,7 +1411,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1406,7 +1465,7 @@
     "ItemId": -1677315902,
     "ShortName": "healingtea.pure",
     "DisplayName": "Pure Healing Tea",
-    "DisplayDescription": "A tea that restores health over time.",
+    "DisplayDescription": "A pure healing tea, provides hydration and heals you a large amount over time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -1519,7 +1578,8 @@
         "Arrow": 0.35,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1559,7 +1619,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1608,7 +1669,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1720,7 +1782,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1778,7 +1841,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1827,7 +1891,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1930,7 +1995,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -1940,6 +2006,15 @@
     "DisplayName": "Speargun",
     "DisplayDescription": "A speargun which can only be fired underwater. Excellent for hunting Sharks.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1513203236,
+    "ShortName": "honeycomb",
+    "DisplayName": "Honeycomb",
+    "DisplayDescription": "These building blocks of a beehive can turn into honey or nuclei. Cooking them in a furnace guarantees honey.",
+    "Category": "Resources",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2006,7 +2081,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -2043,6 +2119,15 @@
     "DisplayName": "Wood Mirror Small",
     "DisplayDescription": "A small wooden mirror",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1488408786,
+    "ShortName": "pie.pumpkin",
+    "DisplayName": "Pumpkin Pie",
+    "DisplayDescription": "Spooky pumpkin pie, Provides a boost to health, hunger and hydration, and increases maximum health for a short time.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2100,7 +2185,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -2149,7 +2235,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -2473,7 +2560,8 @@
         "Arrow": 0.5,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -2567,7 +2655,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -2706,7 +2795,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -2725,6 +2815,15 @@
     "DisplayName": "Binoculars",
     "DisplayDescription": "Binoculars allowing you to see objects at great length.",
     "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1260229965,
+    "ShortName": "coolingtea",
+    "DisplayName": "Cooling Tea",
+    "DisplayDescription": "A cooling tea that temporarily decreases your max and core temperature.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2836,7 +2935,7 @@
     "ItemId": -1184406448,
     "ShortName": "maxhealthtea",
     "DisplayName": "Basic Max Health Tea",
-    "DisplayDescription": "A tea that increases your maximum health.",
+    "DisplayDescription": "A basic health tea, provides hydration and temporarily boosts maximum health a small amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -2922,7 +3021,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -2959,6 +3059,15 @@
     "DisplayName": "Wooden Frontier Bar Doors",
     "DisplayDescription": "Hand-carved, rugged bar doors embody the spirit of the frontier. A must-have for any survivor.",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1142222427,
+    "ShortName": "warmingtea",
+    "DisplayName": "Warming Tea",
+    "DisplayDescription": "A warming tea that temporarily increases both your core and minimum temperature.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3079,7 +3188,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -3128,7 +3238,8 @@
         "Arrow": 0.75,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -3168,7 +3279,8 @@
         "Arrow": 0.0,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -3307,7 +3419,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -3325,6 +3438,15 @@
     "ShortName": "smallwaterbottle",
     "DisplayName": "Small Water Bottle",
     "DisplayDescription": "A Small Water Bottle. Left click to drink, right click to fill from water sources, or to pour out.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1037472336,
+    "ShortName": "seed.rose",
+    "DisplayName": "Rose Seed",
+    "DisplayDescription": "Rose seeds can be found when picking wild Roses.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -3392,7 +3514,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -3459,7 +3582,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -3517,7 +3641,8 @@
         "Arrow": 0.0,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -3602,7 +3727,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -3647,6 +3773,15 @@
     "ShortName": "chocolate",
     "DisplayName": "Chocolate Bar",
     "DisplayDescription": "Chocolate Bar found as loot. Eating it provides a small boost to health, hunger, and thirst.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -963820355,
+    "ShortName": "pie.survivors",
+    "DisplayName": "Survivor's Pie",
+    "DisplayDescription": "It's people. Survivor's pie is made out of people. Provides a boost to health, hunger and hydration, and increases yield when harvesting corpses for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -3723,7 +3858,8 @@
         "Arrow": 0.2,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -3767,7 +3903,7 @@
     "ItemId": -929092070,
     "ShortName": "healingtea",
     "DisplayName": "Basic Healing Tea",
-    "DisplayDescription": "A tea that restores health over time.",
+    "DisplayDescription": "A basic healing tea, provides hydration and heals you a small amount over time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -3810,6 +3946,15 @@
     "DisplayName": "Semi-Automatic Rifle",
     "DisplayDescription": "A Semi Automatic Rifle.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -903796529,
+    "ShortName": "clothing.mod.armorinsert_asbestos",
+    "DisplayName": "Asbestos Armor Insert",
+    "DisplayDescription": "Asbestos insert providing extra protection from heat for crafted clothes and armor.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3908,7 +4053,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -4029,7 +4175,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -4105,9 +4252,19 @@
         "Arrow": 0.35,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
+  },
+  {
+    "ItemId": -798662404,
+    "ShortName": "clone.orchid",
+    "DisplayName": "Orchid Clone",
+    "DisplayDescription": "A clipping of an orchid plant.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": -798293154,
@@ -4154,7 +4311,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -4266,7 +4424,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -4306,7 +4465,8 @@
         "Arrow": 0.05,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -4364,7 +4524,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -4428,6 +4589,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -724146494,
+    "ShortName": "horsemeat.spoiled",
+    "DisplayName": "Spoiled Horse Meat",
+    "DisplayDescription": "Spoiled Horse Meat. Consuming will damage your health.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -722629980,
     "ShortName": "heavyscientistyoutooz",
     "DisplayName": "Heavy Scientist Youtooz",
@@ -4481,7 +4651,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -4530,7 +4701,8 @@
         "Arrow": 0.2,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -4624,7 +4796,7 @@
     "ItemId": -649128577,
     "ShortName": "woodtea",
     "DisplayName": "Basic Wood Tea",
-    "DisplayDescription": "A tea that increases the amount of wood you receive from trees.",
+    "DisplayDescription": "A basic wood tea, temporarily increases the yield from cutting trees a small amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -4657,6 +4829,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -611118083,
+    "ShortName": "sunflower",
+    "DisplayName": "Sunflower",
+    "DisplayDescription": "Very tall.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -602717596,
     "ShortName": "reddogtags",
     "DisplayName": "Red Dog Tags",
@@ -4671,6 +4852,15 @@
     "DisplayName": "Spray Can",
     "DisplayDescription": "Use the Spray Can to leave Tags or reskin your items. Press [attack] to spray and [attack2] to reskin items.",
     "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -593892112,
+    "ShortName": "clothing.mod.armorinsert_wood",
+    "DisplayName": "Wooden Armor Insert",
+    "DisplayDescription": "Wood insert for crafted clothes and armor, provides some extra protection from bullets and melee.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4778,7 +4968,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -4868,7 +5059,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -4917,7 +5109,8 @@
         "Arrow": 0.0,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -4925,7 +5118,7 @@
     "ItemId": -557539629,
     "ShortName": "woodtea.pure",
     "DisplayName": "Pure Wood Tea",
-    "DisplayDescription": "A tea that increases the amount of wood you receive from trees.",
+    "DisplayDescription": "A pure wood tea, temporarily increases the yield from cutting trees a large amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -4961,7 +5154,7 @@
     "ItemId": -541206665,
     "ShortName": "woodtea.advanced",
     "DisplayName": "Advanced Wood Tea",
-    "DisplayDescription": "A tea that increases the amount of wood you receive from trees.",
+    "DisplayDescription": "An advanced wood tea, temporarily increases the yield from cutting trees a moderate amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -5020,7 +5213,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -5072,8 +5266,8 @@
   {
     "ItemId": -487356515,
     "ShortName": "radiationresisttea",
-    "DisplayName": "Anti-Rad Tea",
-    "DisplayDescription": "A tea that reduces the amount of health lost due to radiation.",
+    "DisplayName": "Basic Anti-Rad Tea",
+    "DisplayDescription": "A basic tea that provides hydration and temporarily increases your resistance to radiation a small amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -5150,7 +5344,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -5209,6 +5404,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -430416124,
+    "ShortName": "plantpot.single",
+    "DisplayName": "Single Plant Pot",
+    "DisplayDescription": "A single plant pot.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -427072335,
     "ShortName": "knightsarmour.helmet",
     "DisplayName": "Knights armour helmet",
@@ -5244,7 +5448,8 @@
         "Arrow": 0.35,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -5428,7 +5633,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -5495,7 +5701,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -5523,6 +5730,15 @@
     "DisplayName": "Simple Light",
     "DisplayDescription": "A simple debugging light",
     "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -280812482,
+    "ShortName": "planter.triangle",
+    "DisplayName": "Triangle Planter Box",
+    "DisplayDescription": "A triangle planter with enough room to plant 4 seeds.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5607,7 +5823,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -5656,7 +5873,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -5786,7 +6004,8 @@
         "Arrow": 0.5,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -5939,7 +6158,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -6060,7 +6280,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -6168,7 +6389,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -6226,7 +6448,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -6347,7 +6570,8 @@
         "Arrow": 0.2,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -6409,7 +6633,7 @@
     "ItemId": -33009419,
     "ShortName": "radiationresisttea.pure",
     "DisplayName": "Pure Anti-Rad Tea",
-    "DisplayDescription": "A tea that reduces the amount of health lost due to radiation.",
+    "DisplayDescription": "A pure tea that provides hydration and temporarily increases your resistance to radiation a large amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -6459,7 +6683,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -6499,7 +6724,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -6509,6 +6735,15 @@
     "DisplayName": "Mobile Phone",
     "DisplayDescription": "A mobile phone that lets you place calls from anywhere. Truly cutting edge Cobalt technology. Use [attack] to access the dialer.",
     "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -19360132,
+    "ShortName": "clone.rose",
+    "DisplayName": "Rose Clone",
+    "DisplayDescription": "A clipping of a rose plant.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -6593,7 +6828,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -6633,9 +6869,19 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
+  },
+  {
+    "ItemId": 4384538,
+    "ShortName": "pie.apple",
+    "DisplayName": "Apple Pie",
+    "DisplayDescription": "A delicious apple pie, always too hot. Provides a boost to hunger, health and hydration. Gives better night vision and lets you to see tree markings and ore hotspots for a short time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 14241751,
@@ -6705,7 +6951,8 @@
         "Arrow": 0.05,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -6763,7 +7010,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -6902,7 +7150,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -6969,7 +7218,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -7009,9 +7259,19 @@
         "Arrow": 0.5,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
+  },
+  {
+    "ItemId": 120820987,
+    "ShortName": "pie.chicken",
+    "DisplayName": "Chicken Pie",
+    "DisplayDescription": "Just like mom used to make. Provides a boost to hunger, health and hydration, and increases the chance of better genes from crops for short time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 121049755,
@@ -7104,6 +7364,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 184516676,
+    "ShortName": "beehive",
+    "DisplayName": "Beehive",
+    "DisplayDescription": "Artificial beehive, place a nucleus inside to raise your own bees and produce honeycomb. Happy bees will make honeycomb more quickly.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 185586769,
     "ShortName": "innertube.horse",
     "DisplayName": "Inner Tube",
@@ -7166,7 +7435,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -7230,6 +7500,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 210787554,
+    "ShortName": "iotable",
+    "DisplayName": "Engineering Workbench",
+    "DisplayDescription": "This allows you to craft and unlock electrical, water and industrial items",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 215754713,
     "ShortName": "arrow.bone",
     "DisplayName": "Bone Arrow",
@@ -7274,7 +7553,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -7323,7 +7603,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -7376,7 +7657,7 @@
     "ItemId": 263834859,
     "ShortName": "scraptea",
     "DisplayName": "Basic Scrap Tea",
-    "DisplayDescription": "A tea that increases the amount of scrap you receive from barrels.",
+    "DisplayDescription": "A basic scrap tea, temporarily increases the amount of scrap you recieve from barrels a small amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -7426,7 +7707,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -7475,7 +7757,8 @@
         "Arrow": 0.0,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -7515,9 +7798,19 @@
         "Arrow": 0.0,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
+  },
+  {
+    "ItemId": 281099360,
+    "ShortName": "bread.loaf",
+    "DisplayName": "Bread Loaf",
+    "DisplayDescription": "A Loaf of Bread. Eating it provides a small boost to health, hunger",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 282103175,
@@ -7584,6 +7877,15 @@
     "DisplayName": "High Quality Metal",
     "DisplayDescription": "High quality metal suitable for armor and weapons construction.",
     "Category": "Resources",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 320438357,
+    "ShortName": "pie.hunters",
+    "DisplayName": "Hunters Pie",
+    "DisplayDescription": "Tasty hunters pie, made with real deer. Provides a boost to hunger, health and hydration, and reduces bleeding for a short time.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -7688,6 +7990,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 368008432,
+    "ShortName": "craftingtea_quality",
+    "DisplayName": "Crafting Quality Tea",
+    "DisplayDescription": "A tea that increases the chances of a higher quality crafting outcome.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 390728933,
     "ShortName": "clone.yellow.berry",
     "DisplayName": "Yellow Berry Clone",
@@ -7732,7 +8043,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -7817,7 +8129,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -7902,7 +8215,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -7928,7 +8242,7 @@
     "ItemId": 524678627,
     "ShortName": "scraptea.advanced",
     "DisplayName": "Advanced Scrap Tea",
-    "DisplayDescription": "A tea that increases the amount of scrap you receive from barrels.",
+    "DisplayDescription": "An advanced scrap tea, temporarily increases the amount of scrap you recieve from barrels a moderate amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -7978,7 +8292,8 @@
         "Arrow": 0.2,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -8140,7 +8455,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -8148,7 +8464,7 @@
     "ItemId": 603811464,
     "ShortName": "maxhealthtea.advanced",
     "DisplayName": "Advanced Max Health Tea",
-    "DisplayDescription": "A tea that increases your maximum health.",
+    "DisplayDescription": "An advanced health tea, provides hydration and temporarily boosts maximum health a moderate amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -8249,6 +8565,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 647240052,
+    "ShortName": "triangle.rail.road.planter",
+    "DisplayName": "Triangle Rail Road Planter",
+    "DisplayDescription": "A triangle planter with enough room to plant 4 seeds.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 649912614,
     "ShortName": "pistol.revolver",
     "DisplayName": "Revolver",
@@ -8338,7 +8663,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -8450,7 +8776,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -8478,6 +8805,15 @@
     "DisplayName": "Wood Mirror Standing",
     "DisplayDescription": "A standing wooden mirror",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 734320711,
+    "ShortName": "orchid",
+    "DisplayName": "Orchid",
+    "DisplayDescription": "Smells nice.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8580,7 +8916,8 @@
         "Arrow": 0.05,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -8674,7 +9011,8 @@
         "Arrow": 0.35,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -8714,7 +9052,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -8826,7 +9165,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -8875,7 +9215,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -8951,7 +9292,8 @@
         "Arrow": 0.2,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -9018,7 +9360,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -9086,11 +9429,29 @@
     "Wearable": null
   },
   {
+    "ItemId": 912235912,
+    "ShortName": "clone.sunflower",
+    "DisplayName": "Sunflower Clone",
+    "DisplayDescription": "A clipping of a sunflower plant.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 915408809,
     "ShortName": "ammo.grenadelauncher.smoke",
     "DisplayName": "40mm Smoke Grenade",
     "DisplayDescription": "Ammunition for a 40mm Grenade Launcher.",
     "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 924598634,
+    "ShortName": "clone.wheat",
+    "DisplayName": "Wheat Clone",
+    "DisplayDescription": "A Clipping of a Wheat Plant.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9148,7 +9509,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -9233,7 +9595,8 @@
         "Arrow": 0.2,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -9314,7 +9677,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -9369,6 +9733,15 @@
     "DisplayName": "Geiger Counter",
     "DisplayDescription": "A geiger counter used by scientists",
     "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1004843240,
+    "ShortName": "seed.orchid",
+    "DisplayName": "Orchid Seed",
+    "DisplayDescription": "Orchid seeds can be found when picking wild Orchids.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9489,7 +9862,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -9525,6 +9899,15 @@
     "ShortName": "bbq",
     "DisplayName": "Barbeque",
     "DisplayDescription": "A makeshift Barbeque. You can cook significant amounts of food with this.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1099611828,
+    "ShortName": "clothing.mod.armorinsert_metal",
+    "DisplayName": "Metal Armor Insert",
+    "DisplayDescription": "Metal insert for crafted clothing and armor, provides extra protection from bullets at the cost of reduced movement speed.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -9583,7 +9966,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -9623,7 +10007,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -9659,6 +10044,15 @@
     "ShortName": "candycane",
     "DisplayName": "Candy Cane",
     "DisplayDescription": "A very old candy cane from 2014",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1130729138,
+    "ShortName": "fish.spoiled",
+    "DisplayName": "Spoiled Fish Meat",
+    "DisplayDescription": "Spoiled Fish Meat. Consuming will damage your health.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -9763,6 +10157,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1168916338,
+    "ShortName": "grenade.bee",
+    "DisplayName": "Bee Grenade",
+    "DisplayDescription": "A fragile glass jar, throw it to unleash a swarm of bees on the nearest target. The bees will deal damage quickly but they don't like fire or water.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1171735914,
     "ShortName": "electric.andswitch",
     "DisplayName": "AND Switch",
@@ -9795,6 +10198,15 @@
     "DisplayName": "Elevator",
     "DisplayDescription": "A powered elevator. Place another elevator above or below this to connect it. Requires power.",
     "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1178325727,
+    "ShortName": "wheat",
+    "DisplayName": "Wheat",
+    "DisplayDescription": "Wheaty",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9834,7 +10246,8 @@
         "Arrow": 0.9,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -10046,7 +10459,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
       }
     }
   },
@@ -10185,7 +10599,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -10249,6 +10664,15 @@
     "DisplayName": "Pumpkin Basket",
     "DisplayDescription": "A pumpkin basket to help you collect candy much faster during Trick or Treat events with left click. Use right click to throw candy",
     "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1348294923,
+    "ShortName": "bearmeat.spoiled",
+    "DisplayName": "Spoiled Bear Meat",
+    "DisplayDescription": "Spoiled Bear Meat. Consuming will damage your health.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -10333,7 +10757,8 @@
         "Arrow": 0.05,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -10464,6 +10889,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1412103380,
+    "ShortName": "seed.sunflower",
+    "DisplayName": "Sunflower Seed",
+    "DisplayDescription": "Sunflower seeds can be found when picking wild Sunflowers.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1413014235,
     "ShortName": "fridge",
     "DisplayName": "Fridge",
@@ -10478,6 +10912,15 @@
     "DisplayName": "Note",
     "DisplayDescription": "A scrap of paper for leaving notes.",
     "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1414245519,
+    "ShortName": "rose",
+    "DisplayName": "Rose",
+    "DisplayDescription": "Romantic AF.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -10518,6 +10961,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1428574144,
+    "ShortName": "hopper",
+    "DisplayName": "Hopper",
+    "DisplayDescription": "Will suck up any dropped items in it's radius while powered",
+    "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1430085198,
     "ShortName": "industrial.crafter",
     "DisplayName": "Industrial Crafter",
@@ -10545,11 +10997,29 @@
     "Wearable": null
   },
   {
+    "ItemId": 1456143403,
+    "ShortName": "cookingworkbench",
+    "DisplayName": "Cooking Workbench",
+    "DisplayDescription": "Used to cook advanced recipes for food, fuel, ammunition and explosives.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1463862472,
     "ShortName": "wantedposter.wantedposter4",
     "DisplayName": "Wanted Poster 4",
     "DisplayDescription": "A poster that can display a given player's face as wanted.",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1467878256,
+    "ShortName": "pie.pork",
+    "DisplayName": "Pork Pie",
+    "DisplayDescription": "Tempting pork pie, provides a boost to hunger, health and hydration, and improves healing rate from other sources for a short time.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -10566,7 +11036,7 @@
     "ItemId": 1480022580,
     "ShortName": "oretea",
     "DisplayName": "Basic Ore Tea",
-    "DisplayDescription": "A tea that increases the amount of ore you receive.",
+    "DisplayDescription": "A basic ore tea, provides hydration and temporarily increases your yield from harvesting ores a small amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -10634,7 +11104,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -10643,6 +11114,15 @@
     "ShortName": "clone.potato",
     "DisplayName": "Potato Clone",
     "DisplayDescription": "A Clipping of a Potato Plant.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1516531815,
+    "ShortName": "harvestingtea",
+    "DisplayName": "Harvesting Tea",
+    "DisplayDescription": "A basic tea that temporarily increases the amount of resources you receive from harvesting corpses a small amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -10949,9 +11429,19 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
+  },
+  {
+    "ItemId": 1601800933,
+    "ShortName": "honey",
+    "DisplayName": "Jar of Honey",
+    "DisplayDescription": "A jar of honey, good for reducing hunger or radiation. Can also be saved for recipes. The source of the glass jar is a mystery.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 1602646136,
@@ -11021,7 +11511,8 @@
         "Arrow": 0.05,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -11061,7 +11552,8 @@
         "Arrow": 0.3,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -11173,7 +11665,8 @@
         "Arrow": 0.2,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -11249,7 +11742,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -11311,7 +11805,7 @@
     "ItemId": 1712261904,
     "ShortName": "maxhealthtea.pure",
     "DisplayName": "Pure Max Health Tea",
-    "DisplayDescription": "A tea that increases your maximum health.",
+    "DisplayDescription": "An advanced health tea, provides hydration and temporarily boosts maximum health a large amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -11352,7 +11846,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -11410,7 +11905,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -11436,7 +11932,7 @@
     "ItemId": 1729374708,
     "ShortName": "oretea.pure",
     "DisplayName": "Pure Ore Tea",
-    "DisplayDescription": "A tea that increases the amount of ore you receive.",
+    "DisplayDescription": "A pure ore tea, provides hydration and temporarily increases your yield when harvesting ores a large amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -11504,7 +12000,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -11544,7 +12041,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -11823,7 +12321,8 @@
         "Arrow": 0.2,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -11833,6 +12332,15 @@
     "DisplayName": "Egg Basket",
     "DisplayDescription": "An easter egg basket. Equip to pick up eggs during an easter egg hunt with left click. Use right click to throw",
     "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1858828593,
+    "ShortName": "egg",
+    "DisplayName": "Egg",
+    "DisplayDescription": "An egg, laid by a chicken. Can be eaten or hatched in a chicken coop.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -11872,7 +12380,8 @@
         "Arrow": 0.25,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -11939,7 +12448,8 @@
         "Arrow": 0.15,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -12074,6 +12584,15 @@
     "ShortName": "horsemeat.burned",
     "DisplayName": "Burnt Horse Meat",
     "DisplayDescription": "Burned horse meat. Eating it will damage your health.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1925646349,
+    "ShortName": "porkmeat.spoiled",
+    "DisplayName": "Spoiled Pork Meat",
+    "DisplayDescription": "Spoiled Pork Meat. Consuming will damage your health.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -12258,7 +12777,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
@@ -12311,7 +12831,16 @@
     "ItemId": 2024467711,
     "ShortName": "scraptea.pure",
     "DisplayName": "Pure Scrap Tea",
-    "DisplayDescription": "A tea that increases the amount of scrap you receive from barrels.",
+    "DisplayDescription": "A pure scrap tea, temporarily increases the amount of scrap you recieve from barrels a large amount.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2039177180,
+    "ShortName": "pie.bear",
+    "DisplayName": "Bear Pie",
+    "DisplayDescription": "A pie made of bear meat, provides a boost to hunger, health and hydration, and increases effect of harvesting teas but reduces their duration.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -12331,6 +12860,15 @@
     "DisplayName": "Triangle Ladder Hatch",
     "DisplayDescription": "A hatch that opens and changes into a ladder.",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2047789913,
+    "ShortName": "clothing.mod.armorinsert_lead",
+    "DisplayName": "Lead Armor Insert",
+    "DisplayDescription": "Lead insert that adds radiation protection for crafted clothes and armor, at the cost of reduced movement speed.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12374,7 +12912,7 @@
     "ItemId": 2063916636,
     "ShortName": "oretea.advanced",
     "DisplayName": "Advanced Ore Tea",
-    "DisplayDescription": "A tea that increases the amount of ore you receive.",
+    "DisplayDescription": "An advanced ore tea, provides hydration and temporarily increases your yield from ores a moderate amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -12510,7 +13048,8 @@
         "Arrow": 0.1,
         "AntiVehicle": 1.0,
         "Collision": 1.0,
-        "Fun_Water": 0.0
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
       }
     }
   },
