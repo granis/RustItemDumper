@@ -71,7 +71,7 @@
     "ItemId": -2094954543,
     "ShortName": "wood.armor.helmet",
     "DisplayName": "Wood Armor Helmet",
-    "DisplayDescription": "A shoddy helmet made from Wood and Cloth.",
+    "DisplayDescription": "A shoddy helmet made from simple materials, provides some basic protection from melee and ranged attacks.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -366,7 +366,7 @@
     "ItemId": -2018158920,
     "ShortName": "chickencoop",
     "DisplayName": "Chicken Coop",
-    "DisplayDescription": "An enclosure to keep some chickens around.",
+    "DisplayDescription": "An enclosure to keep some chickens around. Chickens with plenty of food, water and sunlight produce more eggs.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -994,7 +994,7 @@
     "ItemId": -1790885730,
     "ShortName": "seed.wheat",
     "DisplayName": "Wheat Seed",
-    "DisplayDescription": "Wheat seeds can be found when picking wild Wheat plants. These seeds can be planted in the ground and grown to collect additional food.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more corn and faster growth.",
+    "DisplayDescription": "Wheat seeds, found when eating wheat or harvesting wild crops. Plant in the ground or a planter to grow more.  Seeds grown in good conditions will have higher yields and grow faster.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -1003,7 +1003,7 @@
     "ItemId": -1785248332,
     "ShortName": "pie.fish",
     "DisplayName": "Fish Pie",
-    "DisplayDescription": "Delightful fish pie. Provides a boost to hunger, health and hydration and increases base comfort level for a short time.",
+    "DisplayDescription": "Delightful fish pie. Provides a boost to hunger, health and hydration. Increases base comfort level for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -2013,8 +2013,8 @@
     "ItemId": -1513203236,
     "ShortName": "honeycomb",
     "DisplayName": "Honeycomb",
-    "DisplayDescription": "These building blocks of a beehive can turn into honey or nuclei. Cooking them in a furnace guarantees honey.",
-    "Category": "Resources",
+    "DisplayDescription": "Building blocks of a hive, taken from a natural beehive. Can be cooked in a furnace to guarantee honey, or extracted for honey and a small chance of a nucleus.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2126,7 +2126,7 @@
     "ItemId": -1488408786,
     "ShortName": "pie.pumpkin",
     "DisplayName": "Pumpkin Pie",
-    "DisplayDescription": "Spooky pumpkin pie, Provides a boost to health, hunger and hydration, and increases maximum health for a short time.",
+    "DisplayDescription": "Spooky pumpkin pie, provides a boost to health, hunger and hydration.\nIncreases maximum health for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -3781,7 +3781,7 @@
     "ItemId": -963820355,
     "ShortName": "pie.survivors",
     "DisplayName": "Survivor's Pie",
-    "DisplayDescription": "It's people. Survivor's pie is made out of people. Provides a boost to health, hunger and hydration, and increases yield when harvesting corpses for a short time.",
+    "DisplayDescription": "It's people. Survivor's pie is made out of people. Provides a boost to health, hunger and hydration. Increases yield when harvesting corpses for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -5463,6 +5463,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -401905610,
+    "ShortName": "gates.external.high.adobe",
+    "DisplayName": "High External Adobe Gate",
+    "DisplayDescription": "A high stone gate, allowing access in and out of your compound.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -399173933,
     "ShortName": "lumberjack.hatchet",
     "DisplayName": "Prototype Hatchet",
@@ -6091,6 +6100,15 @@
     "ShortName": "rustige_egg_f",
     "DisplayName": "Rustigé Egg - White",
     "DisplayDescription": "A beautiful hand crafted gold and white egg, with a miniature underwater lab scene contained inside.",
+    "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -173268127,
+    "ShortName": "rustige_egg_g",
+    "DisplayName": "Rustigé Egg - Cerulean",
+    "DisplayDescription": "A beautiful hand crafted cerulean and gold egg, with a miniature cargo ship scene contained inside.",
     "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
@@ -6878,7 +6896,7 @@
     "ItemId": 4384538,
     "ShortName": "pie.apple",
     "DisplayName": "Apple Pie",
-    "DisplayDescription": "A delicious apple pie, always too hot. Provides a boost to hunger, health and hydration. Gives better night vision and lets you to see tree markings and ore hotspots for a short time.",
+    "DisplayDescription": "A delicious apple pie, always too hot. Provides a boost to hunger, health and hydration. Gives better night vision, including tree markings and ore hotspots, for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -7079,6 +7097,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 63265850,
+    "ShortName": "wall.external.high.frontier",
+    "DisplayName": "High External Frontier Wall",
+    "DisplayDescription": "A high stone wall used to keep people off your property.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 69511070,
     "ShortName": "metal.fragments",
     "DisplayName": "Metal Fragments",
@@ -7268,7 +7295,7 @@
     "ItemId": 120820987,
     "ShortName": "pie.chicken",
     "DisplayName": "Chicken Pie",
-    "DisplayDescription": "Just like mom used to make. Provides a boost to hunger, health and hydration, and increases the chance of better genes from crops for short time.",
+    "DisplayDescription": "Just like mom used to make. Provides a boost to hunger, health and hydration. Increases the chance of better genes from crops for short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -7367,7 +7394,7 @@
     "ItemId": 184516676,
     "ShortName": "beehive",
     "DisplayName": "Beehive",
-    "DisplayDescription": "Artificial beehive, place a nucleus inside to raise your own bees and produce honeycomb. Happy bees will make honeycomb more quickly.",
+    "DisplayDescription": "Hand made beehive, place a nucleus inside to raise your own bees and produce honeycomb. Happy bees will make honeycomb more quickly.",
     "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
@@ -7807,7 +7834,7 @@
     "ItemId": 281099360,
     "ShortName": "bread.loaf",
     "DisplayName": "Bread Loaf",
-    "DisplayDescription": "A Loaf of Bread. Eating it provides a small boost to health, hunger",
+    "DisplayDescription": "A loaf of bread, eating it provides a boost to health, hunger and hydration. Feeding to a horse will provide a boost t o its digestion and dung production for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -7884,7 +7911,7 @@
     "ItemId": 320438357,
     "ShortName": "pie.hunters",
     "DisplayName": "Hunters Pie",
-    "DisplayDescription": "Tasty hunters pie, made with real deer. Provides a boost to hunger, health and hydration, and reduces bleeding for a short time.",
+    "DisplayDescription": "Tasty hunters pie, made with real deer. Provides a boost to hunger, health and hydration. Reduces bleeding for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -8011,7 +8038,7 @@
     "ItemId": 418081930,
     "ShortName": "wood.armor.jacket",
     "DisplayName": "Wood Chestplate",
-    "DisplayDescription": "A shoddy piece of body armor made from Wood and rope.",
+    "DisplayDescription": "A shoddy piece of body armor made from simple materials, provides some basic protection from melee and ranged attacks.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -8854,6 +8881,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 756890702,
+    "ShortName": "wall.external.high.adobe",
+    "DisplayName": "High External Adobe Wall",
+    "DisplayDescription": "A high stone wall used to keep people off your property.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 762289806,
     "ShortName": "electric.sirenlight",
     "DisplayName": "Siren Light",
@@ -8877,6 +8913,15 @@
     "DisplayName": "Pistol Bullet",
     "DisplayDescription": "Ammunition for a Pistol. Loses velocity when fired over long distances resulting in slightly decreased damage.",
     "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 789333045,
+    "ShortName": "sunken.knife",
+    "DisplayName": "Sunken Combat Knife",
+    "DisplayDescription": "A corroded sunken knife designed for close combat engagements, can attack while sprinting. Best in class at harvesting flesh.",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9133,7 +9178,7 @@
     "ItemId": 832133926,
     "ShortName": "wood.armor.pants",
     "DisplayName": "Wood Armor Pants",
-    "DisplayDescription": "A shoddy piece of leg armor made from Wood and rope.",
+    "DisplayDescription": "A shoddy piece of leg armor made from simple materials, provides some basic protection from melee and ranged attacks.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -9907,7 +9952,7 @@
     "ItemId": 1099611828,
     "ShortName": "clothing.mod.armorinsert_metal",
     "DisplayName": "Metal Armor Insert",
-    "DisplayDescription": "Metal insert for crafted clothing and armor, provides extra protection from bullets at the cost of reduced movement speed.",
+    "DisplayDescription": "Metal insert for crafted clothing and armor, provides extra protection from projectiles.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -10934,6 +10979,47 @@
     "Wearable": null
   },
   {
+    "ItemId": 1420547167,
+    "ShortName": "horse.costume",
+    "DisplayName": "Horse Costume",
+    "DisplayDescription": "An inflatable horse costume. Acting as a replacement for wooden pants, you can equip this item to look as silly as possible.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 129024,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": -1.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.1,
+        "Slash": 0.4,
+        "Blunt": 0.4,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.3,
+        "Stab": 0.4,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.05,
+        "ColdExposure": 0.0,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.1,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
+      }
+    }
+  },
+  {
     "ItemId": 1422530437,
     "ShortName": "deermeat.raw",
     "DisplayName": "Raw Deer Meat",
@@ -11018,7 +11104,7 @@
     "ItemId": 1467878256,
     "ShortName": "pie.pork",
     "DisplayName": "Pork Pie",
-    "DisplayDescription": "Tempting pork pie, provides a boost to hunger, health and hydration, and improves healing rate from other sources for a short time.",
+    "DisplayDescription": "Tempting pork pie, provides a boost to hunger, health and hydration. Improves healing rate from other sources for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -11108,6 +11194,15 @@
         "BeeSting": 0.0
       }
     }
+  },
+  {
+    "ItemId": 1494014226,
+    "ShortName": "discord.trophy",
+    "DisplayName": "Discord Trophy",
+    "DisplayDescription": "A companion that reminds you of your youth.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 1512054436,
@@ -12339,7 +12434,7 @@
     "ItemId": 1858828593,
     "ShortName": "egg",
     "DisplayName": "Egg",
-    "DisplayDescription": "An egg, laid by a chicken. Can be eaten or hatched in a chicken coop.",
+    "DisplayDescription": "An egg laid by a chicken, will hatch in a coop. Can be eaten raw for a small boost to health, hydration and hydration, or added to some recipes at a cooking workbench for greater benefits.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -12840,7 +12935,7 @@
     "ItemId": 2039177180,
     "ShortName": "pie.bear",
     "DisplayName": "Bear Pie",
-    "DisplayDescription": "A pie made of bear meat, provides a boost to hunger, health and hydration, and increases effect of harvesting teas but reduces their duration.",
+    "DisplayDescription": "A pie made of bear meat, provides a boost to hunger, health and hydration. Increases effect of harvesting teas but reduces their duration.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -12867,7 +12962,7 @@
     "ItemId": 2047789913,
     "ShortName": "clothing.mod.armorinsert_lead",
     "DisplayName": "Lead Armor Insert",
-    "DisplayDescription": "Lead insert that adds radiation protection for crafted clothes and armor, at the cost of reduced movement speed.",
+    "DisplayDescription": "Lead insert that adds radiation protection for crafted clothes and armor.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -13059,6 +13154,15 @@
     "DisplayName": "Red Berry Clone",
     "DisplayDescription": "A clipping of a Red Berry Plant.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2137338174,
+    "ShortName": "gates.external.high.frontier",
+    "DisplayName": "High External Frontier Gate",
+    "DisplayDescription": "A high wooden gate, allowing access in and out of your compound.",
+    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   }
