@@ -9,6 +9,47 @@
     "Wearable": null
   },
   {
+    "ItemId": -2133781216,
+    "ShortName": "oubreak_scientist",
+    "DisplayName": "Outbreak Scientist Suit",
+    "DisplayDescription": "A outbreak scientist suit",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": -1,
+      "OccupationUnder": -1,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.5,
+        "Drowned": 1.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.3,
+        "Slash": 0.3,
+        "Blunt": 0.3,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.5,
+        "Stab": 0.3,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.5,
+        "ColdExposure": 0.5,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
+      }
+    }
+  },
+  {
     "ItemId": -2124352573,
     "ShortName": "fun.guitar",
     "DisplayName": "Acoustic Guitar",
@@ -23,6 +64,15 @@
     "DisplayName": "Advanced Healing Tea",
     "DisplayDescription": "An advanced healing tea, provides hydration and heals you a moderate amount over time.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -2110553371,
+    "ShortName": "salvaged.bamboo.shelves",
+    "DisplayName": "Bamboo Salvaged Shelves",
+    "DisplayDescription": "Bamboo shelves for item stacking",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -50,6 +100,15 @@
     }
   },
   {
+    "ItemId": -2100458529,
+    "ShortName": "snakemeat",
+    "DisplayName": "Raw Snake Meat",
+    "DisplayDescription": "Raw Snake Meat. Eating it will damage your health, try cooking it first.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -2099697608,
     "ShortName": "stones",
     "DisplayName": "Stones",
@@ -64,6 +123,15 @@
     "DisplayName": "Nailgun Nails",
     "DisplayDescription": "Standard nailgun ammunition",
     "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -2095813057,
+    "ShortName": "bigcatmeat",
+    "DisplayName": "Raw Big Cat Meat",
+    "DisplayDescription": "Raw Big Cat Meat. Eating it will damage your health, try cooking it first.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -270,7 +338,7 @@
     "ItemId": -2025184684,
     "ShortName": "shirt.collared",
     "DisplayName": "Shirt",
-    "DisplayDescription": "A smart casual shirt",
+    "DisplayDescription": "A smart casual shirt. Might make you look more trustworthy. Moderate clothing for protection against damage and the elements.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -384,7 +452,7 @@
     "ItemId": -2012470695,
     "ShortName": "mask.balaclava",
     "DisplayName": "Improvised Balaclava",
-    "DisplayDescription": "A home made balaclava.",
+    "DisplayDescription": "A makeshift balaclava. Cost effective protection from the cold, but unremarkable at preventing melee and projectile damage.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -680,6 +748,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1923843855,
+    "ShortName": "half.bamboo.shelves",
+    "DisplayName": "Half Height Bamboo Shelves",
+    "DisplayDescription": "Half height salvaged bamboo shelves for stacking",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1916473915,
     "ShortName": "chineselantern",
     "DisplayName": "Chinese Lantern",
@@ -710,7 +787,7 @@
     "ItemId": -1903165497,
     "ShortName": "deer.skull.mask",
     "DisplayName": "Bone Helmet",
-    "DisplayDescription": "A helmet made of bone.",
+    "DisplayDescription": "A primitive helmet made from bone. Moderate protection from projectiles and melee damage.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -958,7 +1035,7 @@
     "ItemId": -1811234677,
     "ShortName": "nucleus",
     "DisplayName": "Beehive Nucleus",
-    "DisplayDescription": "The heart of any hive, needed for raising bees. Produce honeycomb to earn XP and increase its grade. Higher grades will produce more honeycomb at once.",
+    "DisplayDescription": "The heart of any hive, needed for raising bees. Produce honeycomb from happy bees to grow the nucleus and increase yields.",
     "Category": "Resources",
     "IsWearable": false,
     "Wearable": null
@@ -987,6 +1064,15 @@
     "DisplayName": "Speargun Spear",
     "DisplayDescription": "Ammunition for a speargun.",
     "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1796837031,
+    "ShortName": "crocodilemeat.spoiled",
+    "DisplayName": "Spoiled Crocodile Meat",
+    "DisplayDescription": "Spoiled Crocodile Meat. Consuming will damage your health.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1148,7 +1234,7 @@
     "ItemId": -1773144852,
     "ShortName": "attire.hide.skirt",
     "DisplayName": "Hide Skirt",
-    "DisplayDescription": "A Skirt made from the hide of an animal.",
+    "DisplayDescription": "Simple hide skirt, made with common materials. Basic all-round protection.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -1275,7 +1361,7 @@
     "ItemId": -1754948969,
     "ShortName": "sleepingbag",
     "DisplayName": "Sleeping Bag",
-    "DisplayDescription": "A sleeping bag. Placing this will give you a location to respawn.",
+    "DisplayDescription": "A sleeping bag. Placing this will give you or an assigned player a place to respawn, with a long cooldown.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -1379,7 +1465,7 @@
     "ItemId": -1695367501,
     "ShortName": "pants.shorts",
     "DisplayName": "Shorts",
-    "DisplayDescription": "Trousers without the bottom of the legs.",
+    "DisplayDescription": "Trusty pair of shorts, may provide a breeze in undesired places. Worse than their full length counterparts with only basic protection from damage and the elements.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -1521,6 +1607,15 @@
     "DisplayName": "Sardine",
     "DisplayDescription": "A small oily fish, commonly found in large schools.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1652561344,
+    "ShortName": "bamboo.barrel",
+    "DisplayName": "Bamboo Barrel",
+    "DisplayDescription": "Keep your things in this bamboo barrel. Stores up to 48 items. Cannot be locked.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1684,6 +1779,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1616704051,
+    "ShortName": "snakemeat.spoiled",
+    "DisplayName": "Spoiled Snake Meat",
+    "DisplayDescription": "Spoiled Snake Meat. Consuming will damage your health.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1615281216,
     "ShortName": "vehicle.1mod.passengers.armored",
     "DisplayName": "Armored Passenger Vehicle Module",
@@ -1809,7 +1913,7 @@
     "ItemId": -1549739227,
     "ShortName": "shoes.boots",
     "DisplayName": "Boots",
-    "DisplayDescription": "Work boots.",
+    "DisplayDescription": "Sturdy work boots to keep your toes safe, you'd feel nothing if you kicked a table leg. Strong protection against the cold and incoming damage.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -2194,7 +2298,7 @@
     "ItemId": -1478445584,
     "ShortName": "tunalight",
     "DisplayName": "Tuna Can Lamp",
-    "DisplayDescription": "A Makeshift wall light.",
+    "DisplayDescription": "A makeshift wall light. Still smells faintly of fish.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -2602,6 +2706,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1318837358,
+    "ShortName": "bigcatmeat.cooked",
+    "DisplayName": "Cooked Big Cat Meat",
+    "DisplayDescription": "Delicious Big Cat Meat, Eating it will restore some health, hunger, and thirst.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1316706473,
     "ShortName": "tool.camera",
     "DisplayName": "Camera",
@@ -2989,7 +3102,7 @@
     "ItemId": -1163532624,
     "ShortName": "jacket",
     "DisplayName": "Jacket",
-    "DisplayDescription": "A rugged jacket.",
+    "DisplayDescription": "A rugged jacket, will help keep you warm. High cold protection but incompatible with other chest attire.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -3312,6 +3425,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1081599445,
+    "ShortName": "crocodilemeat",
+    "DisplayName": "Raw Crocodile Meat",
+    "DisplayDescription": "Raw Crocodile Meat. Eating it will damage your health, try cooking it first.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1078639462,
     "ShortName": "skullspikes.pumpkin",
     "DisplayName": "Skull Spikes",
@@ -3482,7 +3604,7 @@
     "ItemId": -1022661119,
     "ShortName": "hat.cap",
     "DisplayName": "Baseball Cap",
-    "DisplayDescription": "A baseball cap.",
+    "DisplayDescription": "Simple hat for your head. Offers basic protection from damage and the cold.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -3787,6 +3909,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -963819285,
+    "ShortName": "dart.incapacitate",
+    "DisplayName": "Incapacitate Dart",
+    "DisplayDescription": "A dart that slows your target and blocks their vision briefly.",
+    "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -961457160,
     "ShortName": "newyeargong",
     "DisplayName": "New Year Gong",
@@ -4059,6 +4190,15 @@
     }
   },
   {
+    "ItemId": -870140677,
+    "ShortName": "venom.snake",
+    "DisplayName": "Snake Venom",
+    "DisplayDescription": "The venom of a snake. Used to create Incapacitate darts.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -869598982,
     "ShortName": "huntingtrophysmall",
     "DisplayName": "Small Hunting Trophy",
@@ -4109,6 +4249,15 @@
     "DisplayName": "Salmon",
     "DisplayDescription": "A large Salmon, found in fresh and salt water. Eats everything, so you never know what you'll find in it's stomach.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -851288382,
+    "ShortName": "blowpipe",
+    "DisplayName": "Blow Pipe",
+    "DisplayDescription": "A blown weapon that fires darts with different effects.",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4184,7 +4333,7 @@
     "ItemId": -839576748,
     "ShortName": "handcuffs",
     "DisplayName": "Handcuffs",
-    "DisplayDescription": "Handcuffs",
+    "DisplayDescription": "You're under arrest! Use on a surrendering or wounded player to keep them restrained. The wearer is blocked from using or holding items and can be pushed around.",
     "Category": "Tool",
     "IsWearable": false,
     "Wearable": null
@@ -4392,7 +4541,7 @@
     "ItemId": -763071910,
     "ShortName": "lumberjack hoodie",
     "DisplayName": "Lumberjack Hoodie",
-    "DisplayDescription": "A Lumberjack Hoodie",
+    "DisplayDescription": "A lumberjack themed hoodie, earned by helping the Lumberjack. Offers the same protection as the standard hoodie.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -4856,6 +5005,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -594596146,
+    "ShortName": "dart.radiation",
+    "DisplayName": "Radiation Dart",
+    "DisplayDescription": "A dart that applies stackable radiation.",
+    "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -593892112,
     "ShortName": "clothing.mod.armorinsert_wood",
     "DisplayName": "Wooden Armor Insert",
@@ -4917,6 +5075,47 @@
     "Category": "Traps",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": -582467439,
+    "ShortName": "cocoknight.armor.helmet",
+    "DisplayName": "Coconut Armor Helmet",
+    "DisplayDescription": "A shoddy helmet made from coconut, provides some basic protection from melee and ranged attacks.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 1,
+      "OccupationUnder": 1,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.15,
+        "Slash": 0.25,
+        "Blunt": 0.25,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.2,
+        "Stab": 0.25,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.02,
+        "ColdExposure": 0.4,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.15,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
+      }
+    }
   },
   {
     "ItemId": -575744869,
@@ -5160,6 +5359,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -526026171,
+    "ShortName": "wicker.barrel",
+    "DisplayName": "Wicker Barrel",
+    "DisplayDescription": "Keep your things in this wicker barrel. Stores up to 48 items. Cannot be locked.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -520133715,
     "ShortName": "seed.yellow.berry",
     "DisplayName": "Yellow Berry Seed",
@@ -5368,6 +5576,47 @@
     "Wearable": null
   },
   {
+    "ItemId": -459159118,
+    "ShortName": "woodarmor.gloves",
+    "DisplayName": "Wood Armor Gloves",
+    "DisplayDescription": "Gloves made out of wood and leather, offers some protection to the upper body.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 0,
+      "OccupationUnder": 1536,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.07,
+        "Slash": 0.1,
+        "Blunt": 0.1,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.3,
+        "Stab": 0.1,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.04,
+        "ColdExposure": 0.3,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.1,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
+      }
+    }
+  },
+  {
     "ItemId": -458565393,
     "ShortName": "electrical.combiner",
     "DisplayName": "Root Combiner",
@@ -5549,15 +5798,6 @@
     "DisplayName": "Snowball",
     "DisplayDescription": "A snowball, throw it!",
     "Category": "Weapon",
-    "IsWearable": false,
-    "Wearable": null
-  },
-  {
-    "ItemId": -361911645,
-    "ShortName": "dart.bone",
-    "DisplayName": "Bone Dart",
-    "DisplayDescription": "A basic damage dart.",
-    "Category": "Ammunition",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5766,6 +6006,15 @@
     "DisplayName": "Salt Water",
     "DisplayDescription": "Water with a high salt content. Consuming will damage your health.",
     "Category": "Resources",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -274709858,
+    "ShortName": "dart.wood",
+    "DisplayName": "Wood Dart",
+    "DisplayDescription": "A basic damage dart.",
+    "Category": "Ammunition",
     "IsWearable": false,
     "Wearable": null
   },
@@ -6028,6 +6277,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -193519904,
+    "ShortName": "single.shallow.wall.shelves",
+    "DisplayName": "Single Shallow Wall Shelves",
+    "DisplayDescription": "Single Shallow Wall Shelves",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -187304968,
     "ShortName": "batteringram",
     "DisplayName": "Battering Ram",
@@ -6128,6 +6386,15 @@
     "DisplayName": "Rustigé Egg - Green",
     "DisplayDescription": "A beautiful hand crafted gold and green egg, with a miniature traincart contained inside.",
     "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -170436364,
+    "ShortName": "snakemeat.cooked",
+    "DisplayName": "Cooked Snake Meat",
+    "DisplayDescription": "Delicious Snake Meat, Eating it will restore some health, hunger, and thirst.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -6343,7 +6610,7 @@
     "ItemId": -119235651,
     "ShortName": "waterjug",
     "DisplayName": "Water Jug",
-    "DisplayDescription": "A large jerry can for water.",
+    "DisplayDescription": "A large jerry can for all kinds of water. Holds up to 5000ml. Careful not to throw it all away!",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -6352,7 +6619,7 @@
     "ItemId": -113413047,
     "ShortName": "diving.mask",
     "DisplayName": "Diving Mask",
-    "DisplayDescription": "A Diving Mask. Provides clear vision under water.",
+    "DisplayDescription": "A diving mask that provides clear vision under water at the cost of reduced peripheral vision.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -6493,7 +6760,7 @@
     "ItemId": -92315244,
     "ShortName": "revolver.hc",
     "DisplayName": "High Caliber Revolver",
-    "DisplayDescription": "A High Caliber six-shooter.",
+    "DisplayDescription": "A powerful six-shot revolver using 5.56 rounds. High damage and accuracy, but slow fire rate and even slower to reload.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -6669,7 +6936,7 @@
     "ItemId": -23994173,
     "ShortName": "hat.boonie",
     "DisplayName": "Boonie Hat",
-    "DisplayDescription": "A boonie hat.",
+    "DisplayDescription": "A boonie hat, offering minor protection from damage and cold for your head.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -7079,10 +7346,19 @@
     "Wearable": null
   },
   {
+    "ItemId": 54265286,
+    "ShortName": "pie.crocodile",
+    "DisplayName": "Crocodile Pie",
+    "DisplayDescription": "A delicious Crocodile Pie, always too hot. Provides a boost to hunger, health and hydration. Gives better night vision, including tree markings and ore hotspots, for a short time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 60528587,
     "ShortName": "horse.armor.roadsign",
     "DisplayName": "Roadsign Horse Armor",
-    "DisplayDescription": "A set of roadsign armor for a horse",
+    "DisplayDescription": "A full body armor for a horse. Provides strong protection for you and your steed, at the cost of greatly reduced movement speed.",
     "Category": "Attire",
     "IsWearable": false,
     "Wearable": null
@@ -7331,7 +7607,16 @@
     "ItemId": 143803535,
     "ShortName": "grenade.f1",
     "DisplayName": "F1 Grenade",
-    "DisplayDescription": "Reliable explosive device.",
+    "DisplayDescription": "A reliable military grenade that can be thrown a short distance. Deadly at close range on detonation.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 158303804,
+    "ShortName": "knife.bone.obsidian",
+    "DisplayName": "Obsidian Bone Knife",
+    "DisplayDescription": "Melee weapon crafted from obsidian. Good for harvesting carcases.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -7430,7 +7715,7 @@
     "ItemId": 196700171,
     "ShortName": "attire.hide.vest",
     "DisplayName": "Hide Vest",
-    "DisplayDescription": "A Vest made from the hide of an animal.",
+    "DisplayDescription": "Simple hide vest, made with common materials. Basic all-round protection.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -7548,7 +7833,7 @@
     "ItemId": 223891266,
     "ShortName": "tshirt",
     "DisplayName": "T-Shirt",
-    "DisplayDescription": "A t-shirt with very short sleeves.",
+    "DisplayDescription": "A tshirt, simple undergarment. Good protection from damage and the elements.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -7598,7 +7883,7 @@
     "ItemId": 237239288,
     "ShortName": "pants",
     "DisplayName": "Pants",
-    "DisplayDescription": "Pants.",
+    "DisplayDescription": "A pair of pants, highly capable undergarment for your legs. Great all round protection from damage and the elements.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -7663,6 +7948,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 248643189,
+    "ShortName": "bigcatmeat.spoiled",
+    "DisplayName": "Spoiled Big Cat Meat",
+    "DisplayDescription": "Spoiled Big Cat Meat. Consuming will damage your health.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 254522515,
     "ShortName": "largemedkit",
     "DisplayName": "Large Medkit",
@@ -7684,7 +7978,7 @@
     "ItemId": 263834859,
     "ShortName": "scraptea",
     "DisplayName": "Basic Scrap Tea",
-    "DisplayDescription": "A basic scrap tea, temporarily increases the amount of scrap you recieve from barrels a small amount.",
+    "DisplayDescription": "A basic scrap tea, temporarily increases the amount of scrap you receive from barrels a small amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -7834,7 +8128,7 @@
     "ItemId": 281099360,
     "ShortName": "bread.loaf",
     "DisplayName": "Bread Loaf",
-    "DisplayDescription": "A loaf of bread, eating it provides a boost to health, hunger and hydration. Feeding to a horse will provide a boost t o its digestion and dung production for a short time.",
+    "DisplayDescription": "A loaf of bread, eating it provides a boost to health, hunger and hydration. Feeding to a horse will provide a boost to its digestion and dung production for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -7870,7 +8164,7 @@
     "ItemId": 296519935,
     "ShortName": "diving.fins",
     "DisplayName": "Diving Fins",
-    "DisplayDescription": "Diving Fins which greatly increase underwater movement",
+    "DisplayDescription": "Diving Fins. Significantly boosts your speed underwater but greatly reduces mobility on land.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -7895,6 +8189,15 @@
     "DisplayName": "Flare",
     "DisplayDescription": "Light up the night sky with this brand new red flare!",
     "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 309017792,
+    "ShortName": "pie.bigcat",
+    "DisplayName": "Big Cat Pie",
+    "DisplayDescription": "A delicious Big Cat Pie, always too hot. Provides a boost to hunger, health and hydration. Gives better night vision, including tree markings and ore hotspots, for a short time.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8020,7 +8323,7 @@
     "ItemId": 368008432,
     "ShortName": "craftingtea_quality",
     "DisplayName": "Crafting Quality Tea",
-    "DisplayDescription": "A tea that increases the chances of a higher quality crafting outcome.",
+    "DisplayDescription": "A crafting tea. provides hydration and increases the chances of a higher quality crafting outcome for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -8030,6 +8333,15 @@
     "ShortName": "clone.yellow.berry",
     "DisplayName": "Yellow Berry Clone",
     "DisplayDescription": "A clipping of a Yellow Berry Plant.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 392828520,
+    "ShortName": "crocodilemeat.cooked",
+    "DisplayName": "Cooked Crocodile Meat",
+    "DisplayDescription": "Delicious Crocodile Meat, Eating it will restore some health, hunger, and thirst.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -8266,10 +8578,51 @@
     "Wearable": null
   },
   {
+    "ItemId": 507284030,
+    "ShortName": "cocoknight.armor.pants",
+    "DisplayName": "Coconut Armor Pants",
+    "DisplayDescription": "A shoddy piece of leg armor made from coconut and plants, provides some basic protection from melee and ranged attacks.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 129024,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": -1.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.1,
+        "Slash": 0.4,
+        "Blunt": 0.4,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.3,
+        "Stab": 0.4,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.05,
+        "ColdExposure": 0.0,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.1,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
+      }
+    }
+  },
+  {
     "ItemId": 524678627,
     "ShortName": "scraptea.advanced",
     "DisplayName": "Advanced Scrap Tea",
-    "DisplayDescription": "An advanced scrap tea, temporarily increases the amount of scrap you recieve from barrels a moderate amount.",
+    "DisplayDescription": "An advanced scrap tea, temporarily increases the amount of scrap you receive from barrels a moderate amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -8929,7 +9282,7 @@
     "ItemId": 794356786,
     "ShortName": "attire.hide.boots",
     "DisplayName": "Hide Boots",
-    "DisplayDescription": "Boots made from the hide of an animal.",
+    "DisplayDescription": "Simple hide boots, made with common materials. Basic all-round protection.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -9269,7 +9622,7 @@
     "ItemId": 838308300,
     "ShortName": "weapon.mod.burstmodule",
     "DisplayName": "Burst Module",
-    "DisplayDescription": "Forces the weapon to fire in 3 round bursts.",
+    "DisplayDescription": "A weapon attachment that modifies recoil and rate of fire. Allows weapon to fire in 3 round bursts when turned on. Use [+firemode] to toggle on or off.",
     "Category": "Component",
     "IsWearable": false,
     "Wearable": null
@@ -9522,7 +9875,7 @@
     "ItemId": 935692442,
     "ShortName": "tshirt.long",
     "DisplayName": "Longsleeve T-Shirt",
-    "DisplayDescription": "A t-shirt with long sleeves.",
+    "DisplayDescription": "Long sleeve tshirt, versatile clothing for protection against damage and the elements.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -9608,7 +9961,7 @@
     "ItemId": 968019378,
     "ShortName": "clatter.helmet",
     "DisplayName": "Clatter Helmet",
-    "DisplayDescription": "A special item for those who own Clatter.",
+    "DisplayDescription": "Special helmet for players who own Clatter and have played for at least 30 minutes, replaces the bucket helmet.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -9690,7 +10043,7 @@
     "ItemId": 980333378,
     "ShortName": "attire.hide.poncho",
     "DisplayName": "Hide Poncho",
-    "DisplayDescription": "A Poncho made from the hide of an animal.",
+    "DisplayDescription": "Primitive armour for the chest made from animal skin. One size fits all. Offers some basic protection from damage and the elements.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -10205,7 +10558,7 @@
     "ItemId": 1168916338,
     "ShortName": "grenade.bee",
     "DisplayName": "Bee Grenade",
-    "DisplayDescription": "A fragile glass jar, throw it to unleash a swarm of bees on the nearest target. The bees will deal damage quickly but they don't like fire or water.",
+    "DisplayDescription": "A fragile glass jar full of bees. Breaking upon impact, the bees will find the nearest player to attack. Careful where you throw it!",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -10250,7 +10603,7 @@
     "ItemId": 1178325727,
     "ShortName": "wheat",
     "DisplayName": "Wheat",
-    "DisplayDescription": "Wheaty",
+    "DisplayDescription": "A bundle of wheat. Edible, but better off in a cooking recipe.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -10722,6 +11075,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1350707894,
+    "ShortName": "jungle.rock",
+    "DisplayName": "Jungle Rock",
+    "DisplayDescription": "A Jungle Rock. The most basic melee weapon and gathering tool.",
+    "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1353298668,
     "ShortName": "door.hinged.toptier",
     "DisplayName": "Armored Door",
@@ -11036,6 +11398,47 @@
     "Category": "Tool",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": 1426097945,
+    "ShortName": "cocoknight.armor.torso",
+    "DisplayName": "Coconut Armor Chestplate",
+    "DisplayDescription": "A shoddy piece of body armor made from coconut and plants, provides some basic protection from melee and ranged attacks.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 120,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": -1.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.1,
+        "Slash": 0.4,
+        "Blunt": 0.4,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.3,
+        "Stab": 0.4,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.05,
+        "ColdExposure": 0.0,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.1,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
+      }
+    }
   },
   {
     "ItemId": 1426574435,
@@ -11370,7 +11773,7 @@
     "ItemId": 1556365900,
     "ShortName": "grenade.molotov",
     "DisplayName": "Molotov Cocktail",
-    "DisplayDescription": "An incendiary device",
+    "DisplayDescription": "A glass bottle filled with low grade fuel. Smashes and spreads fire when it lands, incredibly high damage to wood and players but innefective against stronger materials.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -11420,7 +11823,7 @@
     "ItemId": 1568388703,
     "ShortName": "diesel_barrel",
     "DisplayName": "Diesel Fuel",
-    "DisplayDescription": "Appropriate fuel for the excavator",
+    "DisplayDescription": "Suitable fuel to power quarries and the giant excavator.",
     "Category": "Resources",
     "IsWearable": false,
     "Wearable": null
@@ -11533,7 +11936,7 @@
     "ItemId": 1601800933,
     "ShortName": "honey",
     "DisplayName": "Jar of Honey",
-    "DisplayDescription": "A jar of honey, good for reducing hunger or radiation. Can also be saved for recipes. The source of the glass jar is a mystery.",
+    "DisplayDescription": "A jar of honey. Good for reducing hunger and radiation, or could be saved for recipes. The source of the glass jar is a mystery.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -11574,7 +11977,7 @@
     "ItemId": 1608640313,
     "ShortName": "shirt.tanktop",
     "DisplayName": "Tank Top",
-    "DisplayDescription": "A tshirt without sleeves",
+    "DisplayDescription": "A tank top, comes with free stains. Basic protection, but better than nothing.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -11658,6 +12061,15 @@
     "DisplayName": "Digital Clock",
     "DisplayDescription": "A digital clock that displays the server time and lets you set alarms to pass power through when ringing. Ideal for synchronizing traps or timed events.",
     "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1621942085,
+    "ShortName": "outbreak.sprayer",
+    "DisplayName": "Outbreak Sprayer",
+    "DisplayDescription": "An outbreak sprayer used by scientists",
+    "Category": "Tool",
     "IsWearable": false,
     "Wearable": null
   },
@@ -11769,7 +12181,7 @@
     "ItemId": 1659447559,
     "ShortName": "horse.armor.wood",
     "DisplayName": "Wooden Horse Armor",
-    "DisplayDescription": "A set of wooden horse armor",
+    "DisplayDescription": "A full body armor for a horse made of wood. Provides moderate protection for you and your steed, but with a reduction in movement speed.",
     "Category": "Attire",
     "IsWearable": false,
     "Wearable": null
@@ -11805,7 +12217,7 @@
     "ItemId": 1675639563,
     "ShortName": "hat.beenie",
     "DisplayName": "Beenie Hat",
-    "DisplayDescription": "A wooly hat.",
+    "DisplayDescription": "A wooly hat, offering some basic protection from damage and cold for your head.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -11841,6 +12253,15 @@
         "BeeSting": 0.0
       }
     }
+  },
+  {
+    "ItemId": 1680793490,
+    "ShortName": "boomerang",
+    "DisplayName": "Boomerang",
+    "DisplayDescription": "Can be used a melee weapon or as a throwable. Once thrown (with right click) it travels in an arc before coming back to you.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 1686524871,
@@ -11968,7 +12389,7 @@
     "ItemId": 1722154847,
     "ShortName": "attire.hide.pants",
     "DisplayName": "Hide Pants",
-    "DisplayDescription": "Trousers made from the hide of an animal.",
+    "DisplayDescription": "Trousers made from the hide of an animal. Moderate protection against animal attacks.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -12063,7 +12484,7 @@
     "ItemId": 1746956556,
     "ShortName": "bone.armor.suit",
     "DisplayName": "Bone Armor",
-    "DisplayDescription": "A suit of armor made of bones.",
+    "DisplayDescription": "A primitive suit of armor made of bones, weak protection from damage and the elements but better than nothing.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -12357,7 +12778,7 @@
     "ItemId": 1840822026,
     "ShortName": "grenade.beancan",
     "DisplayName": "Beancan Grenade",
-    "DisplayDescription": "Unreliable explosive device.",
+    "DisplayDescription": "An unreliable explosive grenade. Each one has a different length fuse, so you might lose some fingers. Can be used to make satchel charges.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -12384,7 +12805,7 @@
     "ItemId": 1850456855,
     "ShortName": "roadsign.kilt",
     "DisplayName": "Road Sign Kilt",
-    "DisplayDescription": "A shoddy piece of leg armor made from roadsigns.",
+    "DisplayDescription": "A shoddy piece of leg armor made from roadsigns. Moderate protection from melee and projectiles.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -12434,7 +12855,7 @@
     "ItemId": 1858828593,
     "ShortName": "egg",
     "DisplayName": "Egg",
-    "DisplayDescription": "An egg laid by a chicken, will hatch in a coop. Can be eaten raw for a small boost to health, hydration and hydration, or added to some recipes at a cooking workbench for greater benefits.",
+    "DisplayDescription": "An egg laid by a chicken, will hatch in a coop. Can be eaten raw but best saved for a recipe.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -12488,6 +12909,47 @@
     "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": 1873004466,
+    "ShortName": "cocoknight.armor.gloves",
+    "DisplayName": "Coconut Armor Gloves",
+    "DisplayDescription": "Hand protection made of bark and plants, offers some protection to the upper body.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 1920,
+      "OccupationUnder": 1536,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.07,
+        "Slash": 0.1,
+        "Blunt": 0.1,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.3,
+        "Stab": 0.1,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.04,
+        "ColdExposure": 0.3,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.1,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
+      }
+    }
   },
   {
     "ItemId": 1873897110,
@@ -12660,7 +13122,7 @@
     "ItemId": 1914691295,
     "ShortName": "pistol.prototype17",
     "DisplayName": "Prototype 17",
-    "DisplayDescription": "A burst fire prototype pistol",
+    "DisplayDescription": "A protype pistol with a built-in 3 round burst fire mode. Strong in close quarters. Swap between single shot and burst with [+firemode]",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -12926,8 +13388,17 @@
     "ItemId": 2024467711,
     "ShortName": "scraptea.pure",
     "DisplayName": "Pure Scrap Tea",
-    "DisplayDescription": "A pure scrap tea, temporarily increases the amount of scrap you recieve from barrels a large amount.",
+    "DisplayDescription": "A pure scrap tea, temporarily increases the amount of scrap you receive from barrels a large amount.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2036395619,
+    "ShortName": "dart.scatter",
+    "DisplayName": "Scatter Dart",
+    "DisplayDescription": "A spread shot dart that fires multiple smaller darts.",
+    "Category": "Ammunition",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12991,6 +13462,15 @@
     "DisplayName": "Factory Door",
     "DisplayDescription": "Medium strength door, vulnerable to explosives. Contains a bulletproof viewing portal",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2054929933,
+    "ShortName": "rifle.ak.jungle",
+    "DisplayName": "Jungle Relic Assault Rifle",
+    "DisplayDescription": "Jungle Relic themed high damage machine rifle.",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
