@@ -917,7 +917,7 @@
   {
     "ItemId": -1850571427,
     "ShortName": "weapon.mod.silencer",
-    "DisplayName": "Silencer",
+    "DisplayName": "Military Silencer",
     "DisplayDescription": "Significantly reduces the sound of gunfire, and completely removes any visible muzzle flash.",
     "Category": "Weapon",
     "IsWearable": false,
@@ -1593,6 +1593,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1659598760,
+    "ShortName": "weapon.mod.sodacansilencer",
+    "DisplayName": "Soda Can Silencer",
+    "DisplayDescription": "Significantly reduces the sound of gunfire, and completely removes any visible muzzle flash. Crudely made out of a soda can, this will only survive a few shots.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1654401345,
     "ShortName": "medieval.door.hinged.metal",
     "DisplayName": "Medieval Sheet Metal Door",
@@ -2209,11 +2218,11 @@
     "Wearable": null
   },
   {
-    "ItemId": -1501434104,
-    "ShortName": "wallpaper",
-    "DisplayName": "Wallpaper",
-    "DisplayDescription": "Transform your base from a rusty shack to a cozy hideout with this sleek wallpaper. A nice touch of style - until the next raid, at least.",
-    "Category": "Items",
+    "ItemId": -1498613415,
+    "ShortName": "advancedcoolingtea",
+    "DisplayName": "Advanced Cooling Tea",
+    "DisplayDescription": "An advanced cooling tea, provides hydration and temporarily decreases your max and core temperature.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2230,7 +2239,7 @@
     "ItemId": -1488408786,
     "ShortName": "pie.pumpkin",
     "DisplayName": "Pumpkin Pie",
-    "DisplayDescription": "Spooky pumpkin pie, provides a boost to health, hunger and hydration.\nIncreases maximum health for a short time.",
+    "DisplayDescription": "Spooky pumpkin pie, provides a boost to health, hunger and hydration. Increases maximum health for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -2350,6 +2359,15 @@
     "DisplayName": "Boogie Board",
     "DisplayDescription": "Use the boogie board to catch some sick waves.",
     "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1476814093,
+    "ShortName": "purewarmingtea",
+    "DisplayName": "Pure Warming Tea",
+    "DisplayDescription": "A pure warming tea that temporarily increases both your core and minimum temperature.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2517,6 +2535,15 @@
     "DisplayName": "Purple ID Tag",
     "DisplayDescription": "Purple ID Tag",
     "Category": "Resources",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1385721419,
+    "ShortName": "advanceharvestingtea",
+    "DisplayName": "Advanced Harvesting Tea",
+    "DisplayDescription": "An advanced harvesting tea, provides hydration and temporarily boosts the amount of resources you receive from harvesting corpses a moderate amount.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2934,8 +2961,8 @@
   {
     "ItemId": -1260229965,
     "ShortName": "coolingtea",
-    "DisplayName": "Cooling Tea",
-    "DisplayDescription": "A cooling tea that temporarily decreases your max and core temperature.",
+    "DisplayName": "Basic Cooling Tea",
+    "DisplayDescription": "A basic cooling tea that temporarily decreases your max and core temperature.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -2946,6 +2973,15 @@
     "DisplayName": "Hatchet",
     "DisplayDescription": "A Hatchet, useful for chopping trees and dismembering corpses.",
     "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1247485104,
+    "ShortName": "command.block",
+    "DisplayName": "Command Block",
+    "DisplayDescription": "A block that runs commands",
+    "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3178,8 +3214,8 @@
   {
     "ItemId": -1142222427,
     "ShortName": "warmingtea",
-    "DisplayName": "Warming Tea",
-    "DisplayDescription": "A warming tea that temporarily increases both your core and minimum temperature.",
+    "DisplayName": "Basic Warming Tea",
+    "DisplayDescription": "A basic warming tea that temporarily increases both your core and minimum temperature.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -4484,6 +4520,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -781866273,
+    "ShortName": "weapon.mod.oilfiltersilencer",
+    "DisplayName": "Oil Filter Silencer",
+    "DisplayDescription": "Significantly reduces the sound of gunfire, and completely removes any visible muzzle flash. Fashioned out of an old oil filter, this won't last long.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -781014061,
     "ShortName": "electric.sprinkler",
     "DisplayName": "Sprinkler",
@@ -4942,6 +4987,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -652889722,
+    "ShortName": "advancedcraftingtea_quality",
+    "DisplayName": "Advanced Crafting Quality Tea",
+    "DisplayDescription": "An advanced crafting tea, provides hydration and temporarily increases the chances of a higher quality crafting outcome.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -649128577,
     "ShortName": "woodtea",
     "DisplayName": "Basic Wood Tea",
@@ -5327,6 +5381,15 @@
     "ShortName": "sofa",
     "DisplayName": "Sofa",
     "DisplayDescription": "A comfortable old sofa. A decorative item which provides comfort and seats two.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -551431036,
+    "ShortName": "wallpaper.flooring",
+    "DisplayName": "Wallpaper Flooring",
+    "DisplayDescription": "",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -5834,6 +5897,15 @@
     "DisplayName": "High External Wooden Gate",
     "DisplayDescription": "A high wooden gate, allowing access in and out of your compound.",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -334418777,
+    "ShortName": "advancedwarmingtea",
+    "DisplayName": "Advanced Warming Tea",
+    "DisplayDescription": "An advanced warming tea that temporarily increases both your core and minimum temperature.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -7221,7 +7293,7 @@
         "Bleeding": 0.0,
         "Poison": 0.0,
         "Suicide": 0.0,
-        "Bullet": 0.0,
+        "Bullet": 0.05,
         "Slash": 0.05,
         "Blunt": 0.05,
         "Fall": 0.0,
@@ -7349,7 +7421,7 @@
     "ItemId": 54265286,
     "ShortName": "pie.crocodile",
     "DisplayName": "Crocodile Pie",
-    "DisplayDescription": "A delicious Crocodile Pie, always too hot. Provides a boost to hunger, health and hydration. Gives better night vision, including tree markings and ore hotspots, for a short time.",
+    "DisplayDescription": "A pie made from crocodile meat, may cause a reptile dysfunction. Boosts hunger, health and hydration. Gives better night vision, including tree markings and ore hotspots, for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -7464,6 +7536,15 @@
     "DisplayName": "Metal Pipe",
     "DisplayDescription": "Metal Pipe.",
     "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 97903330,
+    "ShortName": "purecraftingtea_quality",
+    "DisplayName": "Pure Crafting Quality Tea",
+    "DisplayDescription": "A pure crafting tea. provides hydration and increases the chances of a higher quality crafting outcome for a short time.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8196,7 +8277,7 @@
     "ItemId": 309017792,
     "ShortName": "pie.bigcat",
     "DisplayName": "Big Cat Pie",
-    "DisplayDescription": "A delicious Big Cat Pie, always too hot. Provides a boost to hunger, health and hydration. Gives better night vision, including tree markings and ore hotspots, for a short time.",
+    "DisplayDescription": "A pie made from jungle cat meat, purrfect temperature. Boosts hunger, health and hydration. Shows nearby animal tracks for a short time.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -8322,8 +8403,17 @@
   {
     "ItemId": 368008432,
     "ShortName": "craftingtea_quality",
-    "DisplayName": "Crafting Quality Tea",
-    "DisplayDescription": "A crafting tea. provides hydration and increases the chances of a higher quality crafting outcome for a short time.",
+    "DisplayName": "Basic Crafting Quality Tea",
+    "DisplayDescription": "A basic crafting tea. provides hydration and increases the chances of a higher quality crafting outcome for a short time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 377750553,
+    "ShortName": "pureharvestingtea",
+    "DisplayName": "Pure Harvesting Tea",
+    "DisplayDescription": "A pure harvesting tea, provides hydration and temporarily increases the amount of resources you receive from harvesting corpses a large amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -8701,6 +8791,15 @@
     "DisplayName": "Skull Fire Pit",
     "DisplayDescription": "Enjoy burning your enemies remnants to ashes with this Halloween exclusive! Provides warmth and light, and you can cook with it.",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 553967074,
+    "ShortName": "wallpaper.wall",
+    "DisplayName": "Wallpaper Wall",
+    "DisplayDescription": "",
+    "Category": "Tool",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9845,6 +9944,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 920930831,
+    "ShortName": "industrial.wall.light.blue",
+    "DisplayName": "Blue Industrial Wall Light",
+    "DisplayDescription": "A small blue light source.",
+    "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 924598634,
     "ShortName": "clone.wheat",
     "DisplayName": "Wheat Clone",
@@ -10438,6 +10546,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1121416193,
+    "ShortName": "purecoolingtea",
+    "DisplayName": "Pure Cooling Tea",
+    "DisplayDescription": "A pure cooling tea that temporarily decreases your max and core temperature.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1121925526,
     "ShortName": "candycane",
     "DisplayName": "Candy Cane",
@@ -10648,6 +10765,15 @@
         "BeeSting": 0.0
       }
     }
+  },
+  {
+    "ItemId": 1184215560,
+    "ShortName": "spoiled.produce",
+    "DisplayName": "Spoiled Produce",
+    "DisplayDescription": "A spoiled fruit or vegetable. It's so far gone it's hard to tell what it originally was.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 1186655046,
@@ -11309,7 +11435,7 @@
     "ShortName": "fridge",
     "DisplayName": "Fridge",
     "DisplayDescription": "A fridge you can store food into!",
-    "Category": "Items",
+    "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
   },
@@ -11407,7 +11533,7 @@
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
-      "OccupationOver": 120,
+      "OccupationOver": 504,
       "OccupationUnder": 0,
       "IsBackpack": false,
       "ProtectionProperties": {
@@ -11619,8 +11745,8 @@
   {
     "ItemId": 1516531815,
     "ShortName": "harvestingtea",
-    "DisplayName": "Harvesting Tea",
-    "DisplayDescription": "A basic tea that temporarily increases the amount of resources you receive from harvesting corpses a small amount.",
+    "DisplayName": "Basic Harvesting Tea",
+    "DisplayDescription": "A basic harvesting tea, provides hydration and temporarily increases the amount of resources you receive from harvesting corpses a small amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -12092,6 +12218,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1629564540,
+    "ShortName": "wallpaper.tool",
+    "DisplayName": "Wallpaper Tool",
+    "DisplayDescription": "Transform your base from a rusty shack to a cozy hideout! This tool lets you apply wallpaper on walls, floors and ceilings. A nice touch of style - until the next raid, at least.\n\nPress [+attack2] to select your skin.",
+    "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1638322904,
     "ShortName": "ammo.rocket.fire",
     "DisplayName": "Incendiary Rocket",
@@ -12321,7 +12456,7 @@
     "ItemId": 1712261904,
     "ShortName": "maxhealthtea.pure",
     "DisplayName": "Pure Max Health Tea",
-    "DisplayDescription": "An advanced health tea, provides hydration and temporarily boosts maximum health a large amount.",
+    "DisplayDescription": "A pure health tea, provides hydration and temporarily boosts maximum health a large amount.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -12372,6 +12507,15 @@
     "ShortName": "ballista.static",
     "DisplayName": "Ballista",
     "DisplayDescription": "A stationary ballista, perfect for defence. Can fire deadly bolts at distant targets.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1719587208,
+    "ShortName": "weapon.mod.targetingattachment",
+    "DisplayName": "Targeting Attachment",
+    "DisplayDescription": "An internal weapon mod that allows the user to send pings to their team while the weapon is equipped.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -12458,6 +12602,15 @@
     "ShortName": "photoframe.portrait",
     "DisplayName": "Portrait Photo Frame",
     "DisplayDescription": "A portrait oriented canvas for artists paintings.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1730664641,
+    "ShortName": "wallpaper.ceiling",
+    "DisplayName": "Wallpaper Ceiling",
+    "DisplayDescription": "",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -12918,7 +13071,7 @@
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
-      "OccupationOver": 1920,
+      "OccupationOver": 0,
       "OccupationUnder": 1536,
       "IsBackpack": false,
       "ProtectionProperties": {
@@ -13223,6 +13376,15 @@
     "DisplayName": "Nailgun",
     "DisplayDescription": "A construction tool turned deadly",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1954597876,
+    "ShortName": "catapult.ammo.bee",
+    "DisplayName": "Bee Catapult Bomb",
+    "DisplayDescription": "A bunch of Bee Grenades in a single catapult projectile. Creates swarms of Bees on impact.",
+    "Category": "Ammunition",
     "IsWearable": false,
     "Wearable": null
   },
