@@ -581,6 +581,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1993883724,
+    "ShortName": "wall.external.high.legacy",
+    "DisplayName": "High External Legacy Wall",
+    "DisplayDescription": "A legacy themed wooden wall to keep the untamed wilderness away from your property, made with questionable carpentry. Replaces the High External Wooden Wall.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1992717673,
     "ShortName": "furnace.large",
     "DisplayName": "Large Furnace",
@@ -2435,6 +2444,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1442339204,
+    "ShortName": "gates.external.high.legacy",
+    "DisplayName": "High External Legacy Gate",
+    "DisplayDescription": "A legacy themed wooden gate to keep the untamed wilderness away from your property, it's seen better days. Replaces the High External Wooden Wall.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1440987069,
     "ShortName": "chicken.raw",
     "DisplayName": "Raw Chicken Breast",
@@ -4085,6 +4103,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -919882824,
+    "ShortName": "abyss.barrel.vertical",
+    "DisplayName": "Abyss Vertical Storage Tank",
+    "DisplayDescription": "Vertical Abyss container taken from the depths of the ocean",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -912398867,
     "ShortName": "cassette.medium",
     "DisplayName": "Cassette - Medium",
@@ -4172,6 +4199,15 @@
     "DisplayName": "Vampire Stake",
     "DisplayDescription": "A stake adorned with special properties making it able to release the soul of undead creatures with a single strike, as well as yield extra loot from their remains.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -880494890,
+    "ShortName": "abyss.barrel.horizontal",
+    "DisplayName": "Abyss Horizontal Storage Tank",
+    "DisplayDescription": "Horizontal Abyss container taken from the depths of the ocean",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5703,6 +5739,15 @@
     "DisplayName": "Red Volcano Firework",
     "DisplayDescription": "Emits a beautiful shower of red sparks",
     "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -451310088,
+    "ShortName": "documents",
+    "DisplayName": "Documents",
+    "DisplayDescription": "A stack of technical looking documents.",
+    "Category": "Tool",
     "IsWearable": false,
     "Wearable": null
   },
@@ -7441,15 +7486,6 @@
     "DisplayName": "Photograph",
     "DisplayDescription": "A photograph taken with an instant camera.",
     "Category": "Misc",
-    "IsWearable": false,
-    "Wearable": null
-  },
-  {
-    "ItemId": 63265850,
-    "ShortName": "wall.external.high.frontier",
-    "DisplayName": "High External Frontier Wall",
-    "DisplayDescription": "A high stone wall used to keep people off your property.",
-    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   },
@@ -13796,15 +13832,6 @@
     "DisplayName": "Red Berry Clone",
     "DisplayDescription": "A clipping of a Red Berry Plant.",
     "Category": "Food",
-    "IsWearable": false,
-    "Wearable": null
-  },
-  {
-    "ItemId": 2137338174,
-    "ShortName": "gates.external.high.frontier",
-    "DisplayName": "High External Frontier Gate",
-    "DisplayDescription": "A high wooden gate, allowing access in and out of your compound.",
-    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   }
