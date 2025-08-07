@@ -3454,7 +3454,7 @@
   {
     "ItemId": -1100422738,
     "ShortName": "spinner.wheel",
-    "DisplayName": "Spinning wheel",
+    "DisplayName": "Spinning Wheel",
     "DisplayDescription": "An interactive spinning wheel.",
     "Category": "Items",
     "IsWearable": false,
@@ -4337,7 +4337,7 @@
     "ItemId": -850982208,
     "ShortName": "lock.key",
     "DisplayName": "Key Lock",
-    "DisplayDescription": "Place on a door to avoid any unwelcome guests. To craft your key first place the lock on a door and hold E while looking at the Key lock and select 'Create Key', a key will now be added to your crafting queue.\n\nIf the key is lost, you cannot make another, so don't forget to make extras and put them in a safe place!",
+    "DisplayDescription": "Place on a door to prevent unwelcome guests. You can create a key to share with your friends, don't let it fall in the wrong hands!",
     "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
@@ -4898,7 +4898,7 @@
   {
     "ItemId": -699558439,
     "ShortName": "roadsign.gloves",
-    "DisplayName": "Roadsign Gloves",
+    "DisplayName": "Road Sign Gloves",
     "DisplayDescription": "Gloves made out of metal, offer a good amount of protection to the upper body.",
     "Category": "Attire",
     "IsWearable": true,
@@ -5671,6 +5671,15 @@
     "DisplayName": "Watch Tower",
     "DisplayDescription": "A high wooden watchtower with a ladder",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -463012608,
+    "ShortName": "chair.ejector.seat",
+    "DisplayName": "Salvaged Ejector Seat",
+    "DisplayDescription": "A chair made from an ejector seat. A decorative item which provides comfort while seated. Stays put.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8763,6 +8772,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 537946062,
+    "ShortName": "pilot.hazmat.box.wooden",
+    "DisplayName": "Black Box",
+    "DisplayDescription": "Keep your things in this Black Box. Stores up to 18 items.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 547862680,
     "ShortName": "knighttorso.armour",
     "DisplayName": "Knights armour cuirass",
@@ -8908,6 +8926,15 @@
     "DisplayName": "Table",
     "DisplayDescription": "Every home needs a table. A decorative item which provides comfort when in close proximity.",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 594041190,
+    "ShortName": "compass",
+    "DisplayName": "Compass",
+    "DisplayDescription": "A handy tool which indicates which direction you're facing. Will reveal your location on the map in Hardcore mode if equipped on your belt.",
+    "Category": "Tool",
     "IsWearable": false,
     "Wearable": null
   },
@@ -10349,6 +10376,47 @@
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": 1065594600,
+    "ShortName": "hazmatsuit.pilot",
+    "DisplayName": "Pilot Hazmat Suit",
+    "DisplayDescription": "A hazmat suit made from a fighter pilot flight suit.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097151,
+      "OccupationUnder": -1,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.5,
+        "Drowned": 1.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.3,
+        "Slash": 0.3,
+        "Blunt": 0.3,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.5,
+        "Stab": 0.3,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.5,
+        "ColdExposure": 0.5,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
+      }
+    }
   },
   {
     "ItemId": 1072924620,
@@ -12036,6 +12104,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1586884551,
+    "ShortName": "lock.code.a.pilot",
+    "DisplayName": "Flight Control Codelock",
+    "DisplayDescription": "An electronic lock made of airplane parts. Locked and unlocked with four-digit code.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1588298435,
     "ShortName": "rifle.bolt",
     "DisplayName": "Bolt Action Rifle",
@@ -12381,6 +12458,15 @@
     "DisplayName": "Small Stocking",
     "DisplayDescription": "A small stocking. Hang it by a fire and you might just get a gift! Collect 6 to upgrade to a SUPER Stocking.",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1673224590,
+    "ShortName": "pistol.semiauto.a.m15",
+    "DisplayName": "M15 Semi-Automatic Pistol",
+    "DisplayDescription": "A special issue Air Force semi-automatic pistol, fires rapidly and with good accuracy.",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
@@ -13410,7 +13496,7 @@
     "ItemId": 1953903201,
     "ShortName": "pistol.nailgun",
     "DisplayName": "Nailgun",
-    "DisplayDescription": "A construction tool turned deadly",
+    "DisplayDescription": "A construction tool turned deadly.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
