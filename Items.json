@@ -10380,8 +10380,8 @@
   {
     "ItemId": 1065594600,
     "ShortName": "hazmatsuit.pilot",
-    "DisplayName": "Pilot Hazmat Suit",
-    "DisplayDescription": "A hazmat suit made from a fighter pilot flight suit.",
+    "DisplayName": "Pilot Hazmat",
+    "DisplayDescription": "A hazmat suit made from a fighter pilot's flight suit.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
