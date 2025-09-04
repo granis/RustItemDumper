@@ -9,6 +9,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -2134097299,
+    "ShortName": "electric.spotlight.tripod",
+    "DisplayName": "Tripod Spot Light",
+    "DisplayDescription": "A spotlight you can orient with a hammer.",
+    "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -2133781216,
     "ShortName": "oubreak_scientist",
     "DisplayName": "Outbreak Scientist Suit",
@@ -442,7 +451,7 @@
   {
     "ItemId": -2016974826,
     "ShortName": "wall.frame.lunar2025_c",
-    "DisplayName": "Lunar Wall Frame Floral",
+    "DisplayName": "Lunar Wall Frame Inlay",
     "DisplayDescription": "A Lunar New Year themed decorative wall divider with floral inlay",
     "Category": "Construction",
     "IsWearable": false,
@@ -855,7 +864,7 @@
     "ItemId": -1884328185,
     "ShortName": "scraptransportheli.repair",
     "DisplayName": "Scrap Transport Helicopter",
-    "DisplayDescription": "",
+    "DisplayDescription": null,
     "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
@@ -999,7 +1008,7 @@
     "ItemId": -1824770114,
     "ShortName": "skylantern.skylantern.orange",
     "DisplayName": "Sky Lantern - Orange",
-    "DisplayDescription": "",
+    "DisplayDescription": "#skylantern.skylantern.orange.desc",
     "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
@@ -1325,7 +1334,7 @@
     "ItemId": -1770889433,
     "ShortName": "skylantern.skylantern.green",
     "DisplayName": "Sky Lantern - Green",
-    "DisplayDescription": "",
+    "DisplayDescription": "#skylantern.skylantern.green.desc",
     "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
@@ -1818,7 +1827,7 @@
     "ItemId": -1614955425,
     "ShortName": "wall.window.glass.reinforced",
     "DisplayName": "Strengthened Glass Window",
-    "DisplayDescription": "Bulletproof glass insert",
+    "DisplayDescription": "Strengthened Glass Window",
     "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
@@ -2150,6 +2159,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1510616686,
+    "ShortName": "electric.chandelier",
+    "DisplayName": "Chandelier",
+    "DisplayDescription": "A large adjustable electric chandelier. Very fancy.",
+    "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1509851560,
     "ShortName": "deermeat.cooked",
     "DisplayName": "Cooked Deer Meat",
@@ -2239,7 +2257,7 @@
     "ItemId": -1497205569,
     "ShortName": "woodmirror.small",
     "DisplayName": "Wood Mirror Small",
-    "DisplayDescription": "A small wooden mirror",
+    "DisplayDescription": "A small wooden frame",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -2465,7 +2483,7 @@
     "ItemId": -1433390281,
     "ShortName": "skylantern.skylantern.red",
     "DisplayName": "Sky Lantern - Red",
-    "DisplayDescription": "",
+    "DisplayDescription": "#skylantern.skylantern.red.desc",
     "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
@@ -2623,7 +2641,7 @@
     "ItemId": -1366326648,
     "ShortName": "spraycandecal",
     "DisplayName": "Spray Can Decal",
-    "DisplayDescription": "",
+    "DisplayDescription": null,
     "Category": "Tool",
     "IsWearable": false,
     "Wearable": null
@@ -2986,6 +3004,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1258821205,
+    "ShortName": "electric.spotlight",
+    "DisplayName": "Spot Light",
+    "DisplayDescription": "A spotlight you can orient with a hammer.",
+    "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1252059217,
     "ShortName": "hatchet",
     "DisplayName": "Hatchet",
@@ -3017,6 +3044,15 @@
     "ShortName": "xmas.double.door.garland",
     "DisplayName": "Festive Double Doorway Garland",
     "DisplayDescription": "A Festive decoration to spruce up your double doorway during the holidays!",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1220928936,
+    "ShortName": "beanbagseatleather",
+    "DisplayName": "Leather Beanbag Seat",
+    "DisplayDescription": "A cozy leather beanbag seat to sink in to.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -3224,7 +3260,7 @@
     "ItemId": -1151332840,
     "ShortName": "door.double.hinged.bardoors",
     "DisplayName": "Wooden Frontier Bar Doors",
-    "DisplayDescription": "Hand-carved, rugged bar doors embody the spirit of the frontier. A must-have for any survivor.",
+    "DisplayDescription": "A Cheap door to secure your base. Its vulnerability to fire and weak explosive resistance makes the door a temporary solution to securing your base. Due to its flaws you should look at upgrading to a higher tier door such as Sheet Metal.\n\nThe Wooden Door can take two kinds of locks the basic Key Lock and the Code Lock. To pick up the door, remove any locks and open, hold down the E (USE) key and select 'Pickup'.",
     "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
@@ -3633,6 +3669,15 @@
     "DisplayName": "12 Gauge Incendiary Shell",
     "DisplayDescription": "Incendiary Shotgun Ammunition",
     "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1035206446,
+    "ShortName": "mannequin",
+    "DisplayName": "Clothing Mannequin",
+    "DisplayDescription": "Displays a set of clothing, quickly remove items off your player onto the Mannequin. Goes by Manny.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5077,6 +5122,47 @@
     "Wearable": null
   },
   {
+    "ItemId": -606898372,
+    "ShortName": "clothing.mannequin",
+    "DisplayName": "#clothingmannequin",
+    "DisplayDescription": "#clothing.mannequin.desc",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 0,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.5,
+        "Drowned": 1.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.3,
+        "Slash": 0.3,
+        "Blunt": 0.3,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.5,
+        "Stab": 0.3,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.5,
+        "ColdExposure": 0.5,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
+      }
+    }
+  },
+  {
     "ItemId": -602717596,
     "ShortName": "reddogtags",
     "DisplayName": "Red Dog Tags",
@@ -5208,6 +5294,15 @@
     }
   },
   {
+    "ItemId": -576866254,
+    "ShortName": "beanbagseatfabric",
+    "DisplayName": "Fabric Beanbag Seat",
+    "DisplayDescription": "A cozy fabric beanbag seat to sink in to.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -575744869,
     "ShortName": "partyhat",
     "DisplayName": "Party Hat",
@@ -5307,7 +5402,7 @@
     "ItemId": -561148628,
     "ShortName": "tugboat",
     "DisplayName": "Tugboat",
-    "DisplayDescription": "",
+    "DisplayDescription": null,
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -5425,7 +5520,7 @@
     "ItemId": -551431036,
     "ShortName": "wallpaper.flooring",
     "DisplayName": "Wallpaper Flooring",
-    "DisplayDescription": "",
+    "DisplayDescription": null,
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -5610,7 +5705,7 @@
     "ItemId": -479314201,
     "ShortName": "batteringram.head.repair",
     "DisplayName": "Battering Ram Head",
-    "DisplayDescription": "",
+    "DisplayDescription": null,
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -5763,7 +5858,7 @@
   {
     "ItemId": -450890885,
     "ShortName": "wall.frame.lunar2025_b",
-    "DisplayName": "Lunar Wall Frame Swirling",
+    "DisplayName": "Lunar Wall Frame Inlay",
     "DisplayDescription": "A Lunar New Year themed decorative wall divider with swirling inlay",
     "Category": "Construction",
     "IsWearable": false,
@@ -6587,7 +6682,7 @@
     "ItemId": -151387974,
     "ShortName": "xmas.lightstring.advanced",
     "DisplayName": "Deluxe Christmas Lights",
-    "DisplayDescription": "Colored, Animated, Powered Lights. Requires 5 electricity. Click to start placement, right click to end. Each unit is 0.5m long.",
+    "DisplayDescription": "Colored, animated, powered Lights that can be deployed point by point to light up your base.",
     "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
@@ -6886,7 +6981,7 @@
     "ItemId": -92315244,
     "ShortName": "revolver.hc",
     "DisplayName": "High Caliber Revolver",
-    "DisplayDescription": "A powerful six-shot revolver using 5.56 rounds. High damage and accuracy, but slow fire rate and even slower to reload.",
+    "DisplayDescription": "High Caliber Revolver",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -6931,7 +7026,7 @@
     "ItemId": -73195037,
     "ShortName": "legacy bow",
     "DisplayName": "Legacy bow",
-    "DisplayDescription": "Legacy Bow, useful for short to medium range combat and hunting.",
+    "DisplayDescription": "Hunting Bow, useful for short to medium range combat and hunting.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -7481,6 +7576,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 54436981,
+    "ShortName": "electric.fairylights",
+    "DisplayName": "Fairy Lights",
+    "DisplayDescription": "A wire of small fairy bulbs, can be deployed point by point to light up your base.",
+    "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 60528587,
     "ShortName": "horse.armor.roadsign",
     "DisplayName": "Roadsign Horse Armor",
@@ -7608,6 +7712,15 @@
     "DisplayName": "High External Wooden Wall",
     "DisplayDescription": "A high wooden wall used to keep people off your property.",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 104856514,
+    "ShortName": "electric.bulbstringlights",
+    "DisplayName": "Bulb String Lights",
+    "DisplayDescription": "A string of glowing bulbs, can be deployed point by point to light up your base.",
+    "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
   },
@@ -7832,7 +7945,7 @@
     "ItemId": 192249897,
     "ShortName": "rockingchair.rockingchair3",
     "DisplayName": "Green",
-    "DisplayDescription": "",
+    "DisplayDescription": "A rocking chair that responds to your input. Don't fire whilst seated.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -7896,7 +8009,7 @@
     "ItemId": 198438816,
     "ShortName": "vending.machine",
     "DisplayName": "Vending Machine",
-    "DisplayDescription": "Trade your goods with other players safely by creating sell and buy orders.  \r\n\r\nIf a raider gains access to the rear panel, they will have free reign over all of your goodies. Keep it safe.",
+    "DisplayDescription": "Trade your goods with other players safely by creating sell and buy orders.  \n\nIf a raider gains access to the rear panel, they will have free reign over all of your goodies. Keep it safe.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -8535,7 +8648,7 @@
     "ItemId": 442886268,
     "ShortName": "rocket.launcher",
     "DisplayName": "Rocket Launcher",
-    "DisplayDescription": "Shoots rockets slightly farther than North Korea.",
+    "DisplayDescription": "Unmatched craftsmanship meets devastating firepower.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -8824,8 +8937,8 @@
   {
     "ItemId": 550753330,
     "ShortName": "ammo.snowballgun",
-    "DisplayName": "",
-    "DisplayDescription": "",
+    "DisplayName": "Snowball Gun Ammo",
+    "DisplayDescription": null,
     "Category": "Ammunition",
     "IsWearable": false,
     "Wearable": null
@@ -8852,7 +8965,7 @@
     "ItemId": 553967074,
     "ShortName": "wallpaper.wall",
     "DisplayName": "Wallpaper Wall",
-    "DisplayDescription": "",
+    "DisplayDescription": null,
     "Category": "Tool",
     "IsWearable": false,
     "Wearable": null
@@ -9078,7 +9191,7 @@
     "ItemId": 625599716,
     "ShortName": "metal.shield",
     "DisplayName": "Metal Shield",
-    "DisplayDescription": "A large sturdy metal shield, keeps arrows and bullets at bay. Usable\r with single handed weapons and tools.",
+    "DisplayDescription": "A large sturdy metal shield, keeps arrows and bullets at bay. Usable with single handed weapons and tools.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -9094,6 +9207,15 @@
     "DisplayName": "CCTV Camera",
     "DisplayDescription": "A CCTV Camera system can be used for realtime surveillance and security around your base when powered and paired with the Computer Station.",
     "Category": "Resources",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 640470230,
+    "ShortName": "electric.fluorescentlight.ceiling",
+    "DisplayName": "Ceiling Fluorescent Light",
+    "DisplayDescription": "A flicker-free fluorescent light.",
+    "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9148,6 +9270,15 @@
     "DisplayName": "Low Quality Carburetor",
     "DisplayDescription": "A low quality carburetor for a combustion engine. Mixes air and fuel to the proper ratio.",
     "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 656829501,
+    "ShortName": "electric.wallcabinet",
+    "DisplayName": "Wall Cabinet",
+    "DisplayDescription": "A cabinet with a shelf for small items.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9345,7 +9476,7 @@
     "ItemId": 723407026,
     "ShortName": "woodmirror.standing",
     "DisplayName": "Wood Mirror Standing",
-    "DisplayDescription": "A standing wooden mirror",
+    "DisplayDescription": "A standing wooden frontier themed mirror",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -9684,7 +9815,7 @@
     "ItemId": 831955134,
     "ShortName": "skylantern.skylantern.purple",
     "DisplayName": "Sky Lantern - Purple",
-    "DisplayDescription": "",
+    "DisplayDescription": "#skylantern.skylantern.purple.desc",
     "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
@@ -11484,7 +11615,7 @@
     "ItemId": 1394042569,
     "ShortName": "rhib",
     "DisplayName": "RHIB",
-    "DisplayDescription": "",
+    "DisplayDescription": null,
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -11674,7 +11805,7 @@
     "ItemId": 1426574435,
     "ShortName": "minihelicopter.repair",
     "DisplayName": "Minicopter",
-    "DisplayDescription": "",
+    "DisplayDescription": null,
     "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
@@ -12634,6 +12765,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1717250161,
+    "ShortName": "electric.tablelight",
+    "DisplayName": "Electric Table Lamp",
+    "DisplayDescription": "A small light source made out of an old oil can.",
+    "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1719587208,
     "ShortName": "weapon.mod.targetingattachment",
     "DisplayName": "Targeting Attachment",
@@ -12732,7 +12872,7 @@
     "ItemId": 1730664641,
     "ShortName": "wallpaper.ceiling",
     "DisplayName": "Wallpaper Ceiling",
-    "DisplayDescription": "",
+    "DisplayDescription": null,
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -12850,7 +12990,7 @@
     "ItemId": 1758333838,
     "ShortName": "rockingchair.rockingchair2",
     "DisplayName": "Teal",
-    "DisplayDescription": "",
+    "DisplayDescription": "A rocking chair that responds to your input. Don't fire whilst seated.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -13289,7 +13429,7 @@
     "ItemId": 1878053256,
     "ShortName": "rowboat",
     "DisplayName": "Rowboat",
-    "DisplayDescription": "",
+    "DisplayDescription": null,
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -13336,6 +13476,15 @@
     "DisplayName": "Spooky Speaker",
     "DisplayDescription": "Frighten your guests with creepy and spooky halloween sounds!",
     "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1892536031,
+    "ShortName": "electric.fluorescentlight",
+    "DisplayName": "Fluorescent Light",
+    "DisplayDescription": "Bright enough to see what you’re doing.",
+    "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
   },
