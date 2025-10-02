@@ -261,7 +261,7 @@
     "ItemId": -2047081330,
     "ShortName": "movembermoustache",
     "DisplayName": "Movember Moustache",
-    "DisplayDescription": "A magnificent moustache for Movember",
+    "DisplayDescription": "A magnificent moustache (it acts as a hairy bandana) - all proceeds go to Movember, a charity promoting men's health awareness,",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -451,7 +451,7 @@
   {
     "ItemId": -2016974826,
     "ShortName": "wall.frame.lunar2025_c",
-    "DisplayName": "Lunar Wall Frame Inlay",
+    "DisplayName": "Wall Divider Pack",
     "DisplayDescription": "A Lunar New Year themed decorative wall divider with floral inlay",
     "Category": "Construction",
     "IsWearable": false,
@@ -742,7 +742,7 @@
     "ItemId": -1944704288,
     "ShortName": "chair.icethrone",
     "DisplayName": "Ice Throne",
-    "DisplayDescription": "Every home needs a chair. A decorative item which provides comfort while seated.",
+    "DisplayDescription": "An Ice Throne. Fit for the one true arctic warlord.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -861,6 +861,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1896395719,
+    "ShortName": "advancedblueprintfragment",
+    "DisplayName": "Advanced Blueprint Fragment",
+    "DisplayDescription": "Precision schematics with complex information, multiple fragments are necessary for crafting a Tier 3 Workbench.",
+    "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1884328185,
     "ShortName": "scraptransportheli.repair",
     "DisplayName": "Scrap Transport Helicopter",
@@ -938,6 +947,15 @@
     "DisplayName": "Military Silencer",
     "DisplayDescription": "Significantly reduces the sound of gunfire, and completely removes any visible muzzle flash.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1850297170,
+    "ShortName": "spikes.trap",
+    "DisplayName": "Small Spike Trap",
+    "DisplayDescription": "A small improvised trap that injures and slows anyone who steps on it.",
+    "Category": "Traps",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1116,7 +1134,7 @@
     "ItemId": -1785231475,
     "ShortName": "halloween.surgeonsuit",
     "DisplayName": "Surgeon Scrubs",
-    "DisplayDescription": "A Surgeon Suit",
+    "DisplayDescription": "A bloody surgeon outfit. Protects your entire body and provides good protection while giving off a creepy halloween vibe.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -4544,8 +4562,8 @@
   {
     "ItemId": -797592358,
     "ShortName": "hazmatsuit.diver",
-    "DisplayName": "Abyss Divers Suit",
-    "DisplayDescription": "A divers suit found in the abyss, doubles as a reliable hazmat suit",
+    "DisplayName": "Abyss Pack",
+    "DisplayDescription": "A damaged deep-water survival suit was found in the abyss. Although it may no longer serve its original purpose, it functions reliably as a Hazmat suit. Owning this suit also grants access to the Abyss Pickaxe, Abyss Hatchet, Abyss Torch, and Abyss AR.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -5858,7 +5876,7 @@
   {
     "ItemId": -450890885,
     "ShortName": "wall.frame.lunar2025_b",
-    "DisplayName": "Lunar Wall Frame Inlay",
+    "DisplayName": "Wall Divider Pack",
     "DisplayDescription": "A Lunar New Year themed decorative wall divider with swirling inlay",
     "Category": "Construction",
     "IsWearable": false,
@@ -6270,7 +6288,7 @@
     "ItemId": -258574361,
     "ShortName": "draculacape",
     "DisplayName": "Dracula Cape",
-    "DisplayDescription": "A robustly thick outer garment providing ample protection to the wearer.",
+    "DisplayDescription": "A Halloween themed replacement for the Vagabond Jacket which flows in the wind.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -6415,7 +6433,7 @@
     "ItemId": -216116642,
     "ShortName": "skulldoorknocker",
     "DisplayName": "Skull Door Knocker",
-    "DisplayDescription": "A spooky skull door knocker",
+    "DisplayDescription": "A spooky heavy iron door knocker. Its haunted skull will produce flames when distrubed.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -6724,6 +6742,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -143481979,
+    "ShortName": "basicblueprintfragment",
+    "DisplayName": "Basic Blueprint Fragment",
+    "DisplayDescription": "Damaged diagrams containing partial information to constuct a Tier 2 Workbench for advanced crafting. Several fragments are needed.\n\n20 Basic Fragments can be pieced together to make an Advanced Fragment.",
+    "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -143132326,
     "ShortName": "sign.wooden.huge",
     "DisplayName": "Huge Wooden Sign",
@@ -7025,7 +7052,7 @@
   {
     "ItemId": -73195037,
     "ShortName": "legacy bow",
-    "DisplayName": "Legacy bow",
+    "DisplayName": "Legacy Bow",
     "DisplayDescription": "Hunting Bow, useful for short to medium range combat and hunting.",
     "Category": "Weapon",
     "IsWearable": false,
@@ -7411,7 +7438,7 @@
     "ItemId": 20489901,
     "ShortName": "twitchsunglasses",
     "DisplayName": "Purple Sunglasses",
-    "DisplayDescription": "Sunglasses - Gained from Rust's first Twitch drop event.",
+    "DisplayDescription": "Sunglasses - Gained from Rust's first Twitch drop.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -8235,7 +8262,7 @@
     "ItemId": 271048478,
     "ShortName": "hat.ratmask",
     "DisplayName": "Rat Mask",
-    "DisplayDescription": "A Beautifully crafted bronze and gold Rat mask to celebrate the 2020 Lunar New Year",
+    "DisplayDescription": "A Beautifully crafted bronze and gold Rat mask to celebrate the 2020 Lunar New Year. This item replaces the wolf headdress.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -8724,7 +8751,7 @@
   {
     "ItemId": 472505338,
     "ShortName": "rifle.ak.med",
-    "DisplayName": "Medieval Assault Rifle",
+    "DisplayName": "Medieval AR",
     "DisplayDescription": "Medieval themed high damage machine rifle.",
     "Category": "Weapon",
     "IsWearable": false,
@@ -8887,8 +8914,8 @@
   {
     "ItemId": 537946062,
     "ShortName": "pilot.hazmat.box.wooden",
-    "DisplayName": "Black Box",
-    "DisplayDescription": "Keep your things in this Black Box. Stores up to 18 items.",
+    "DisplayName": "Flight Recorder Box",
+    "DisplayDescription": "Keep your things in this Flight Recorder box. Stores up to 18 items.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -9770,7 +9797,7 @@
     "ItemId": 818733919,
     "ShortName": "door.hinged.industrial.a",
     "DisplayName": "Industrial Door",
-    "DisplayDescription": "Medium strength door, vulnerable to explosives.",
+    "DisplayDescription": "A red industrial door with a window.",
     "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
@@ -10774,7 +10801,7 @@
   {
     "ItemId": 1115193056,
     "ShortName": "wall.frame.lunar2025_a",
-    "DisplayName": "Lunar Wall Frame Inlay",
+    "DisplayName": "Wall Divider Pack",
     "DisplayDescription": "A Lunar New Year themed decorative wall divider with geometric inlay",
     "Category": "Construction",
     "IsWearable": false,
@@ -12035,7 +12062,7 @@
     "ItemId": 1524980732,
     "ShortName": "carvable.pumpkin",
     "DisplayName": "Carvable Pumpkin",
-    "DisplayDescription": "A pumpkin that you can carve. \n\nRequires wood as a fuel source.",
+    "DisplayDescription": "A pumpkin you can carve any design you'd like into and light up at night. Requires wood as a fuel source.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -13148,7 +13175,7 @@
     "ItemId": 1819863051,
     "ShortName": "skylantern",
     "DisplayName": "Sky Lantern",
-    "DisplayDescription": "A beautiful sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
+    "DisplayDescription": "A set of beautiful sky lanterns. Comes in 5 colors. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
     "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
@@ -14024,7 +14051,7 @@
     "ItemId": 2126889441,
     "ShortName": "santabeard",
     "DisplayName": "Santa Beard",
-    "DisplayDescription": "A santa beard. Ho Ho ho.",
+    "DisplayDescription": "A santa beard. Ho Ho ho. This item acts as a hairy bandana.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -14060,6 +14087,24 @@
         "BeeSting": 0.0
       }
     }
+  },
+  {
+    "ItemId": 2130820932,
+    "ShortName": "charity.plushy.01",
+    "DisplayName": "Cancer Research UK Plushie",
+    "DisplayDescription": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in October 2025 to support Cancer Research UK, each purchase helped fund real-world cancer research.\n\nwww.cancerresearchuk.org",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2130820933,
+    "ShortName": "charity.plushy.02",
+    "DisplayName": "Ronald McDonald House Plushie",
+    "DisplayDescription": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in October 2025 to support Ronald McDonald House Charities, helping ease the burden on families by providing free ‘home away from home’ accommodation near hospitals.\n\nwww.rmhc.org.uk",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 2133269020,
