@@ -14100,8 +14100,8 @@
   {
     "ItemId": 2130820933,
     "ShortName": "charity.plushy.02",
-    "DisplayName": "Ronald McDonald House Plushie",
-    "DisplayDescription": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in October 2025 to support Ronald McDonald House Charities, helping ease the burden on families by providing free ‘home away from home’ accommodation near hospitals.\n\nwww.rmhc.org.uk",
+    "DisplayName": "Ronald McDonald House UK Plushie",
+    "DisplayDescription": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in October 2025 to support Ronald McDonald House Charities UK, helping ease the burden on families by providing free ‘home away from home’ accommodation near hospitals.\n\nwww.rmhc.org.uk",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
