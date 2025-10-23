@@ -1358,6 +1358,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1770281406,
+    "ShortName": "krieg.chainsword",
+    "DisplayName": "Krieg chainsword",
+    "DisplayDescription": "A brutal tool of war, roaring to life with every swing.",
+    "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1768880890,
     "ShortName": "fish.smallshark",
     "DisplayName": "Small Shark",
@@ -4216,6 +4225,47 @@
     "Wearable": null
   },
   {
+    "ItemId": -902423513,
+    "ShortName": "hazmat.krieg",
+    "DisplayName": "Krieg Hazmat",
+    "DisplayDescription": "A Krieg Hazmat Suit, standard issue for those who never retreat.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097151,
+      "OccupationUnder": -1,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.5,
+        "Drowned": 1.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.3,
+        "Slash": 0.3,
+        "Blunt": 0.3,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.5,
+        "Stab": 0.3,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.5,
+        "ColdExposure": 0.5,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
+      }
+    }
+  },
+  {
     "ItemId": -901370585,
     "ShortName": "trophy2023",
     "DisplayName": "Twitch Rivals Trophy 2023",
@@ -4322,6 +4372,20 @@
         "Fun_Water": 0.0,
         "BeeSting": 0.0
       }
+    }
+  },
+  {
+    "ItemId": -874650016,
+    "ShortName": "kriegbackpack",
+    "DisplayName": "Krieg Large Backpack",
+    "DisplayDescription": "Carry your essentials in a rugged military pack, built for endurance and practicality.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097152,
+      "OccupationUnder": 0,
+      "IsBackpack": true,
+      "ProtectionProperties": null
     }
   },
   {
@@ -5938,6 +6002,15 @@
     "DisplayName": "Medieval Barricade",
     "DisplayDescription": "A medieval barricade. Designed to block paths and provide defensive cover as well as being an effective tool to fortify your base.",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -420889602,
+    "ShortName": "krieg.shotgun",
+    "DisplayName": "Krieg Shotgun",
+    "DisplayDescription": "Heavy, reliable, and unforgiving. A weapon that never hesitates.",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9274,6 +9347,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 652793345,
+    "ShortName": "krieg.storage.horizontal",
+    "DisplayName": "Krieg Storage Crates",
+    "DisplayDescription": "Military-grade crates designed for efficient storage and durability. A staple of any well-supplied outpost.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 656371026,
     "ShortName": "carburetor3",
     "DisplayName": "High Quality Carburetor",
@@ -9661,7 +9743,7 @@
     "ItemId": 795371088,
     "ShortName": "shotgun.pump",
     "DisplayName": "Pump Shotgun",
-    "DisplayDescription": "A Shotgun. Fires six rounds.",
+    "DisplayDescription": "A Shotgun. Fires 8 rounds.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -11319,6 +11401,15 @@
     "DisplayName": "Small Neon Sign",
     "DisplayDescription": "A small neon sign!",
     "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1305765685,
+    "ShortName": "krieg.storage.vertical",
+    "DisplayName": "Krieg Storage Barrel",
+    "DisplayDescription": "Industrial barrels repurposed for the front lines. Sturdy, disciplined, and unmistakably Krieg.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
