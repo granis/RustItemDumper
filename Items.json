@@ -429,7 +429,7 @@
     "ItemId": -2022172587,
     "ShortName": "diving.tank",
     "DisplayName": "Diving Tank",
-    "DisplayDescription": "An oxygen tank that enables breathing under water for a period of time. Can be refilled at a workbench.",
+    "DisplayDescription": "An oxygen tank that enables breathing under water for a period of time. Can be refilled at a workbench or repair bench.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -866,15 +866,6 @@
     "DisplayName": "Advanced Blueprint Fragment",
     "DisplayDescription": "Precision schematics with complex information, multiple fragments are necessary for crafting a Tier 3 Workbench.",
     "Category": "Component",
-    "IsWearable": false,
-    "Wearable": null
-  },
-  {
-    "ItemId": -1884328185,
-    "ShortName": "scraptransportheli.repair",
-    "DisplayName": "Scrap Transport Helicopter",
-    "DisplayDescription": null,
-    "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1381,15 +1372,6 @@
     "DisplayName": "Gas Compression Overdrive",
     "DisplayDescription": "An internal weapon mod which compresses and directs gasses used for cycling the weapon to the barrel, effectively increasing projectile velocity and damage at the expense of cycle rate.",
     "Category": "Weapon",
-    "IsWearable": false,
-    "Wearable": null
-  },
-  {
-    "ItemId": -1759188988,
-    "ShortName": "habrepair",
-    "DisplayName": "Hot Air Balloon",
-    "DisplayDescription": "A Hot Air Balloon.",
-    "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2758,6 +2740,15 @@
         "BeeSting": 0.0
       }
     }
+  },
+  {
+    "ItemId": -1334255764,
+    "ShortName": "minicopter",
+    "DisplayName": "Minicopter",
+    "DisplayDescription": "Minicopter",
+    "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": -1331212963,
@@ -4139,6 +4130,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -935322684,
+    "ShortName": "4module car",
+    "DisplayName": "4 Module Car",
+    "DisplayDescription": "4 Module Car",
+    "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -932201673,
     "ShortName": "scrap",
     "DisplayName": "Scrap",
@@ -4407,6 +4407,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -866121090,
+    "ShortName": "2module car",
+    "DisplayName": "2 Module Car",
+    "DisplayDescription": "A motorbike.",
+    "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -858312878,
     "ShortName": "cloth",
     "DisplayName": "Cloth",
@@ -4534,6 +4543,15 @@
     "DisplayName": "Handcuffs",
     "DisplayDescription": "You're under arrest! Use on a surrendering or wounded player to keep them restrained. The wearer is blocked from using or holding items and can be pushed around.",
     "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -831725027,
+    "ShortName": "3module car",
+    "DisplayName": "3 Module Car",
+    "DisplayDescription": "3 Module Car",
+    "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
   },
@@ -6078,6 +6096,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -374457631,
+    "ShortName": "sedan",
+    "DisplayName": "Sedan",
+    "DisplayDescription": "Sedan",
+    "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -369760990,
     "ShortName": "stash.small",
     "DisplayName": "Small Stash",
@@ -6481,6 +6508,15 @@
     "DisplayName": "Hemp Seed",
     "DisplayDescription": "Hemp seeds can be found when picking wild Hemp. These seeds can be planted in the ground and grown to collect additional cloth.\n\n\nPlanting these seeds in a planter, and then watering them with large quantities of water yields significantly more cloth and faster growth.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -226151558,
+    "ShortName": "2module car chassis",
+    "DisplayName": "2 Module Car Chassis",
+    "DisplayDescription": "2 Module Car Chassis",
+    "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
   },
@@ -7739,6 +7775,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 82772055,
+    "ShortName": "horse",
+    "DisplayName": "Horse",
+    "DisplayDescription": "Horse",
+    "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 86840834,
     "ShortName": "hazmatsuit_scientist_nvgm",
     "DisplayName": "NVGM Scientist Suit",
@@ -8668,11 +8713,29 @@
     "Wearable": null
   },
   {
+    "ItemId": 375473148,
+    "ShortName": "scraptransportheli",
+    "DisplayName": "Scrap Transport Helicopter",
+    "DisplayDescription": null,
+    "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 377750553,
     "ShortName": "pureharvestingtea",
     "DisplayName": "Pure Harvesting Tea",
     "DisplayDescription": "A pure harvesting tea, provides hydration and temporarily increases the amount of resources you receive from harvesting corpses a large amount.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 385099196,
+    "ShortName": "4module car chassis",
+    "DisplayName": "4 Module Car Chassis",
+    "DisplayDescription": "4 Module Car Chassis",
+    "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8691,6 +8754,15 @@
     "DisplayName": "Cooked Crocodile Meat",
     "DisplayDescription": "Delicious Crocodile Meat, Eating it will restore some health, hunger, and thirst.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 405904531,
+    "ShortName": "ball",
+    "DisplayName": "Soccer Ball",
+    "DisplayDescription": "Soccer Ball",
+    "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8913,6 +8985,15 @@
     "DisplayName": "RAND Switch",
     "DisplayDescription": "This switch will allow passthrough based on a random number. Each time the SET input receives power it will roll true or false to allow passthrough",
     "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 494161326,
+    "ShortName": "rocket.launcher.rpg7",
+    "DisplayName": "RPG Launcher",
+    "DisplayDescription": "Unmatched craftsmanship meets devastating firepower.",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9501,6 +9582,15 @@
     "DisplayName": "Paper Map",
     "DisplayDescription": "Helps you figure out where you are. You can annotate the map by right-clicking and drawing on it.\n\n\nDrag the map into your belt bar to make it active. You will then be able to view the map by holding down the map button (G by default).",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 696029539,
+    "ShortName": "hab",
+    "DisplayName": "Hot Air Balloon",
+    "DisplayDescription": "A Hot Air Balloon.",
+    "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
   },
@@ -10442,6 +10532,47 @@
     "Wearable": null
   },
   {
+    "ItemId": 972302244,
+    "ShortName": "hazmatsuit.kick",
+    "DisplayName": "Kick Hazmat",
+    "DisplayDescription": "Hazmat obtained during Kick Drops 2025",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097151,
+      "OccupationUnder": -1,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.5,
+        "Drowned": 1.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.3,
+        "Slash": 0.3,
+        "Blunt": 0.3,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.5,
+        "Stab": 0.3,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.5,
+        "ColdExposure": 0.5,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0
+      }
+    }
+  },
+  {
     "ItemId": 975983052,
     "ShortName": "trophy",
     "DisplayName": "Twitch Rivals Trophy",
@@ -11029,6 +11160,15 @@
     "ShortName": "electric.andswitch",
     "DisplayName": "AND Switch",
     "DisplayDescription": "A logic gate that allows electrical passthrough if BOTH inputs receives power, passthrough amount is the greater of either power source",
+    "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1174484438,
+    "ShortName": "mini fridge",
+    "DisplayName": "Mini Fridge",
+    "DisplayDescription": "Ideal for preserving food and keeping items cool.",
     "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
@@ -12006,6 +12146,15 @@
     "DisplayName": "Basic Ore Tea",
     "DisplayDescription": "A basic ore tea, provides hydration and temporarily increases your yield from harvesting ores a small amount.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1482871705,
+    "ShortName": "3module car chassis",
+    "DisplayName": "3 Module Car Chassis",
+    "DisplayDescription": "3 Module Car Chassis",
+    "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12992,6 +13141,15 @@
     "DisplayName": "Wallpaper Ceiling",
     "DisplayDescription": null,
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1732236518,
+    "ShortName": "caboose",
+    "DisplayName": "Caboose",
+    "DisplayDescription": "Caboose",
+    "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
   },
