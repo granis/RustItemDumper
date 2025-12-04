@@ -1163,6 +1163,15 @@
     }
   },
   {
+    "ItemId": -1782127806,
+    "ShortName": "starballoon2025",
+    "DisplayName": "Star Balloon",
+    "DisplayDescription": "A star-shaped balloon to use as decoration and for you to celebrate. You can write on it.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1780802565,
     "ShortName": "icepick.salvaged",
     "DisplayName": "Salvaged Icepick",
@@ -2485,6 +2494,15 @@
     "DisplayName": "Raw Chicken Breast",
     "DisplayDescription": "Raw chicken breast. Eating it will damage your health, try cooking it first.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1440443161,
+    "ShortName": "latexclumpballoon2025",
+    "DisplayName": "Clump of Latex Balloons",
+    "DisplayDescription": "A clump of latex balloons to use as decoration and for you to celebrate.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -7037,6 +7055,15 @@
     }
   },
   {
+    "ItemId": -105343718,
+    "ShortName": "circleballoon2025",
+    "DisplayName": "Circle Balloon",
+    "DisplayDescription": "A circular balloon to use as decoration and for you to celebrate. You can write on it.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -99886070,
     "ShortName": "firework.romancandle.violet",
     "DisplayName": "Violet Roman Candle",
@@ -8695,6 +8722,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 362863314,
+    "ShortName": "heartballoon2025",
+    "DisplayName": "Heart Balloon",
+    "DisplayDescription": "A heart-shaped balloon to use as decoration and for you to celebrate. You can write on it.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 363163265,
     "ShortName": "hosetool",
     "DisplayName": "Hose Tool",
@@ -8727,6 +8763,15 @@
     "DisplayName": "Pure Harvesting Tea",
     "DisplayDescription": "A pure harvesting tea, provides hydration and temporarily increases the amount of resources you receive from harvesting corpses a large amount.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 381595627,
+    "ShortName": "neonsigntr",
+    "DisplayName": "Twitch Rivals Neon Sign",
+    "DisplayDescription": "A Twitch Rivals Light-Up Neon Sign",
+    "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9066,6 +9111,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 533993281,
+    "ShortName": "rifle.lr300.space",
+    "DisplayName": "Space LR-300 Assault Rifle",
+    "DisplayDescription": "Non-standard-issue high-powered light assault rifle for only the most elite of practitioners.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 537946062,
     "ShortName": "pilot.hazmat.box.wooden",
     "DisplayName": "Flight Recorder Box",
@@ -9174,6 +9228,15 @@
     "ShortName": "secretlabchair",
     "DisplayName": "Secretlab Chair",
     "DisplayDescription": "A luxurious, comfortable chair for long sessions of CCTV watching.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 571949408,
+    "ShortName": "mixedclumpballoon2025",
+    "DisplayName": "Clump of Mixed Balloons",
+    "DisplayDescription": "A clump of mixed balloons to use as decoration and for you to celebrate.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -10450,6 +10513,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 963400638,
+    "ShortName": "speechbubbleballoon2025",
+    "DisplayName": "Speech Bubble Balloon",
+    "DisplayDescription": "A speech bubble-shaped balloon to use as decoration and for you to celebrate. You can write on it.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 963906841,
     "ShortName": "rock",
     "DisplayName": "Rock",
@@ -11527,6 +11599,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1295301598,
+    "ShortName": "latexballoon2025",
+    "DisplayName": "Latex Balloon",
+    "DisplayDescription": "A latex balloon to use as decoration and for you to celebrate. You can write on it.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1296788329,
     "ShortName": "ammo.rocket.seeker",
     "DisplayName": "Homing Missile",
@@ -12597,6 +12678,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1604092540,
+    "ShortName": "twitchrivals2025sofa",
+    "DisplayName": "Twitch Rivals 2025 Sofa",
+    "DisplayDescription": "A comfortable twitch branded sofa. A decorative item which provides comfort and seats two.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1604837581,
     "ShortName": "wooden.shield",
     "DisplayName": "Wooden Shield",
@@ -12736,6 +12826,47 @@
     "Category": "Tool",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": 1633553557,
+    "ShortName": "hat.candle.birthday",
+    "DisplayName": "Birthday Candle Hat",
+    "DisplayDescription": "A hat with a birthday candle on top. You can turn the candle on in your inventory.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 5,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.1,
+        "Slash": 0.1,
+        "Blunt": 0.1,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.2,
+        "Stab": 0.1,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.01,
+        "ColdExposure": 0.4,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.1,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0
+      }
+    }
   },
   {
     "ItemId": 1638322904,
