@@ -8024,6 +8024,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 146221721,
+    "ShortName": "heavy.scientist.plushie",
+    "DisplayName": "#heavy.scientist.plushie.name",
+    "DisplayDescription": "#heavy.scientist.plushie.desc",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 158303804,
     "ShortName": "knife.bone.obsidian",
     "DisplayName": "Obsidian Bone Knife",
@@ -8876,6 +8885,15 @@
     "DisplayName": "Fluid Switch & Pump",
     "DisplayDescription": "A simple switch that enables fluid to pass through. Can be switched on/off manually or via electricity. Can also pump water upwards to higher entities when powered.",
     "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 445662288,
+    "ShortName": "scientist.plushie",
+    "DisplayName": "#scientist.plushie.name",
+    "DisplayDescription": "#scientist.plushie.desc",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
