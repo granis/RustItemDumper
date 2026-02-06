@@ -54,7 +54,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -73,6 +75,15 @@
     "DisplayName": "Advanced Healing Tea",
     "DisplayDescription": "An advanced healing tea, provides hydration and heals you a moderate amount over time.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -2115299615,
+    "ShortName": "smallengine",
+    "DisplayName": "Small Boat Engine",
+    "DisplayDescription": "A punchy boat engine made from scavenged parts, not good for the environment. More engines means more speed.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -181,7 +192,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -227,6 +240,15 @@
     "DisplayName": "M249",
     "DisplayDescription": "High damage, high rate of fire, belt fed light machine gun.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -2068194497,
+    "ShortName": "horse.armor.lny26",
+    "DisplayName": "Lunar New Year Horse Armor",
+    "DisplayDescription": "A full body Lunar New Year themed armor for a horse. Provides strong protection for you and your steed, at the cost of greatly reduced movement speed.",
+    "Category": "Attire",
     "IsWearable": false,
     "Wearable": null
   },
@@ -294,7 +316,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -380,7 +404,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -421,7 +447,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -466,7 +494,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 1048583,
-      "OccupationUnder": 7,
+      "OccupationUnder": 0,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -494,7 +522,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -535,7 +565,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -725,7 +757,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -764,6 +798,49 @@
     "Category": "Resources",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": -1937799374,
+    "ShortName": "hazmatsuit_scientist_naval",
+    "DisplayName": "Naval Scientist Suit",
+    "DisplayDescription": "A hazmat suit made from radiation resistant rubber.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": -1,
+      "OccupationUnder": -1,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.5,
+        "Drowned": 1.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.3,
+        "Slash": 0.3,
+        "Blunt": 0.3,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.5,
+        "Stab": 0.3,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.5,
+        "ColdExposure": 0.5,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
   },
   {
     "ItemId": -1923843855,
@@ -810,7 +887,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 1048583,
-      "OccupationUnder": 7,
+      "OccupationUnder": 0,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -838,15 +915,17 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
   {
     "ItemId": -1901993050,
     "ShortName": "goldframe.medium",
-    "DisplayName": "Gold Frame Medium",
-    "DisplayDescription": "A medium gold frame",
+    "DisplayName": "Ornate Frame Medium",
+    "DisplayDescription": "A medium ornate frame",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -902,6 +981,15 @@
     "DisplayName": "Satchel Charge",
     "DisplayDescription": "Small explosive package constructed of beancan grenades. Useful for destroying wood and sheet metal doors.",
     "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1866909924,
+    "ShortName": "steeringwheel.boat",
+    "DisplayName": "Steering Wheel",
+    "DisplayDescription": "A lockable steering wheel for your modular boat with some suspiciously shaped handles.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -980,8 +1068,8 @@
   {
     "ItemId": -1836526520,
     "ShortName": "goldframe.small",
-    "DisplayName": "Gold Frame Small",
-    "DisplayDescription": "A small gold frame",
+    "DisplayName": "Ornate Frame Small",
+    "DisplayDescription": "A small ornate frame",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -1158,7 +1246,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -1177,6 +1267,15 @@
     "DisplayName": "Salvaged Icepick",
     "DisplayDescription": "A high-yield resource gathering Icepick.",
     "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1779203452,
+    "ShortName": "easel",
+    "DisplayName": "Portable Easel",
+    "DisplayDescription": "A portable easel for painting plein air!",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1244,7 +1343,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -1260,8 +1361,8 @@
   {
     "ItemId": -1774190142,
     "ShortName": "scrapframe.standing",
-    "DisplayName": "Scrap Frame Standing",
-    "DisplayDescription": "A standing scrap frame",
+    "DisplayName": "Shutter Frame Standing",
+    "DisplayDescription": "A standing shutter frame",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -1303,7 +1404,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -1344,7 +1447,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -1448,7 +1553,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -1534,7 +1641,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -1562,15 +1671,6 @@
     "DisplayName": "12 Gauge Buckshot",
     "DisplayDescription": "Ammunition for a Shotgun.",
     "Category": "Ammunition",
-    "IsWearable": false,
-    "Wearable": null
-  },
-  {
-    "ItemId": -1683726934,
-    "ShortName": "twowaymirror.window",
-    "DisplayName": "Two-Way Mirror",
-    "DisplayDescription": "A Two-Way mirror",
-    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1719,7 +1819,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -1760,7 +1862,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -1810,7 +1914,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -1904,7 +2010,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 7,
-      "OccupationUnder": 7,
+      "OccupationUnder": 0,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -1932,8 +2038,24 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
+    }
+  },
+  {
+    "ItemId": -1559420426,
+    "ShortName": "diving.tank.double",
+    "DisplayName": "Double Diving Tank",
+    "DisplayDescription": "An oxygen tank that enables breathing under water for a period of time. Can be refilled at a workbench. Holds 80% more Oxygen than a standard diving tank",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097168,
+      "OccupationUnder": 0,
+      "IsBackpack": true,
+      "ProtectionProperties": null
     }
   },
   {
@@ -1991,7 +2113,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -2041,7 +2165,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -2084,8 +2210,8 @@
   {
     "ItemId": -1528767189,
     "ShortName": "goldframe.standing",
-    "DisplayName": "Gold Frame Standing",
-    "DisplayDescription": "A standing gold frame",
+    "DisplayName": "Ornate Frame Standing",
+    "DisplayDescription": "A standing ornate frame",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -2145,7 +2271,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -2240,7 +2368,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -2344,7 +2474,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -2394,7 +2526,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -2430,6 +2564,15 @@
     "ShortName": "longsword",
     "DisplayName": "Longsword",
     "DisplayDescription": "A powerful 2-handed melee weapon with good range and high damage.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1467876094,
+    "ShortName": "50cal.mounted.left",
+    "DisplayName": "#50cal",
+    "DisplayDescription": "#50cal.desc",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -2521,6 +2664,15 @@
     "DisplayName": "Anti-Radiation Pills",
     "DisplayDescription": "Taking these pills will lower your radiation level. WARNING: May cause extreme dehydration.",
     "Category": "Medical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1430299277,
+    "ShortName": "goldframe.xl",
+    "DisplayName": "Ornate Frame XL",
+    "DisplayDescription": "An extra large ornate frame",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2755,7 +2907,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -2792,6 +2946,15 @@
     "DisplayName": "Double Horse Saddle",
     "DisplayDescription": "A horse saddle with two seats. Having this item allows you to claim a horse in a stable by holding E and selecting the \"Claim\" option",
     "Category": "Attire",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1322332389,
+    "ShortName": "goldframe.xxl",
+    "DisplayName": "Ornate Frame XXL",
+    "DisplayDescription": "An extra extra large ornate frame",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2868,7 +3031,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -3008,7 +3173,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -3063,6 +3230,15 @@
     "DisplayName": "Command Block",
     "DisplayDescription": "A block that runs commands",
     "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1244287686,
+    "ShortName": "scrapframe.xl",
+    "DisplayName": "Shutter Frame XL",
+    "DisplayDescription": "An extra large shutter frame",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3122,6 +3298,15 @@
     "DisplayName": "HMLMG",
     "DisplayDescription": "A hand made belt-fed light machine gun with high damage, high rate of fire, low accuracy during short bursts.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1211801774,
+    "ShortName": "scrapframe.xxl",
+    "DisplayName": "Shutter Frame XXL",
+    "DisplayDescription": "An extra extra large shutter frame",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3261,7 +3446,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -3428,14 +3615,16 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
   {
     "ItemId": -1104881824,
     "ShortName": "rug.bear",
-    "DisplayName": "Rug Bear Skin",
+    "DisplayName": "Bear Skin Rug",
     "DisplayDescription": "A decorative rug that can be placed on walls, floors, and ceilings. Provides comfort when in close proximity.",
     "Category": "Items",
     "IsWearable": false,
@@ -3478,7 +3667,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -3519,7 +3710,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -3544,8 +3737,8 @@
   {
     "ItemId": -1094453063,
     "ShortName": "scrapframe.large",
-    "DisplayName": "Scrap Frame large",
-    "DisplayDescription": "A large scrap frame",
+    "DisplayName": "Shutter Frame large",
+    "DisplayDescription": "A large shutter frame",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -3578,10 +3771,19 @@
     "Wearable": null
   },
   {
+    "ItemId": -1063073030,
+    "ShortName": "door.hinged.boat.wood",
+    "DisplayName": "Wooden Boat Door",
+    "DisplayDescription": "Secure your boat with this wooden door",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1060567807,
     "ShortName": "scrapframe.medium",
-    "DisplayName": "Scrap Frame Medium",
-    "DisplayDescription": "A medium scrap frame",
+    "DisplayName": "Shutter Frame Medium",
+    "DisplayDescription": "A medium shutter frame",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -3668,7 +3870,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -3687,6 +3891,15 @@
     "DisplayName": "Small Water Bottle",
     "DisplayDescription": "A Small Water Bottle. Left click to drink, right click to fill from water sources, or to pour out.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1039234836,
+    "ShortName": "paintabletarget.reactive",
+    "DisplayName": "Paintable Reactive Target",
+    "DisplayDescription": "A reactive target practice in which you can paint whatever you want",
+    "Category": "Misc",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3744,7 +3957,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 5,
-      "OccupationUnder": 5,
+      "OccupationUnder": 0,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -3772,7 +3985,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -3795,6 +4010,49 @@
     "Wearable": null
   },
   {
+    "ItemId": -1014934560,
+    "ShortName": "paintballoveralls.suit",
+    "DisplayName": "Paintball Overalls",
+    "DisplayDescription": "A set of paintball overalls.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 129535,
+      "OccupationUnder": 3799551,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.5,
+        "Drowned": 1.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.25,
+        "Slash": 0.3,
+        "Blunt": 0.3,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.5,
+        "Stab": 0.3,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.15,
+        "ColdExposure": 0.5,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
+  },
+  {
     "ItemId": -1009359066,
     "ShortName": "samsite",
     "DisplayName": "SAM Site",
@@ -3812,7 +4070,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 5,
-      "OccupationUnder": 5,
+      "OccupationUnder": 0,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -3840,7 +4098,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -3899,7 +4159,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -3915,8 +4177,8 @@
   {
     "ItemId": -996235148,
     "ShortName": "goldframe.large",
-    "DisplayName": "Gold Frame large",
-    "DisplayDescription": "A large gold frame",
+    "DisplayName": "Ornate Frame large",
+    "DisplayDescription": "A large ornate frame",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -3985,7 +4247,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -4071,11 +4335,47 @@
     "Wearable": null
   },
   {
+    "ItemId": -952411326,
+    "ShortName": "plank",
+    "DisplayName": "Plank",
+    "DisplayDescription": "Crude boarding plank thrown together from ruined floorboards, watch out for splinters.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -948291630,
     "ShortName": "electric.seismicsensor",
     "DisplayName": "Seismic Sensor",
     "DisplayDescription": "A small device that detects vibrations within a set range. Will output a different power value depending on the explosive type detected, ideal to know when your time has come.",
     "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -946599131,
+    "ShortName": "sign.artistcanvas.s",
+    "DisplayName": "Artist Canvas Medium",
+    "DisplayDescription": "A medium canvas for seamless murals",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -946599114,
+    "ShortName": "sign.artistcanvas.l",
+    "DisplayName": "Artist Canvas Standing",
+    "DisplayDescription": "A standing canvas for seamless murals",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -946599113,
+    "ShortName": "sign.artistcanvas.m",
+    "DisplayName": "Artist Canvas Large",
+    "DisplayDescription": "A large sized canvas for seamless murals",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4125,7 +4425,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -4279,7 +4581,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -4388,7 +4692,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -4551,7 +4857,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -4579,6 +4887,15 @@
     "DisplayName": "Metal Window Bars",
     "DisplayDescription": "Metal window bars made to fit a normal sized window.",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -816769770,
+    "ShortName": "sign.artistcanvas.xxl",
+    "DisplayName": "Artist Canvas XXL",
+    "DisplayDescription": "An extra, extra large canvas for seamless murals",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4637,7 +4954,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -4696,7 +5015,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -4818,7 +5139,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -4859,7 +5182,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -4918,7 +5243,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -5009,6 +5336,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -707792719,
+    "ShortName": "paintballgun",
+    "DisplayName": "Paintball Gun",
+    "DisplayDescription": "An air gun that uses compressed gas to fire and make targets works of art.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -702051347,
     "ShortName": "mask.bandana",
     "DisplayName": "Bandana Mask",
@@ -5045,7 +5381,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -5095,7 +5433,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -5204,6 +5544,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -648077743,
+    "ShortName": "mrspice.can",
+    "DisplayName": "Mr Spice Can",
+    "DisplayDescription": "A delicious and refreshing beverage, with a delightful spicy undertone.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -635951327,
     "ShortName": "woodframe.large",
     "DisplayName": "Wood Frame Large",
@@ -5276,7 +5625,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -5407,7 +5758,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -5443,7 +5796,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 5,
-      "OccupationUnder": 5,
+      "OccupationUnder": 0,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -5471,7 +5824,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -5493,7 +5848,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 7,
-      "OccupationUnder": 7,
+      "OccupationUnder": 0,
       "IsBackpack": false,
       "ProtectionProperties": null
     }
@@ -5562,7 +5917,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -5612,7 +5969,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -5734,7 +6093,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -5750,8 +6111,8 @@
   {
     "ItemId": -498301781,
     "ShortName": "scrapframe.small",
-    "DisplayName": "Scrap Frame Small",
-    "DisplayDescription": "A small scrap frame",
+    "DisplayName": "Shutter Frame Small",
+    "DisplayDescription": "A small shutter frame",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -5865,7 +6226,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -5933,7 +6296,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -6028,7 +6393,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -6047,6 +6414,58 @@
     "DisplayName": "Krieg Shotgun",
     "DisplayDescription": "Heavy, reliable, and unforgiving. A weapon that never hesitates.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -418359052,
+    "ShortName": "hat.horsemask",
+    "DisplayName": "Horse Mask",
+    "DisplayDescription": "A Beautifully crafted red and gold Horse mask to celebrate the 2026 Lunar New Year. This item replaces the wolf headdress.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 1048581,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.3,
+        "Slash": 0.6,
+        "Blunt": 0.6,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.6,
+        "Stab": 0.6,
+        "Explosion": 0.8,
+        "RadiationExposure": 0.04,
+        "ColdExposure": 0.35,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
+  },
+  {
+    "ItemId": -411735114,
+    "ShortName": "cannonball",
+    "DisplayName": "Cannonball",
+    "DisplayDescription": "Round solid ammo for the cannon",
+    "Category": "Ammunition",
     "IsWearable": false,
     "Wearable": null
   },
@@ -6240,7 +6659,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -6259,6 +6680,15 @@
     "DisplayName": "Beach Chair",
     "DisplayDescription": "The Beach Chair is the best way to relax, whether it's by the pool or on the beach.",
     "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -321247698,
+    "ShortName": "boat.planner",
+    "DisplayName": "Boat Building Plan",
+    "DisplayDescription": "A boat plan. You can use this to craft boats - right click when equipped for more options.",
+    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   },
@@ -6308,7 +6738,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -6439,7 +6871,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -6489,7 +6923,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -6629,7 +7065,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -6765,6 +7203,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -158718378,
+    "ShortName": "small_ramp",
+    "DisplayName": "Small Ramp",
+    "DisplayDescription": "Deployable wooden ramp cobbled together from recycled doors, probably sturdy enough. Unfolds for boarding enemy vessels.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -156748077,
     "ShortName": "skull.trophy.table",
     "DisplayName": "Skull Trophy",
@@ -6810,7 +7257,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -6941,7 +7390,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7050,7 +7501,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7118,7 +7571,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7240,7 +7695,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7299,6 +7756,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -34498533,
+    "ShortName": "cannon",
+    "DisplayName": "Cannon",
+    "DisplayDescription": "A heavy mountable cannon for your boat with a short fuse. Questionable accuracy but high damage.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -33009419,
     "ShortName": "radiationresisttea.pure",
     "DisplayName": "Pure Anti-Rad Tea",
@@ -7313,6 +7779,15 @@
     "DisplayName": "Skull Spikes",
     "DisplayDescription": "A spike of several skulls. Very spooky.",
     "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -24571537,
+    "ShortName": "coconut",
+    "DisplayName": "Coconut",
+    "DisplayDescription": "A coconut. Consuming it restores hydration, and the flesh yields a modest amount of calories.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -7353,7 +7828,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7394,7 +7871,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7498,7 +7977,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7539,7 +8020,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7621,7 +8104,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7680,7 +8165,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7847,7 +8334,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7933,7 +8422,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -7974,7 +8465,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -8026,8 +8519,8 @@
   {
     "ItemId": 146221721,
     "ShortName": "heavy.scientist.plushie",
-    "DisplayName": "#heavy.scientist.plushie.name",
-    "DisplayDescription": "#heavy.scientist.plushie.desc",
+    "DisplayName": "Heavy Scientist Plushie",
+    "DisplayDescription": "Heavy Scientist Plushie",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -8037,6 +8530,15 @@
     "ShortName": "knife.bone.obsidian",
     "DisplayName": "Obsidian Bone Knife",
     "DisplayDescription": "Melee weapon crafted from obsidian. Good for harvesting carcases.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 162882477,
+    "ShortName": "50cal.mounted",
+    "DisplayName": "#50cal",
+    "DisplayDescription": "#50cal.desc",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -8168,7 +8670,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -8286,7 +8790,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -8336,7 +8842,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -8382,6 +8890,15 @@
     "DisplayName": "Large Medkit",
     "DisplayDescription": "A large medkit that heals you to max health over time and stops any bleeding instantly.\n\nGuarantees 100% recovery from the wounded state if placed in your toolbar.",
     "Category": "Medical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 255305250,
+    "ShortName": "ladder.wooden.boat",
+    "DisplayName": "Wooden Boat Ladder",
+    "DisplayDescription": "A ladder will help you climb walls on any boat.",
+    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8449,7 +8966,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -8499,7 +9018,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -8540,7 +9061,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -8794,6 +9317,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 385645417,
+    "ShortName": "ammo.paintball",
+    "DisplayName": "Paintball",
+    "DisplayDescription": "Ammo for a paintball gun.",
+    "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 390728933,
     "ShortName": "clone.yellow.berry",
     "DisplayName": "Yellow Berry Clone",
@@ -8817,6 +9349,15 @@
     "DisplayName": "Soccer Ball",
     "DisplayDescription": "Soccer Ball",
     "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 405905095,
+    "ShortName": "sail",
+    "DisplayName": "Sail",
+    "DisplayDescription": "A slow but effective boat sail, made from scraps of fabric hastily stitched together. More sails will generate more speed.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8857,7 +9398,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -8891,8 +9434,8 @@
   {
     "ItemId": 445662288,
     "ShortName": "scientist.plushie",
-    "DisplayName": "#scientist.plushie.name",
-    "DisplayDescription": "#scientist.plushie.desc",
+    "DisplayName": "Scientist Plushie",
+    "DisplayDescription": "Scientist Plushie",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -8952,7 +9495,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -9038,7 +9583,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -9106,7 +9653,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -9183,7 +9732,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -9373,7 +9924,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -9608,7 +10161,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -9730,7 +10285,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -9767,6 +10324,15 @@
     "DisplayName": "Orchid",
     "DisplayDescription": "Smells nice.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 738611016,
+    "ShortName": "window.paintable",
+    "DisplayName": "Paintable Window",
+    "DisplayDescription": "A window with paintable glass",
+    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9888,7 +10454,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -9983,7 +10551,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -10024,7 +10594,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -10078,6 +10650,15 @@
     "ShortName": "sign.post.town.roof",
     "DisplayName": "Two Sided Town Sign Post",
     "DisplayDescription": "A double sided town sign post, with roof, that you can plant into terrain.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 829641693,
+    "ShortName": "anchor",
+    "DisplayName": "Anchor",
+    "DisplayDescription": "A heavy anchor to stop your boat drifting.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -10137,7 +10718,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -10187,7 +10770,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -10264,7 +10849,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -10332,7 +10919,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -10448,7 +11037,7 @@
     "ItemId": 935606207,
     "ShortName": "minigun",
     "DisplayName": "Minigun",
-    "DisplayDescription": "A military issue belt-fed machine gun with that must be spun up to fire. Fires rapidly once spun up at the expense of movement speed.",
+    "DisplayDescription": "A military issue belt-fed machine gun that must be spun up to fire. Fires rapidly at the expense of movement speed.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -10490,7 +11079,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -10557,7 +11148,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 1048581,
-      "OccupationUnder": 5,
+      "OccupationUnder": 0,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -10585,7 +11176,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -10658,7 +11251,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -10708,7 +11303,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -10875,7 +11472,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -10934,7 +11533,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -11038,7 +11639,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -11079,7 +11682,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -11336,7 +11941,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -11490,6 +12097,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1248383659,
+    "ShortName": "50cal.mounted.right",
+    "DisplayName": "#50cal",
+    "DisplayDescription": "#50cal.desc",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1258768145,
     "ShortName": "sunglasses02black",
     "DisplayName": "Sunglasses",
@@ -11558,7 +12174,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 3.0
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -11716,7 +12334,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -11883,7 +12503,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -12095,7 +12717,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -12154,7 +12778,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -12191,6 +12817,15 @@
     "DisplayName": "Hunting Bow",
     "DisplayDescription": "Hunting Bow, useful for short to medium range combat and hunting.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1447138977,
+    "ShortName": "lightup.xxl",
+    "DisplayName": "Light-Up Frame XXL",
+    "DisplayDescription": "An extra extra large light up frame",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12321,7 +12956,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -12547,6 +13184,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1562867678,
+    "ShortName": "sign.artistcanvas.xl",
+    "DisplayName": "Artist Canvas XL",
+    "DisplayDescription": "An extra large canvas for seamless murals",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1568388703,
     "ShortName": "diesel_barrel",
     "DisplayName": "Diesel Fuel",
@@ -12664,7 +13310,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -12755,9 +13403,20 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
+  },
+  {
+    "ItemId": 1609921845,
+    "ShortName": "sign.artistcanvas.xs",
+    "DisplayName": "Artist Canvas Small",
+    "DisplayDescription": "A small canvas for seamless murals",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 1614528785,
@@ -12796,7 +13455,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -12882,7 +13543,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -12968,7 +13631,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -13054,7 +13719,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -13167,7 +13834,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -13244,7 +13913,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -13357,7 +14028,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -13398,7 +14071,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -13543,6 +14218,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1801656689,
+    "ShortName": "lightup.xl",
+    "DisplayName": "Light-Up Frame XL",
+    "DisplayDescription": "An extra large light-up frame",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1803831286,
     "ShortName": "toolgun",
     "DisplayName": "Garry's Mod Tool Gun",
@@ -13633,6 +14317,49 @@
     "Wearable": null
   },
   {
+    "ItemId": 1849409072,
+    "ShortName": "silly.horse.mask",
+    "DisplayName": "Silly Horse Mask",
+    "DisplayDescription": "A silly rubber horse mask to celebrate Lunar New Year 2026. Comes in three varieties.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 7,
+      "OccupationUnder": 7,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.2,
+        "Slash": 0.25,
+        "Blunt": 0.25,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.4,
+        "Stab": 0.25,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.05,
+        "ColdExposure": 0.6,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.25,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
+  },
+  {
     "ItemId": 1849887541,
     "ShortName": "electric.fuelgenerator.small",
     "DisplayName": "Small Generator",
@@ -13678,7 +14405,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -13737,7 +14466,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -13787,7 +14518,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -13846,7 +14579,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
@@ -14009,6 +14744,15 @@
     "DisplayName": "Black Raspberries",
     "DisplayDescription": "Black Raspberries picked from berry bushes. Eating it provides a small boost to health, hunger, and thirst.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1933140008,
+    "ShortName": "ptboat",
+    "DisplayName": "PT Boat",
+    "DisplayDescription": null,
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -14193,9 +14937,20 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
+  },
+  {
+    "ItemId": 1993693904,
+    "ShortName": "boatbuildingstation",
+    "DisplayName": "Boat Building Station",
+    "DisplayDescription": "A deployable building station, creates a stable workspace on the water to build or edit your floating wooden refuge.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 2005491391,
@@ -14482,7 +15237,9 @@
         "AntiVehicle": 1.0,
         "Collision": 1.0,
         "Fun_Water": 0.0,
-        "BeeSting": 0.0
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
       }
     }
   },
