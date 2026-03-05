@@ -590,6 +590,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1998423571,
+    "ShortName": "component.box.explosives.large",
+    "DisplayName": "Explosives Storage Box",
+    "DisplayDescription": "Keep your explosives in this storage box. Stores up to 48 items.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1997698639,
     "ShortName": "sunglasses03chrome",
     "DisplayName": "Sunglasses",
@@ -1961,6 +1970,15 @@
     "ShortName": "workbench3",
     "DisplayName": "Workbench Level 3",
     "DisplayDescription": "This allows you to craft and unlock items requiring workbench level 3",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1593678393,
+    "ShortName": "component.box.ammo.large",
+    "DisplayName": "Ammo Storage Box",
+    "DisplayDescription": "Keep your ammunition in this storage box. Stores up to 48 items.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -3899,7 +3917,7 @@
     "ShortName": "paintabletarget.reactive",
     "DisplayName": "Paintable Reactive Target",
     "DisplayDescription": "A reactive target practice in which you can paint whatever you want",
-    "Category": "Misc",
+    "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4961,6 +4979,15 @@
     }
   },
   {
+    "ItemId": -800824218,
+    "ShortName": "component.box.meds.large",
+    "DisplayName": "Meds Storage Box",
+    "DisplayDescription": "Keep your medical things in this storage box. Stores up to 48 items.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -798662404,
     "ShortName": "clone.orchid",
     "DisplayName": "Orchid Clone",
@@ -6012,6 +6039,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -544295594,
+    "ShortName": "component.box.guns.large",
+    "DisplayName": "Guns Storage Box",
+    "DisplayDescription": "Keep your guns in this storage box. Stores up to 48 items.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -542577259,
     "ShortName": "fish.minnows",
     "DisplayName": "Minnows",
@@ -6459,6 +6495,15 @@
         "Cannon": 1.0
       }
     }
+  },
+  {
+    "ItemId": -413663149,
+    "ShortName": "component.box.comps.large",
+    "DisplayName": "Comps Storage Box",
+    "DisplayDescription": "Keep your components in this storage box. Stores up to 48 items.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": -411735114,
@@ -7914,6 +7959,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -10594280,
+    "ShortName": "component.box.sulfur.large",
+    "DisplayName": "Sulfur Storage Box",
+    "DisplayDescription": "Keep your sulfur in this storage box. Stores up to 48 items.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -8312704,
     "ShortName": "beachtowel",
     "DisplayName": "Beach Towel",
@@ -8339,6 +8393,15 @@
         "Cannon": 1.0
       }
     }
+  },
+  {
+    "ItemId": 94971664,
+    "ShortName": "component.box.stone.large",
+    "DisplayName": "Stone Storage Box",
+    "DisplayDescription": "Keep your stone in this storage box. Stores up to 48 items.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 95950017,
@@ -9829,6 +9892,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 574701440,
+    "ShortName": "component.box.scrap.large",
+    "DisplayName": "Scrap Storage Box",
+    "DisplayDescription": "Keep your scrap in this storage box. Stores up to 48 items.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 576509618,
     "ShortName": "fun.boomboxportable",
     "DisplayName": "Portable Boom Box",
@@ -10191,6 +10263,15 @@
     "DisplayName": "M4 Shotgun",
     "DisplayDescription": "A semi automatic military issue shotgun",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 679690962,
+    "ShortName": "component.box.tools.large",
+    "DisplayName": "Tools Storage Box",
+    "DisplayDescription": "Keep your tools in this storage box. Stores up to 48 items.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -11328,6 +11409,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 992944937,
+    "ShortName": "component.box.ore.large",
+    "DisplayName": "Ore Storage Box",
+    "DisplayDescription": "Keep your ore in this storage box. Stores up to 48 items.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 996293980,
     "ShortName": "skull.human",
     "DisplayName": "Human Skull",
@@ -11382,6 +11472,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1023919015,
+    "ShortName": "component.box.food.large",
+    "DisplayName": "Food Storage Box",
+    "DisplayDescription": "Keep your food in this storage box. Stores up to 48 items.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1028889957,
     "ShortName": "lightupmirror.medium",
     "DisplayName": "Light-Up Mirror Medium",
@@ -11396,6 +11495,15 @@
     "DisplayName": "Blue Dog Tags",
     "DisplayDescription": "Blue Dog Tags",
     "Category": "Resources",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1044081720,
+    "ShortName": "component.box.wood.large",
+    "DisplayName": "Wood Storage Box",
+    "DisplayDescription": "Keep your wood in this storage box. Stores up to 48 items.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12102,6 +12210,15 @@
     "DisplayName": "#50cal",
     "DisplayDescription": "#50cal.desc",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1254295946,
+    "ShortName": "component.box.armor.large",
+    "DisplayName": "Armor Storage Box",
+    "DisplayDescription": "Keep your armor in this storage box. Stores up to 48 items.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12852,6 +12969,15 @@
     "ShortName": "wantedposter.wantedposter4",
     "DisplayName": "Wanted Poster 4",
     "DisplayDescription": "A poster that can display a given player's face as wanted.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1465782238,
+    "ShortName": "component.box.metal.large",
+    "DisplayName": "Metal Storage Box",
+    "DisplayDescription": "Keep your metal things in this storage box. Stores up to 48 items.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -13983,6 +14109,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1736620421,
+    "ShortName": "component.box.clothing.large",
+    "DisplayName": "Clothing Storage Box",
+    "DisplayDescription": "Keep your clothing in this storage box. Stores up to 48 items.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1744298439,
     "ShortName": "firework.boomer.blue",
     "DisplayName": "Blue Boomer",
@@ -14627,6 +14762,15 @@
     "DisplayName": "Medium Quality Pistons",
     "DisplayDescription": "Medium quality pistons for a combustion engine. Pistons convert expanding combustion gases into the motion that turns a crankshaft.",
     "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1884461210,
+    "ShortName": "component.box.charcoal.large",
+    "DisplayName": "Charcoal Storage Box",
+    "DisplayDescription": "Keep your charcoal in this storage box. Stores up to 48 items.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
