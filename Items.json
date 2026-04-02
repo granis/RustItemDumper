@@ -6226,6 +6226,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -478923685,
+    "ShortName": "floor.triangle.ladder.hatch.toptier",
+    "DisplayName": "Armored Triangle Ladder Hatch",
+    "DisplayDescription": "A triangular armored hatch that opens and changes into a ladder.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -470439097,
     "ShortName": "hazmatsuit.arcticsuit",
     "DisplayName": "Arctic Suit",
@@ -6574,6 +6583,15 @@
     "DisplayName": "Pattern Boomer",
     "DisplayDescription": "A special boomer which allows you light up the night sky with a custom pattern that you draw. Multiple colors and altitude settings are available.",
     "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -379403794,
+    "ShortName": "generator.water",
+    "DisplayName": "Water Wheel",
+    "DisplayDescription": "Converts kinetic energy harvested from flowing water into electricity.",
+    "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
   },
@@ -7174,6 +7192,15 @@
       "IsBackpack": false,
       "ProtectionProperties": null
     }
+  },
+  {
+    "ItemId": -173268138,
+    "ShortName": "rustige_egg_h",
+    "DisplayName": "Rustigé Egg - Amethyst",
+    "DisplayDescription": "A beautiful hand crafted amethyst and gold egg, with a miniature excavator scene contained inside.",
+    "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": -173268132,
@@ -10030,6 +10057,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 607785075,
+    "ShortName": "floor.ladder.hatch.toptier",
+    "DisplayName": "Armored Ladder Hatch",
+    "DisplayDescription": "An armored hatch that opens and changes into a ladder.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 609049394,
     "ShortName": "battery.small",
     "DisplayName": "Battery - Small",
@@ -12341,6 +12377,49 @@
     "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": 1285226495,
+    "ShortName": "bunny.suit",
+    "DisplayName": "Bunny Costume",
+    "DisplayDescription": "An inflatable bunny costume. Acting as a replacement for wooden pants, you can equip this item to look as silly as possible.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 129024,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": -1.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.1,
+        "Slash": 0.4,
+        "Blunt": 0.4,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.3,
+        "Stab": 0.4,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.05,
+        "ColdExposure": 0.0,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.1,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
   },
   {
     "ItemId": 1293102274,
