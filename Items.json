@@ -773,6 +773,15 @@
     }
   },
   {
+    "ItemId": -1953279770,
+    "ShortName": "workbench.upgrade.defensive",
+    "DisplayName": "Defensive Workbench Upgrade",
+    "DisplayDescription": "Armor or clothing compatible with insert slots will roll an additional slot when crafted using this upgrade.",
+    "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1950721390,
     "ShortName": "barricade.concrete",
     "DisplayName": "Concrete Barricade",
@@ -1657,6 +1666,15 @@
     }
   },
   {
+    "ItemId": -1695149731,
+    "ShortName": "base.single.shelves",
+    "DisplayName": "Base single shelves",
+    "DisplayDescription": "Base single shelves",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1693832478,
     "ShortName": "vehicle.2mod.flatbed",
     "DisplayName": "Large Flatbed Vehicle Module",
@@ -2204,6 +2222,15 @@
     "DisplayName": "Shovel",
     "DisplayDescription": "A shovel for digging up stuff",
     "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1536343135,
+    "ShortName": "workbench.upgrade.surplus",
+    "DisplayName": "Surplus Workbench Upgrade",
+    "DisplayDescription": "20% chance to produce a random surplus part (1-8) when crafting. Surplus parts are used in special alternate recipes.",
+    "Category": "Component",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3949,6 +3976,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1024954624,
+    "ShortName": "base.half.shelves",
+    "DisplayName": "Base half shelves",
+    "DisplayDescription": "Base half shelves",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1023374709,
     "ShortName": "shutter.wood.a",
     "DisplayName": "Wood Shutters",
@@ -5103,6 +5139,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -770390391,
+    "ShortName": "workbench.upgrade.comfort",
+    "DisplayName": "Comfort Workbench Upgrade",
+    "DisplayDescription": "Provides a 100% comfort zone around the workbench for those long crafting sessions.",
+    "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -770304148,
     "ShortName": "chineselanternwhite",
     "DisplayName": "Chinese Lantern White",
@@ -6190,6 +6235,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -486432631,
+    "ShortName": "ammo.mortar.fragment",
+    "DisplayName": "Fragmentation Mortar Shell",
+    "DisplayDescription": "A fragmentation mortar shell, dealing lethal damage in a large area on impact.",
+    "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -484206264,
     "ShortName": "keycard_blue",
     "DisplayName": "Blue Keycard",
@@ -6817,6 +6871,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -286541059,
+    "ShortName": "workbench.upgrade.recyclebin",
+    "DisplayName": "Recycle Bin Workbench Upgrade",
+    "DisplayDescription": "Crafting at a workbench with this upgrade has a chance to refund up to 10% of the ingredient costs back to you in raw material form.",
+    "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -282193997,
     "ShortName": "orangeidtag",
     "DisplayName": "Orange ID Tag",
@@ -7171,6 +7234,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -180862419,
+    "ShortName": "workbench.upgrade.prototype",
+    "DisplayName": "Prototype Workbench Upgrade",
+    "DisplayDescription": "Allows unlocking any tech tree item regardless of progression. Cost is doubled and there is a 25% chance of failure that still consumes resources.",
+    "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -180129657,
     "ShortName": "box.wooden",
     "DisplayName": "Wood Storage Box",
@@ -7271,6 +7343,15 @@
     "DisplayName": "Cooked Snake Meat",
     "DisplayDescription": "Delicious Snake Meat, Eating it will restore some health, hunger, and thirst.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -160105346,
+    "ShortName": "workbench.upgrade.salvage",
+    "DisplayName": "Salvage Workbench Upgrade",
+    "DisplayDescription": "Reduces the scrap cost of all tech tree unlocks at this bench by 20%.",
+    "Category": "Component",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8560,6 +8641,15 @@
         "Cannon": 1.0
       }
     }
+  },
+  {
+    "ItemId": 112268546,
+    "ShortName": "workbench.upgrade.reinforced",
+    "DisplayName": "Reinforced Workbench Upgrade",
+    "DisplayDescription": "Increases the workbench's max HP by 150% and grants explosive damage resistance.",
+    "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 120820987,
@@ -10179,6 +10269,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 655356057,
+    "ShortName": "base.horizontal.barrel",
+    "DisplayName": "Base horizontal storage barrel",
+    "DisplayDescription": "Base horizontal storage barrel",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 656371026,
     "ShortName": "carburetor3",
     "DisplayName": "High Quality Carburetor",
@@ -10601,6 +10700,15 @@
     "DisplayName": "Pump Shotgun",
     "DisplayDescription": "A Shotgun. Fires 8 rounds.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 798382300,
+    "ShortName": "workbench.upgrade.accelerated",
+    "DisplayName": "Accelerated Workbench Upgrade",
+    "DisplayDescription": "Crafting speed increases by 25% for each item already completed in the same batch.",
+    "Category": "Component",
     "IsWearable": false,
     "Wearable": null
   },
@@ -11233,8 +11341,17 @@
     "ItemId": 962186730,
     "ShortName": "tincan.alarm",
     "DisplayName": "Tin Can Alarm",
-    "DisplayDescription": "A primitive perimeter alarm made from hanging tin cans. Clatters loudly when disturbed, alerting you to any trespassers. Simple but effective.",
+    "DisplayDescription": "A primitive perimeter alarm made from hanging tin cans. Clatters loudly when disturbed, alerting you to any trespassers. Can be rigged with grenades or other throwables.",
     "Category": "Traps",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 963150711,
+    "ShortName": "ammo.mortar.basic",
+    "DisplayName": "Mortar Shell",
+    "DisplayDescription": "A high explosive mortar shell that deals minor structural damage on impact.",
+    "Category": "Ammunition",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12151,6 +12268,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1215602244,
+    "ShortName": "workbench.upgrade.efficiency",
+    "DisplayName": "Efficiency Workbench Upgrade",
+    "DisplayDescription": "10% chance to produce a free bonus item when crafting in batches. Ineffective when crafting explosive and raid related items.",
+    "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1221063409,
     "ShortName": "door.double.hinged.toptier",
     "DisplayName": "Armored Double Door",
@@ -12425,7 +12551,7 @@
     "ItemId": 1293102274,
     "ShortName": "electric.xorswitch",
     "DisplayName": "XOR Switch",
-    "DisplayDescription": "An exclusive-or logic gate that allows electrical passthrough if ONLY ONE input receives power, passthrough amount is whichever single input is active. If BOTH inputs recieve power, passthrough will be zero.",
+    "DisplayDescription": "An exclusive-or logic gate that allows electrical passthrough if ONLY ONE input receives power, passthrough amount is whichever single input is active. If BOTH inputs receive power, passthrough will be zero.",
     "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
@@ -13044,6 +13170,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1459828804,
+    "ShortName": "mortar.deployable",
+    "DisplayName": "Mortar",
+    "DisplayDescription": "The Mortar fires in an arcing trajectory and favors volume over precision. Pairs well with binoculars.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1463862472,
     "ShortName": "wantedposter.wantedposter4",
     "DisplayName": "Wanted Poster 4",
@@ -13067,6 +13202,15 @@
     "DisplayName": "Pork Pie",
     "DisplayDescription": "Tempting pork pie, provides a boost to hunger, health and hydration. Improves healing rate from other sources for a short time.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1470387662,
+    "ShortName": "workbench.upgrade.range",
+    "DisplayName": "Range Workbench Upgrade",
+    "DisplayDescription": "Doubles the workbench crafting radius, letting you craft from twice as far away.",
+    "Category": "Component",
     "IsWearable": false,
     "Wearable": null
   },
@@ -15262,6 +15406,15 @@
     "DisplayName": "Triangle Ladder Hatch",
     "DisplayDescription": "A hatch that opens and changes into a ladder.",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2045583965,
+    "ShortName": "base.vertical.barrel",
+    "DisplayName": "Base vertical storage barrel",
+    "DisplayDescription": "Base vertical storage barrel",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
