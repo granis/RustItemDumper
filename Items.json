@@ -479,7 +479,7 @@
   {
     "ItemId": -2016974826,
     "ShortName": "wall.frame.lunar2025_c",
-    "DisplayName": "Wall Divider Pack",
+    "DisplayName": "Lunar Wall Frame Inlay",
     "DisplayDescription": "A Lunar New Year themed decorative wall divider with floral inlay",
     "Category": "Construction",
     "IsWearable": false,
@@ -5044,7 +5044,7 @@
   {
     "ItemId": -797592358,
     "ShortName": "hazmatsuit.diver",
-    "DisplayName": "Abyss Pack",
+    "DisplayName": "Abyss Hazmat",
     "DisplayDescription": "A damaged deep-water survival suit was found in the abyss. Although it may no longer serve its original purpose, it functions reliably as a Hazmat suit. Owning this suit also grants access to the Abyss Pickaxe, Abyss Hatchet, Abyss Torch, and Abyss AR.",
     "Category": "Attire",
     "IsWearable": true,
@@ -6440,7 +6440,7 @@
   {
     "ItemId": -450890885,
     "ShortName": "wall.frame.lunar2025_b",
-    "DisplayName": "Wall Divider Pack",
+    "DisplayName": "Lunar Wall Frame Inlay",
     "DisplayDescription": "A Lunar New Year themed decorative wall divider with swirling inlay",
     "Category": "Construction",
     "IsWearable": false,
@@ -11970,7 +11970,7 @@
   {
     "ItemId": 1115193056,
     "ShortName": "wall.frame.lunar2025_a",
-    "DisplayName": "Wall Divider Pack",
+    "DisplayName": "Lunar Wall Frame Inlay",
     "DisplayDescription": "A Lunar New Year themed decorative wall divider with geometric inlay",
     "Category": "Construction",
     "IsWearable": false,
