@@ -61,6 +61,49 @@
     }
   },
   {
+    "ItemId": -2127311451,
+    "ShortName": "bdu.shirt",
+    "DisplayName": "BDU shirt",
+    "DisplayDescription": "A standard issue battle dress uniform shirt. Old, worn and stained, but provides moderate protection.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 0,
+      "OccupationUnder": 504,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.25,
+        "Slash": 0.25,
+        "Blunt": 0.25,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.35,
+        "Stab": 0.2,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.05,
+        "ColdExposure": 0.3,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.2,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
+  },
+  {
     "ItemId": -2124352573,
     "ShortName": "fun.guitar",
     "DisplayName": "Acoustic Guitar",
@@ -494,7 +537,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 1048583,
-      "OccupationUnder": 0,
+      "OccupationUnder": 7,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -905,7 +948,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 1048583,
-      "OccupationUnder": 0,
+      "OccupationUnder": 7,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -1201,6 +1244,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1800102806,
+    "ShortName": "discord.plushie",
+    "DisplayName": "Wumpus Plush",
+    "DisplayDescription": "Exclusive to the Rust Shop on Discord!",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1796837031,
     "ShortName": "crocodilemeat.spoiled",
     "DisplayName": "Spoiled Crocodile Meat",
@@ -1287,6 +1339,49 @@
     "Category": "Tool",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": -1780402255,
+    "ShortName": "ballistic.vest",
+    "DisplayName": "Ballistic vest",
+    "DisplayDescription": "A standard issue military ballstic vest. Worn, used, and dirty, but highly protective.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 120,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.35,
+        "Slash": 0.3,
+        "Blunt": 0.4,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.2,
+        "Stab": 0.2,
+        "Explosion": 0.2,
+        "RadiationExposure": 0.0,
+        "ColdExposure": -0.2,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.34,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
   },
   {
     "ItemId": -1779203452,
@@ -2046,7 +2141,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 7,
-      "OccupationUnder": 0,
+      "OccupationUnder": 7,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -4011,7 +4106,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 5,
-      "OccupationUnder": 0,
+      "OccupationUnder": 5,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -4055,11 +4150,29 @@
     "Wearable": null
   },
   {
+    "ItemId": -1019111952,
+    "ShortName": "industrial.storage.horizontal",
+    "DisplayName": "Industrial Storage Horizontal Barrel",
+    "DisplayDescription": "Horizontal barrel to store industrial materials",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1018587433,
     "ShortName": "fat.animal",
     "DisplayName": "Animal Fat",
     "DisplayDescription": "Harvested from animals, combine with cloth to create a low quality fuel source.",
     "Category": "Resources",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1018026008,
+    "ShortName": "salvaged.industrial.shelves",
+    "DisplayName": "Salvaged Industrial Shelves",
+    "DisplayDescription": "Shelves for item stacking",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4124,7 +4237,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 5,
-      "OccupationUnder": 0,
+      "OccupationUnder": 5,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -4692,6 +4805,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -883975138,
+    "ShortName": "industrial.storage.vertical",
+    "DisplayName": "Industrial Storage Vertical Barrel",
+    "DisplayDescription": "Vertical barrel to store industrial materials",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -880494890,
     "ShortName": "abyss.barrel.horizontal",
     "DisplayName": "Abyss Horizontal Storage Tank",
@@ -5090,6 +5212,15 @@
     "DisplayName": "Shop Front",
     "DisplayDescription": "A shop front to do commerce.",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -786398324,
+    "ShortName": "industrial.autoturret",
+    "DisplayName": "Industrial Auto Turret",
+    "DisplayDescription": "This automated electric sentry turret will engage and neutralize any moving targets it has line of sight to. You must equip it with a projectile weapon and the corresponding ammunition. Note : The turret will search for targets in a 180 degree arc facing *you* when you place it. Requires 10 power.",
+    "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5868,7 +5999,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 5,
-      "OccupationUnder": 0,
+      "OccupationUnder": 5,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -6952,6 +7083,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -265202949,
+    "ShortName": "wall.shallow.industrial.shelves",
+    "DisplayName": "Industrial Wall Shelves",
+    "DisplayDescription": "A shallow industrial wall shelf for small item stacking",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -262590403,
     "ShortName": "axe.salvaged",
     "DisplayName": "Salvaged Axe",
@@ -7209,8 +7349,8 @@
   {
     "ItemId": -193519904,
     "ShortName": "single.shallow.wall.shelves",
-    "DisplayName": "Single Shallow Wall Shelves",
-    "DisplayDescription": "Single Shallow Wall Shelves",
+    "DisplayName": "Bamboo Wall Shelves",
+    "DisplayDescription": "A shallow bamboo wall shelf for small item stacking",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -8198,6 +8338,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 4474927,
+    "ShortName": "industrial.torch",
+    "DisplayName": "Industrial Torch",
+    "DisplayDescription": "An old mining lamp used as a torch. Lights your way at night and can be used as a weapon",
+    "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 14241751,
     "ShortName": "arrow.fire",
     "DisplayName": "Fire Arrow",
@@ -8977,6 +9126,15 @@
     }
   },
   {
+    "ItemId": 225892284,
+    "ShortName": "industrial.electric.furnace",
+    "DisplayName": "Industrial Electric Furnace",
+    "DisplayDescription": "An electrical version of a furnace that uses electricity instead of a fuel source.",
+    "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 236677901,
     "ShortName": "lumberjack.pickaxe",
     "DisplayName": "Prototype Pickaxe",
@@ -9366,6 +9524,15 @@
     "DisplayName": "MLRS Aiming Module",
     "DisplayDescription": "An aiming system computer module for an MLRS vehicle.",
     "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 346569548,
+    "ShortName": "industrial.garagedoor",
+    "DisplayName": "Industrial Garage Door",
+    "DisplayDescription": "A garage door that rolls up and down.",
+    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   },
@@ -10063,6 +10230,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 599591861,
+    "ShortName": "m16a2",
+    "DisplayName": "M16A2",
+    "DisplayDescription": "A reliable burst-fire only rifle offering excellent accuracy and firerate.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 602628465,
     "ShortName": "parachute",
     "DisplayName": "Parachute",
@@ -10621,6 +10797,15 @@
     "DisplayName": "Pistol Bullet",
     "DisplayDescription": "Ammunition for a Pistol. Loses velocity when fired over long distances resulting in slightly decreased damage.",
     "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 786458957,
+    "ShortName": "halfheight.industrial.shelves",
+    "DisplayName": "Half Height Industrial Shelves",
+    "DisplayDescription": "Half height industrial shelves for stacking",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -11382,7 +11567,7 @@
     "IsWearable": true,
     "Wearable": {
       "OccupationOver": 1048581,
-      "OccupationUnder": 0,
+      "OccupationUnder": 5,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -11993,6 +12178,49 @@
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": 1127732084,
+    "ShortName": "ballistic.helmet",
+    "DisplayName": "Ballistic helmet",
+    "DisplayDescription": "Ballistic helmet with superior protection.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 1048583,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.6,
+        "Slash": 0.8,
+        "Blunt": 0.8,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.6,
+        "Stab": 0.7,
+        "Explosion": 0.8,
+        "RadiationExposure": 0.0,
+        "ColdExposure": -0.15,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.7,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
   },
   {
     "ItemId": 1130729138,
@@ -13206,6 +13434,49 @@
     "Wearable": null
   },
   {
+    "ItemId": 1468749025,
+    "ShortName": "bdu.pants",
+    "DisplayName": "BDU pants",
+    "DisplayDescription": "A pair of standard issue battle dress uniform pants. Old, worn, stained, but provides moderate protection.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 0,
+      "OccupationUnder": 129024,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.2,
+        "Slash": 0.25,
+        "Blunt": 0.25,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.2,
+        "Stab": 0.15,
+        "Explosion": 0.0,
+        "RadiationExposure": 0.05,
+        "ColdExposure": 0.35,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.2,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
+  },
+  {
     "ItemId": 1470387662,
     "ShortName": "workbench.upgrade.range",
     "DisplayName": "Range Workbench Upgrade",
@@ -13630,8 +13901,8 @@
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
-      "OccupationOver": 0,
-      "OccupationUnder": 129528,
+      "OccupationOver": 129520,
+      "OccupationUnder": 0,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -14831,6 +15102,15 @@
     }
   },
   {
+    "ItemId": 1868984394,
+    "ShortName": "industrial.furnace.large",
+    "DisplayName": "Large Industrial Furnace",
+    "DisplayDescription": "Used to smelt large quantities of ore. Difficult to secure, must be placed on terrain.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1869224826,
     "ShortName": "motorbike_sidecar",
     "DisplayName": "Motorbike With Sidecar",
@@ -15241,6 +15521,49 @@
     "Wearable": null
   },
   {
+    "ItemId": 1983541158,
+    "ShortName": "ballistic.legarmor",
+    "DisplayName": "Ballistic leg armour",
+    "DisplayDescription": "A pair of ballistic leg armour pieces. worn, used, and a bit grubby, but highly protective.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 129024,
+      "OccupationUnder": 0,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.3,
+        "Slash": 0.3,
+        "Blunt": 0.3,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.6,
+        "Stab": 0.4,
+        "Explosion": 0.2,
+        "RadiationExposure": 0.0,
+        "ColdExposure": -0.2,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
+  },
+  {
     "ItemId": 1983621560,
     "ShortName": "floor.triangle.grill",
     "DisplayName": "Floor triangle grill",
@@ -15352,6 +15675,15 @@
     "DisplayName": "Advanced Rad. Removal Tea",
     "DisplayDescription": "A tea that removes some radiation.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2022157467,
+    "ShortName": "crossbowbowless",
+    "DisplayName": "Bowless Crossbow",
+    "DisplayDescription": "A bowless crossbow for fans of DIY",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
