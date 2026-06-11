@@ -2000,6 +2000,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1622386500,
+    "ShortName": "kickgems",
+    "DisplayName": "Gems",
+    "DisplayDescription": "Looks valuable",
+    "Category": "Resources",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1622110948,
     "ShortName": "attire.banditguard",
     "DisplayName": "Bandit Guard Gear",
