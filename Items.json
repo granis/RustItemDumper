@@ -9637,6 +9637,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 374496151,
+    "ShortName": "charity.plushie.05",
+    "DisplayName": "Humane World Charity 2026 Plushie",
+    "DisplayDescription": "TEXT TBD",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 375473148,
     "ShortName": "scraptransportheli",
     "DisplayName": "Scrap Transport Helicopter",
@@ -14285,6 +14294,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1664052604,
+    "ShortName": "apartment.master_key",
+    "DisplayName": "Apartment Key",
+    "DisplayDescription": "An old rusty key that can open the door to an apartment.",
+    "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1668129151,
     "ShortName": "fish.cooked",
     "DisplayName": "Cooked Fish",
@@ -15961,6 +15979,15 @@
     }
   },
   {
+    "ItemId": 2130820927,
+    "ShortName": "charity.plushy.04",
+    "DisplayName": "Cancer Research UK 2026 Plushie",
+    "DisplayDescription": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in July 2026 to support Cancer Research UK, each purchase helped fund real-world cancer research.\n\nwww.cancerresearchuk.org",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 2130820932,
     "ShortName": "charity.plushy.01",
     "DisplayName": "Cancer Research UK Plushie",
@@ -15974,6 +16001,15 @@
     "ShortName": "charity.plushy.02",
     "DisplayName": "Ronald McDonald House UK Plushie",
     "DisplayDescription": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in October 2025 to support Ronald McDonald House Charities UK, helping ease the burden on families by providing free ‘home away from home’ accommodation near hospitals.\n\nwww.rmhc.org.uk",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2130820934,
+    "ShortName": "charity.plushy.03",
+    "DisplayName": "Ronald McDonald House UK 2026 Plushie",
+    "DisplayDescription": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in July 2026 to support Ronald McDonald House Charities UK, helping ease the burden on families by providing free ‘home away from home’ accommodation near hospitals.\n\nwww.rmhc.org.uk",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
