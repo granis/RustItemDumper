@@ -7844,8 +7844,8 @@
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
-      "OccupationOver": 129520,
-      "OccupationUnder": 0,
+      "OccupationOver": 0,
+      "OccupationUnder": 129528,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
@@ -13919,8 +13919,8 @@
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
-      "OccupationOver": 129520,
-      "OccupationUnder": 0,
+      "OccupationOver": 0,
+      "OccupationUnder": 129528,
       "IsBackpack": false,
       "ProtectionProperties": {
         "Generic": 0.0,
