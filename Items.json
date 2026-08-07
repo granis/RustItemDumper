@@ -431,7 +431,7 @@
         "Bleeding": 0.0,
         "Poison": 0.0,
         "Suicide": 0.0,
-        "Bullet": 0.15,
+        "Bullet": 0.17,
         "Slash": 0.15,
         "Blunt": 0.15,
         "Fall": 0.0,
@@ -439,7 +439,7 @@
         "Bite": 0.3,
         "Stab": 0.15,
         "Explosion": 0.0,
-        "RadiationExposure": 0.025,
+        "RadiationExposure": 0.055,
         "ColdExposure": 0.35,
         "Decay": 0.0,
         "ElectricShock": 0.0,
@@ -1621,6 +1621,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1748166144,
+    "ShortName": "pooltable",
+    "DisplayName": "Pool Table",
+    "DisplayDescription": "A classic game of pool to challenge your friends, or foes. Hold the interact key to choose between a single or two-player game.",
+    "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1736356576,
     "ShortName": "target.reactive",
     "DisplayName": "Reactive Target",
@@ -1946,6 +1955,15 @@
         "Cannon": 1.0
       }
     }
+  },
+  {
+    "ItemId": -1639742441,
+    "ShortName": "bar.stool.metal",
+    "DisplayName": "Metal Bar Stool",
+    "DisplayDescription": "Pull up a stool and have a drink. A decorative item which provides comfort while seated.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": -1624770297,
@@ -2749,6 +2767,15 @@
     "ShortName": "goldmirror.small",
     "DisplayName": "Gold Mirror Small",
     "DisplayDescription": "A small gold mirror",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1444366079,
+    "ShortName": "bar.stool.wood",
+    "DisplayName": "Wooden Bar Stool",
+    "DisplayDescription": "Pull up a stool and have a drink. A decorative item which provides comfort while seated.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -4177,6 +4204,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1018085504,
+    "ShortName": "jukebox",
+    "DisplayName": "Jukebox",
+    "DisplayDescription": "A Jukebox that brings the tunes! Play recorded cassette tapes or stream audio from the internet. Fitted with a matrix display that shows the tuned station. Open the settings to change audio options.",
+    "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1018026008,
     "ShortName": "salvaged.industrial.shelves",
     "DisplayName": "Salvaged Industrial Shelves",
@@ -4608,6 +4644,15 @@
     }
   },
   {
+    "ItemId": -945548410,
+    "ShortName": "fuse.highgrade",
+    "DisplayName": "Heavy Fuse",
+    "DisplayDescription": "Lasts longer than a regular fuse and is compatible with and able to restore a Power Plant. Will have to be replaced after a period of time.",
+    "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -939424778,
     "ShortName": "electric.flasherlight",
     "DisplayName": "Flasher Light",
@@ -4627,7 +4672,7 @@
   },
   {
     "ItemId": -935322684,
-    "ShortName": "4module car",
+    "ShortName": "4module.car",
     "DisplayName": "4 Module Car",
     "DisplayDescription": "4 Module Car",
     "Category": "Misc",
@@ -4898,6 +4943,15 @@
     }
   },
   {
+    "ItemId": -872679147,
+    "ShortName": "dartboard",
+    "DisplayName": "Dart Board",
+    "DisplayDescription": "Throw some darts! Compete with others in a leaderboard. Hold the interact key to choose between a single or two-player game.",
+    "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -870140677,
     "ShortName": "venom.snake",
     "DisplayName": "Snake Venom",
@@ -4917,7 +4971,7 @@
   },
   {
     "ItemId": -866121090,
-    "ShortName": "2module car",
+    "ShortName": "2module.car",
     "DisplayName": "2 Module Car",
     "DisplayDescription": "A motorbike.",
     "Category": "Misc",
@@ -5059,7 +5113,7 @@
   },
   {
     "ItemId": -831725027,
-    "ShortName": "3module car",
+    "ShortName": "3module.car",
     "DisplayName": "3 Module Car",
     "DisplayDescription": "3 Module Car",
     "Category": "Misc",
@@ -6208,7 +6262,7 @@
   {
     "ItemId": -551431036,
     "ShortName": "wallpaper.flooring",
-    "DisplayName": "Wallpaper Flooring",
+    "DisplayName": "Flooring",
     "DisplayDescription": null,
     "Category": "Items",
     "IsWearable": false,
@@ -7242,7 +7296,7 @@
   },
   {
     "ItemId": -226151558,
-    "ShortName": "2module car chassis",
+    "ShortName": "2module.car.chassis",
     "DisplayName": "2 Module Car Chassis",
     "DisplayDescription": "2 Module Car Chassis",
     "Category": "Misc",
@@ -7986,11 +8040,11 @@
         "Blunt": 0.3,
         "Fall": 0.0,
         "Radiation": 0.1,
-        "Bite": 0.3,
+        "Bite": 1.2,
         "Stab": 0.3,
         "Explosion": 0.0,
         "RadiationExposure": 0.2,
-        "ColdExposure": 1.0,
+        "ColdExposure": 1.8,
         "Decay": 0.0,
         "ElectricShock": 0.0,
         "Arrow": 0.2,
@@ -9530,8 +9584,8 @@
   {
     "ItemId": 343045591,
     "ShortName": "aiming.module.mlrs",
-    "DisplayName": "MLRS Aiming Module",
-    "DisplayDescription": "An aiming system computer module for an MLRS vehicle.",
+    "DisplayName": "Aiming Module",
+    "DisplayDescription": "An aiming system computer module for MLRS vehicles and satellite control terminals.",
     "Category": "Component",
     "IsWearable": false,
     "Wearable": null
@@ -9576,6 +9630,15 @@
       "IsBackpack": false,
       "ProtectionProperties": null
     }
+  },
+  {
+    "ItemId": 352442426,
+    "ShortName": "gamesroom.minifridge",
+    "DisplayName": "Bar Games Minifridge",
+    "DisplayDescription": "A small fridge you can store food into and keep your drink cool!",
+    "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 352499047,
@@ -9637,15 +9700,6 @@
     "Wearable": null
   },
   {
-    "ItemId": 374496151,
-    "ShortName": "charity.plushie.05",
-    "DisplayName": "Humane World Charity 2026 Plushie",
-    "DisplayDescription": "TEXT TBD",
-    "Category": "Items",
-    "IsWearable": false,
-    "Wearable": null
-  },
-  {
     "ItemId": 375473148,
     "ShortName": "scraptransportheli",
     "DisplayName": "Scrap Transport Helicopter",
@@ -9674,7 +9728,7 @@
   },
   {
     "ItemId": 385099196,
-    "ShortName": "4module car chassis",
+    "ShortName": "4module.car.chassis",
     "DisplayName": "4 Module Car Chassis",
     "DisplayDescription": "4 Module Car Chassis",
     "Category": "Misc",
@@ -9705,6 +9759,15 @@
     "DisplayName": "Cooked Crocodile Meat",
     "DisplayDescription": "Delicious Crocodile Meat, Eating it will restore some health, hunger, and thirst.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 399522257,
+    "ShortName": "gamesroom.shotgun.trap",
+    "DisplayName": "Bar Games Shotgun Trap",
+    "DisplayDescription": "A shotgun trap triggered by movement, place near doorways and load with handmade shells.",
+    "Category": "Traps",
     "IsWearable": false,
     "Wearable": null
   },
@@ -10133,7 +10196,7 @@
   {
     "ItemId": 553967074,
     "ShortName": "wallpaper.wall",
-    "DisplayName": "Wallpaper Wall",
+    "DisplayName": "Wallpaper",
     "DisplayDescription": null,
     "Category": "Tool",
     "IsWearable": false,
@@ -11261,12 +11324,12 @@
         "Bleeding": 0.0,
         "Poison": 0.0,
         "Suicide": 0.0,
-        "Bullet": 0.2,
+        "Bullet": 0.25,
         "Slash": 0.5,
         "Blunt": 0.5,
         "Fall": 0.0,
         "Radiation": 0.0,
-        "Bite": 0.5,
+        "Bite": 0.8,
         "Stab": 0.5,
         "Explosion": 0.5,
         "RadiationExposure": 0.04,
@@ -11597,12 +11660,12 @@
         "Bleeding": 0.0,
         "Poison": 0.0,
         "Suicide": 0.0,
-        "Bullet": 0.2,
+        "Bullet": 0.25,
         "Slash": 0.5,
         "Blunt": 0.5,
         "Fall": 0.0,
         "Radiation": 0.0,
-        "Bite": 0.5,
+        "Bite": 0.8,
         "Stab": 0.5,
         "Explosion": 0.5,
         "RadiationExposure": 0.04,
@@ -13523,7 +13586,7 @@
   },
   {
     "ItemId": 1482871705,
-    "ShortName": "3module car chassis",
+    "ShortName": "3module.car.chassis",
     "DisplayName": "3 Module Car Chassis",
     "DisplayDescription": "3 Module Car Chassis",
     "Category": "Misc",
@@ -14253,12 +14316,12 @@
         "Bleeding": 0.0,
         "Poison": 0.0,
         "Suicide": 0.0,
-        "Bullet": 0.2,
+        "Bullet": 0.25,
         "Slash": 0.5,
         "Blunt": 0.5,
         "Fall": 0.0,
         "Radiation": 0.0,
-        "Bite": 0.5,
+        "Bite": 0.8,
         "Stab": 0.5,
         "Explosion": 0.5,
         "RadiationExposure": 0.04,
@@ -14734,6 +14797,15 @@
     }
   },
   {
+    "ItemId": 1754952075,
+    "ShortName": "thruster.module",
+    "DisplayName": "Thruster Module",
+    "DisplayDescription": "A thruster module salvaged from crashed satellite remains. The more fuel left in the satellite when it was brought down, the better its condition.",
+    "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1757265204,
     "ShortName": "easter.silveregg",
     "DisplayName": "Silver Egg",
@@ -15066,6 +15138,15 @@
         "Cannon": 1.0
       }
     }
+  },
+  {
+    "ItemId": 1852905808,
+    "ShortName": "sculpture.rock",
+    "DisplayName": "Stone Sculpture",
+    "DisplayDescription": "A block of stone you can sculpt.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 1856217390,
@@ -15982,7 +16063,7 @@
     "ItemId": 2130820927,
     "ShortName": "charity.plushy.04",
     "DisplayName": "Cancer Research UK 2026 Plushie",
-    "DisplayDescription": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in July 2026 to support Cancer Research UK, each purchase helped fund real-world cancer research.\n\nwww.cancerresearchuk.org",
+    "DisplayDescription": "A soft and squishy plush that provides comfort in your base.\n\nCancer Research UK (reg charity nos. 1089464, SC041666, 1103 and 247)\nwill get 100% of the net sales of the Cancer Research UK Plushie*.  \n\n*Net sales being gross sales less refunds and after Steam platform fees (20%) and sales tax typically around 10-11%.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
