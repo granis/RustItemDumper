@@ -913,6 +913,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1920964108,
+    "ShortName": "rifle.ak.glass",
+    "DisplayName": "Crystal Assault Rifle Diamond",
+    "DisplayDescription": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1916473915,
     "ShortName": "chineselantern",
     "DisplayName": "Chinese Lantern",
@@ -1258,6 +1267,15 @@
     "DisplayName": "Spoiled Crocodile Meat",
     "DisplayDescription": "Spoiled Crocodile Meat. Consuming will damage your health.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1795386514,
+    "ShortName": "rifle.ak.glass.pink",
+    "DisplayName": "Crystal Assault Rifle Pink Diamond",
+    "DisplayDescription": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3656,6 +3674,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1156572922,
+    "ShortName": "rifle.ak.glass.blue",
+    "DisplayName": "Crystal Assault Rifle Sapphire",
+    "DisplayDescription": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1151332840,
     "ShortName": "door.double.hinged.bardoors",
     "DisplayName": "Wooden Frontier Bar Doors",
@@ -3997,6 +4024,15 @@
     "DisplayName": "Storage Adaptor",
     "DisplayDescription": "Attach to a storage container to allow industrial input/output connections.",
     "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1045971123,
+    "ShortName": "rifle.ak.glass.red",
+    "DisplayName": "Crystal Assault Rifle Ruby",
+    "DisplayDescription": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
+    "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5718,7 +5754,7 @@
     "ItemId": -695978112,
     "ShortName": "smart.alarm",
     "DisplayName": "Smart Alarm",
-    "DisplayDescription": "Sends a notifications to your phone when powered on.",
+    "DisplayDescription": "Sends notifications to your phone when powered on.",
     "Category": "Electrical",
     "IsWearable": false,
     "Wearable": null
@@ -7997,6 +8033,24 @@
     "Wearable": null
   },
   {
+    "ItemId": -75264812,
+    "ShortName": "medical.honey.bandage",
+    "DisplayName": "Medical Honey Bandage",
+    "DisplayDescription": "Heal yourself and others with this medical honey bandage. Left click heals you, right click heals others.",
+    "Category": "Medical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -75136407,
+    "ShortName": "rifle.ak.glass.green",
+    "DisplayName": "Crystal Assault Rifle Emerald",
+    "DisplayDescription": "Machined from the toughest gemstones, this Assault Rifle skin will show each and every shot you take.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -73195037,
     "ShortName": "legacy bow",
     "DisplayName": "Legacy Bow",
@@ -8257,6 +8311,15 @@
     "DisplayName": "Hammerhead Bolt",
     "DisplayDescription": "Heavy and solid bolt for a ballista, designed to hammer through doors.",
     "Category": "Ammunition",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -18034684,
+    "ShortName": "firework.boomer.white",
+    "DisplayName": "White Boomer",
+    "DisplayDescription": "A very large mortar type firework with a white starburst",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9932,7 +9995,7 @@
   {
     "ItemId": 472505338,
     "ShortName": "rifle.ak.med",
-    "DisplayName": "Medieval AR",
+    "DisplayName": "Medieval Assault Rifle",
     "DisplayDescription": "Medieval themed high damage machine rifle.",
     "Category": "Weapon",
     "IsWearable": false,
@@ -11717,8 +11780,8 @@
   {
     "ItemId": 972302244,
     "ShortName": "hazmatsuit.kick",
-    "DisplayName": "Kick Hazmat",
-    "DisplayDescription": "Hazmat obtained during Kick Drops 2025",
+    "DisplayName": "KICK Hazmat",
+    "DisplayDescription": "Unique hazmat suit obtainable during KICK Drops 2025",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
