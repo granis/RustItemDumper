@@ -816,6 +816,15 @@
     }
   },
   {
+    "ItemId": -1957595450,
+    "ShortName": "muttonmeat",
+    "DisplayName": "Raw Mutton",
+    "DisplayDescription": "Raw Mutton. Eating it will damage your health, try cooking it first.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1953279770,
     "ShortName": "workbench.upgrade.defensive",
     "DisplayName": "Defensive Workbench Upgrade",
@@ -1019,6 +1028,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1882497808,
+    "ShortName": "radiationresisttea.pure.creamy",
+    "DisplayName": "Creamy Pure Anti-Rad Tea",
+    "DisplayDescription": "A pure tea that provides hydration and temporarily increases your resistance to radiation a large amount. Enriched with cream for a stronger, shorter lived effect.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1880870149,
     "ShortName": "keycard_red",
     "DisplayName": "Red Keycard",
@@ -1118,6 +1136,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1846744758,
+    "ShortName": "pie.apple.rich",
+    "DisplayName": "Rich Apple Pie",
+    "DisplayDescription": "An apple pie enriched with cream. Provides a boost to hunger, health and hydration. Gives better night vision, including tree markings and ore hotspots, for a long time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1843426638,
     "ShortName": "ammo.rocket.mlrs",
     "DisplayName": "MLRS Rocket",
@@ -1175,7 +1202,7 @@
     "ItemId": -1824770114,
     "ShortName": "skylantern.skylantern.orange",
     "DisplayName": "Sky Lantern - Orange",
-    "DisplayDescription": "#skylantern.skylantern.orange.desc",
+    "DisplayDescription": "A beautiful orange sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
     "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
@@ -1204,6 +1231,15 @@
     "DisplayName": "Water Pistol",
     "DisplayDescription": "A small water gun that doesn't require pumping, but has a lower range and output.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1814195745,
+    "ShortName": "wall.animal.fence",
+    "DisplayName": "Animal Fence",
+    "DisplayDescription": "A sturdy fence for penning animals.",
+    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1588,7 +1624,7 @@
     "ItemId": -1770889433,
     "ShortName": "skylantern.skylantern.green",
     "DisplayName": "Sky Lantern - Green",
-    "DisplayDescription": "#skylantern.skylantern.green.desc",
+    "DisplayDescription": "A beautiful green sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
     "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
@@ -1828,7 +1864,7 @@
     "ShortName": "wall.graveyard.fence",
     "DisplayName": "Graveyard Fence",
     "DisplayDescription": "A Spooky Fence",
-    "Category": "Misc",
+    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1874,6 +1910,24 @@
     "DisplayName": "Homemade Landmine",
     "DisplayDescription": "Homemade Landmine. If you stand on one, you can ask a friend to disarm it before it explodes.",
     "Category": "Traps",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1661676046,
+    "ShortName": "pureharvestingtea.creamy",
+    "DisplayName": "Creamy Pure Harvesting Tea",
+    "DisplayDescription": "A pure harvesting tea, provides hydration and temporarily increases the amount of resources you receive from harvesting corpses a large amount. Enriched with cream for a stronger, shorter lived effect.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1661343913,
+    "ShortName": "generator.biofuel",
+    "DisplayName": "Biofuel Generator",
+    "DisplayDescription": "A large pot that can convert organic matter into fuel.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1973,6 +2027,15 @@
         "Cannon": 1.0
       }
     }
+  },
+  {
+    "ItemId": -1644292642,
+    "ShortName": "healingtea.pure.milky",
+    "DisplayName": "Milky Pure Healing Tea",
+    "DisplayDescription": "A pure healing tea, provides hydration and heals you a large amount over time. Enriched with milk to make the effect last longer.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": -1639742441,
@@ -2151,6 +2214,49 @@
     "Wearable": null
   },
   {
+    "ItemId": -1587608109,
+    "ShortName": "hazmat.plague",
+    "DisplayName": "Plague Doctor Hazmat Suit",
+    "DisplayDescription": "The Plague Doctor delivers no cure - only death and decay. Bring out your dead, or prepare to join them.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 2097151,
+      "OccupationUnder": -1,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.5,
+        "Drowned": 1.0,
+        "Heat": 0.0,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.3,
+        "Slash": 0.3,
+        "Blunt": 0.3,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.5,
+        "Stab": 0.3,
+        "Explosion": 0.3,
+        "RadiationExposure": 0.5,
+        "ColdExposure": 0.5,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.3,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 3.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
+  },
+  {
     "ItemId": -1583967946,
     "ShortName": "stonehatchet",
     "DisplayName": "Stone Hatchet",
@@ -2171,7 +2277,7 @@
   {
     "ItemId": -1579932985,
     "ShortName": "horsedung",
-    "DisplayName": "Horse Dung",
+    "DisplayName": "Dung",
     "DisplayDescription": "Fresh and fertile.",
     "Category": "Resources",
     "IsWearable": false,
@@ -2756,8 +2862,8 @@
   {
     "ItemId": -1467876094,
     "ShortName": "50cal.mounted.left",
-    "DisplayName": "#50cal",
-    "DisplayDescription": "#50cal.desc",
+    "DisplayName": "Dual 50 Cal Turret",
+    "DisplayDescription": "Dual 50 Cal Turret",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -2847,7 +2953,7 @@
     "ItemId": -1433390281,
     "ShortName": "skylantern.skylantern.red",
     "DisplayName": "Sky Lantern - Red",
-    "DisplayDescription": "#skylantern.skylantern.red.desc",
+    "DisplayDescription": "A beautiful red sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
     "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
@@ -2935,6 +3041,15 @@
     "DisplayName": "Muzzle Boost",
     "DisplayDescription": "Increases weapon fire rate by channeling gasses back into the weapon cycling it faster, at the cost of bullet accuracy.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1388103748,
+    "ShortName": "maxhealthtea.pure.milky",
+    "DisplayName": "Milky Pure Max Health Tea",
+    "DisplayDescription": "A pure health tea, provides hydration and temporarily boosts maximum health a large amount. Enriched with milk to make the effect last longer.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3043,6 +3158,15 @@
     "DisplayName": "Wanted Poster",
     "DisplayDescription": "A poster that can display a given player's face as wanted.",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1341272471,
+    "ShortName": "radiationresisttea.pure.milky",
+    "DisplayName": "Milky Pure Anti-Rad Tea",
+    "DisplayDescription": "A pure tea that provides hydration and temporarily increases your resistance to radiation a large amount. Enriched with milk to make the effect last longer.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3428,6 +3552,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1244746477,
+    "ShortName": "maxhealthtea.pure.creamy",
+    "DisplayName": "Creamy Pure Max Health Tea",
+    "DisplayDescription": "A pure health tea, provides hydration and temporarily boosts maximum health a large amount. Enriched with cream for a stronger, shorter lived effect.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1244287686,
     "ShortName": "scrapframe.xl",
     "DisplayName": "Shutter Frame XL",
@@ -3546,6 +3679,15 @@
     "DisplayName": "Electric Furnace",
     "DisplayDescription": "An electrical version of a furnace that uses electricity instead of a fuel source.",
     "Category": "Electrical",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1188678681,
+    "ShortName": "pie.hunters.rich",
+    "DisplayName": "Rich Hunters Pie",
+    "DisplayDescription": "A hunters pie enriched with cream, made with real deer. Provides a boost to hunger, health and hydration. Stops bleeding for a short time.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3947,6 +4089,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1088645302,
+    "ShortName": "barricade.sandbags.pillbox",
+    "DisplayName": "#barricade.sandbags.pillbox",
+    "DisplayDescription": "#barricade.sandbags.pillbox.desc",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1081599445,
     "ShortName": "crocodilemeat",
     "DisplayName": "Raw Crocodile Meat",
@@ -3988,6 +4139,15 @@
     "DisplayName": "Shutter Frame Medium",
     "DisplayDescription": "A medium shutter frame",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1057052157,
+    "ShortName": "scraptea.pure.milky",
+    "DisplayName": "Milky Pure Scrap Tea",
+    "DisplayDescription": "A pure scrap tea, temporarily increases the amount of scrap you receive from barrels a large amount. Enriched with milk to make the effect last longer.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4218,6 +4378,15 @@
     "DisplayName": "Metal Spring",
     "DisplayDescription": "A metal spring. Used to provide motion or resistance in objects.",
     "Category": "Component",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1019639625,
+    "ShortName": "skimmedmilk",
+    "DisplayName": "Skimmed Milk",
+    "DisplayDescription": "Milk with the cream separated out. Hydrating, but less calorie dense than whole milk.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4770,6 +4939,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -909588488,
+    "ShortName": "bread.brioche.loaf",
+    "DisplayName": "Brioche Bread",
+    "DisplayDescription": "A loaf of rich brioche bread, eating it provides a large boost to health, hunger and hydration. Feeding to a horse will provide a boost to its digestion and dung production for a short time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -907422733,
     "ShortName": "largebackpack",
     "DisplayName": "Large Backpack",
@@ -5006,6 +5184,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -867055736,
+    "ShortName": "pie.beef.rich",
+    "DisplayName": "Rich Beef Pie",
+    "DisplayDescription": "A pie made of beef, enriched with cream. Increases the maximum amount of food that can be eaten, up to double the normal amount. High calorie consumption increases chance of recovering from injuries.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -866121090,
     "ShortName": "2module.car",
     "DisplayName": "2 Module Car",
@@ -5092,6 +5279,15 @@
     "DisplayName": "Landscape Picture Frame",
     "DisplayDescription": "A landscape oriented canvas for artists paintings.",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -844428380,
+    "ShortName": "woodtea.pure.creamy",
+    "DisplayName": "Creamy Pure Wood Tea",
+    "DisplayDescription": "A pure wood tea, temporarily increases the yield from cutting trees a large amount. Enriched with cream for a stronger, shorter lived effect.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5565,6 +5761,15 @@
     "ShortName": "granolabar",
     "DisplayName": "Granola Bar",
     "DisplayDescription": "Granola Bar found as loot. Eating it provides a small boost to health, hunger.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -744942541,
+    "ShortName": "oretea.pure.creamy",
+    "DisplayName": "Creamy Pure Ore Tea",
+    "DisplayDescription": "A pure ore tea, provides hydration and temporarily increases your yield when harvesting ores a large amount. Enriched with cream for a stronger, shorter lived effect.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -6229,7 +6434,7 @@
     "ItemId": -559599960,
     "ShortName": "barricade.sandbags",
     "DisplayName": "Sandbag Barricade",
-    "DisplayDescription": "A protective barricade made out of Sand Bags.",
+    "DisplayDescription": "A protective barricade made out of Sand Bags. Deploy another one on top to build it higher, up to a sandbag pillbox.",
     "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
@@ -7040,6 +7245,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -319133397,
+    "ShortName": "muttonmeat.cooked",
+    "DisplayName": "Cooked Mutton",
+    "DisplayDescription": "Delicious Mutton, Eating it will restore some health, hunger, and thirst.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -316250604,
     "ShortName": "ladder.wooden.wall",
     "DisplayName": "Wooden Ladder",
@@ -7340,6 +7554,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -219005627,
+    "ShortName": "barricade.sandbags.half",
+    "DisplayName": "#barricade.sandbags.half",
+    "DisplayDescription": "A protective barricade made out of Sand Bags. Deploy another one on top to build it higher, up to a sandbag pillbox.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -218009552,
     "ShortName": "homingmissile.launcher",
     "DisplayName": "Homing Missile Launcher",
@@ -7381,6 +7604,15 @@
     "DisplayName": "Decorative Plastic Candy Canes",
     "DisplayDescription": "Decorative Plastic Candy Canes you can hang on your Christmas tree",
     "Category": "Misc",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -201824959,
+    "ShortName": "beefmeat",
+    "DisplayName": "Raw Beef",
+    "DisplayDescription": "Raw Beef. Eating it will damage your health, try cooking it first.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -7794,6 +8026,15 @@
     "DisplayName": "Weapon Lasersight",
     "DisplayDescription": "Attaches to a weapon. Provides user with a guiding laser and reduces weapon sway.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -132349657,
+    "ShortName": "healingtea.pure.creamy",
+    "DisplayName": "Creamy Pure Healing Tea",
+    "DisplayDescription": "A pure healing tea, provides hydration and heals you a large amount over time. Enriched with cream for a stronger, shorter lived effect.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8778,6 +9019,15 @@
     }
   },
   {
+    "ItemId": 91167975,
+    "ShortName": "purewarmingtea.milky",
+    "DisplayName": "Milky Pure Warming Tea",
+    "DisplayDescription": "A pure warming tea that temporarily increases both your core and minimum temperature. Enriched with milk to make the effect last longer.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 94971664,
     "ShortName": "component.box.stone.large",
     "DisplayName": "Stone Storage Box",
@@ -8992,8 +9242,8 @@
   {
     "ItemId": 162882477,
     "ShortName": "50cal.mounted",
-    "DisplayName": "#50cal",
-    "DisplayDescription": "#50cal.desc",
+    "DisplayName": "50 Cal Turret",
+    "DisplayDescription": "50 Cal Turret",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -9168,6 +9418,15 @@
     "ShortName": "coal",
     "DisplayName": "Coal :(",
     "DisplayDescription": "Crappy Holidays!",
+    "Category": "Resources",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 204391867,
+    "ShortName": "wool",
+    "DisplayName": "Wool",
+    "DisplayDescription": "A bundle of wool. Might be able to take this to a stable to sell.",
     "Category": "Resources",
     "IsWearable": false,
     "Wearable": null
@@ -9622,6 +9881,15 @@
     "ShortName": "pie.hunters",
     "DisplayName": "Hunters Pie",
     "DisplayDescription": "Tasty hunters pie, made with real deer. Provides a boost to hunger, health and hydration. Reduces bleeding for a short time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 325350919,
+    "ShortName": "milk",
+    "DisplayName": "Milk",
+    "DisplayDescription": "A small bottle of milk. Very calorie dense. Store in a fridge to separate it and create Cream.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -10266,6 +10534,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 556232090,
+    "ShortName": "purewarmingtea.creamy",
+    "DisplayName": "Creamy Pure Warming Tea",
+    "DisplayDescription": "A pure warming tea that temporarily increases both your core and minimum temperature. Enriched with cream for a stronger, shorter lived effect.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 559147458,
     "ShortName": "fishtrap.small",
     "DisplayName": "Survival Fish Trap",
@@ -10828,6 +11105,15 @@
     }
   },
   {
+    "ItemId": 718346230,
+    "ShortName": "beefmeat.cooked",
+    "DisplayName": "Cooked Beef",
+    "DisplayDescription": "Delicious Beef, Eating it will restore some health, hunger, and thirst.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 721798950,
     "ShortName": "vehicle.car_radio",
     "DisplayName": "Car Radio",
@@ -10927,6 +11213,24 @@
     "Wearable": null
   },
   {
+    "ItemId": 777041831,
+    "ShortName": "woodtea.pure.milky",
+    "DisplayName": "Milky Pure Wood Tea",
+    "DisplayDescription": "A pure wood tea, temporarily increases the yield from cutting trees a large amount. Enriched with milk to make the effect last longer.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 782269436,
+    "ShortName": "pie.beef",
+    "DisplayName": "Beef Pie",
+    "DisplayDescription": "A pie made of beef, increases the maximum amount of food that can be eaten. High calorie consumption increases chance of recovering from injuries.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 782422285,
     "ShortName": "sofa.pattern",
     "DisplayName": "Sofa - Pattern",
@@ -10959,6 +11263,15 @@
     "DisplayName": "Sunken Combat Knife",
     "DisplayDescription": "A corroded sunken knife designed for close combat engagements, can attack while sprinting. Best in class at harvesting flesh.",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 789540413,
+    "ShortName": "pureharvestingtea.milky",
+    "DisplayName": "Milky Pure Harvesting Tea",
+    "DisplayDescription": "A pure harvesting tea, provides hydration and temporarily increases the amount of resources you receive from harvesting corpses a large amount. Enriched with milk to make the effect last longer.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -11230,7 +11543,7 @@
     "ItemId": 831955134,
     "ShortName": "skylantern.skylantern.purple",
     "DisplayName": "Sky Lantern - Purple",
-    "DisplayDescription": "#skylantern.skylantern.purple.desc",
+    "DisplayDescription": "A beautiful purple sky lantern. Can be launched in any direction. Has one inventory slot. Can be Ignited with a lit torch.",
     "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
@@ -11645,6 +11958,15 @@
     "DisplayName": "Floor grill",
     "DisplayDescription": "A floor grill must be placed in floor frames. Perfect for placing above a large furnace.",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 939198535,
+    "ShortName": "pie.mutton",
+    "DisplayName": "Shepherds Pie",
+    "DisplayDescription": "Hearty mutton pie, provides a boost to hunger, health and hydration. Livestock grow used to you twice as fast, and are far less likely to turn on you, for a short time.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12394,6 +12716,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1143376304,
+    "ShortName": "wall.animal.fence.gate",
+    "DisplayName": "Animal Fence Gate",
+    "DisplayDescription": "A gate for accessing your animal pen.",
+    "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1145722690,
     "ShortName": "catapult",
     "DisplayName": "Catapult",
@@ -12460,7 +12791,7 @@
     "ItemId": 1160881421,
     "ShortName": "hitchtroughcombo",
     "DisplayName": "Hitch & Trough",
-    "DisplayDescription": "A Hitching post and Trough. Dismounting your horses here will keep them healthy and fed as long as it is kept stocked with food.",
+    "DisplayDescription": "A Hitching post and Trough. Dismounting your horses here will keep them healthy and fed as long as it is kept stocked with food. Livestock will also eat from here if there's not enough grass nearby.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -12585,6 +12916,15 @@
     "ShortName": "spoiled.produce",
     "DisplayName": "Spoiled Produce",
     "DisplayDescription": "A spoiled fruit or vegetable. It's so far gone it's hard to tell what it originally was.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1185218972,
+    "ShortName": "cream",
+    "DisplayName": "Cream",
+    "DisplayDescription": "The fat skimmed off whole milk. Calorie dense and restorative, but it will barely quench your thirst.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -12730,6 +13070,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1243083208,
+    "ShortName": "oretea.pure.milky",
+    "DisplayName": "Milky Pure Ore Tea",
+    "DisplayDescription": "A pure ore tea, provides hydration and temporarily increases your yield when harvesting ores a large amount. Enriched with milk to make the effect last longer.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1248356124,
     "ShortName": "explosive.timed",
     "DisplayName": "Timed Explosive Charge",
@@ -12741,8 +13090,8 @@
   {
     "ItemId": 1248383659,
     "ShortName": "50cal.mounted.right",
-    "DisplayName": "#50cal",
-    "DisplayDescription": "#50cal.desc",
+    "DisplayName": "Dual 50 Cal Turret",
+    "DisplayDescription": "Dual 50 Cal Turret",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -13143,6 +13492,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1364112542,
+    "ShortName": "pie.pumpkin.rich",
+    "DisplayName": "Rich Pumpkin Pie",
+    "DisplayDescription": "A spooky pumpkin pie enriched with cream. Provides a boost to health, hunger and hydration. Greatly increases maximum health for a short time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1364514421,
     "ShortName": "blueidtag",
     "DisplayName": "Blue ID Tag",
@@ -13330,6 +13688,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1412100395,
+    "ShortName": "beefmeat.spoiled",
+    "DisplayName": "Spoiled Beef",
+    "DisplayDescription": "Spoiled Beef. Consuming will damage your health.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1412103380,
     "ShortName": "seed.sunflower",
     "DisplayName": "Sunflower Seed",
@@ -13488,6 +13855,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1427291780,
+    "ShortName": "pie.fish.rich",
+    "DisplayName": "Rich Fish Pie",
+    "DisplayDescription": "A delightful fish pie enriched with cream. Provides a boost to hunger, health and hydration. Increases base comfort level for a long time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1428574144,
     "ShortName": "hopper",
     "DisplayName": "Hopper",
@@ -13578,6 +13954,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1468691829,
+    "ShortName": "pie.mutton.rich",
+    "DisplayName": "Rich Shepherds Pie",
+    "DisplayDescription": "A hearty shepherds pie enriched with cream. Provides a boost to hunger, health and hydration. Livestock grow used to you far faster, and are far less likely to turn on you, for a short time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1468749025,
     "ShortName": "bdu.pants",
     "DisplayName": "BDU pants",
@@ -13619,6 +14004,15 @@
         "Cannon": 1.0
       }
     }
+  },
+  {
+    "ItemId": 1469787676,
+    "ShortName": "pie.bigcat.rich",
+    "DisplayName": "Rich Big Cat Pie",
+    "DisplayDescription": "A jungle cat pie enriched with cream, purrfect temperature. Boosts hunger, health and hydration. Shows nearby animal tracks for a long time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 1470387662,
@@ -13763,6 +14157,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1519395656,
+    "ShortName": "scraptea.pure.creamy",
+    "DisplayName": "Creamy Pure Scrap Tea",
+    "DisplayDescription": "A pure scrap tea, temporarily increases the amount of scrap you receive from barrels a large amount. Enriched with cream for a stronger, shorter lived effect.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1521286012,
     "ShortName": "sign.post.double",
     "DisplayName": "Double Sign Post",
@@ -13813,6 +14216,15 @@
     "DisplayName": "Building Plan",
     "DisplayDescription": "A building plan. You can use this to craft buildings - right click when equipped for more options.",
     "Category": "Construction",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 1527700610,
+    "ShortName": "purecoolingtea.creamy",
+    "DisplayName": "Creamy Pure Cooling Tea",
+    "DisplayDescription": "A pure cooling tea that temporarily decreases your max and core temperature. Enriched with cream for a stronger, shorter lived effect.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -14023,7 +14435,7 @@
     "ItemId": 1588298435,
     "ShortName": "rifle.bolt",
     "DisplayName": "Bolt Action Rifle",
-    "DisplayDescription": "A High powered, highly accurate, long range rifle.",
+    "DisplayDescription": "A high powered, highly accurate, long range rifle.",
     "Category": "Weapon",
     "IsWearable": false,
     "Wearable": null
@@ -14765,6 +15177,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1738714421,
+    "ShortName": "purecoolingtea.milky",
+    "DisplayName": "Milky Pure Cooling Tea",
+    "DisplayDescription": "A pure cooling tea that temporarily decreases your max and core temperature. Enriched with milk to make the effect last longer.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1744298439,
     "ShortName": "firework.boomer.blue",
     "DisplayName": "Blue Boomer",
@@ -14858,6 +15279,15 @@
         "Cannon": 1.0
       }
     }
+  },
+  {
+    "ItemId": 1751463672,
+    "ShortName": "muttonmeat.spoiled",
+    "DisplayName": "Spoiled Mutton",
+    "DisplayDescription": "Spoiled Mutton. Consuming will damage your health.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
   },
   {
     "ItemId": 1754952075,
@@ -15413,6 +15843,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1883513936,
+    "ShortName": "pie.bear.rich",
+    "DisplayName": "Rich Bear Pie",
+    "DisplayDescription": "A bear meat pie enriched with cream. Provides a boost to hunger, health and hydration. Greatly increases effect of harvesting teas but reduces their duration.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1883981798,
     "ShortName": "piston1",
     "DisplayName": "Low Quality Pistons",
@@ -15744,6 +16183,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1988640176,
+    "ShortName": "pie.pork.rich",
+    "DisplayName": "Rich Pork Pie",
+    "DisplayDescription": "A tempting pork pie enriched with cream. Provides a boost to hunger, health and hydration. Greatly improves healing rate from other sources for a short time.",
+    "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1989785143,
     "ShortName": "horse.shoes.advanced",
     "DisplayName": "High Quality Horse Shoes",
@@ -15819,6 +16267,15 @@
     "DisplayName": "Extended Magazine",
     "DisplayDescription": "Larger magazine size",
     "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2006264797,
+    "ShortName": "pie.chicken.rich",
+    "DisplayName": "Rich Chicken Pie",
+    "DisplayDescription": "Just like mom used to make, enriched with cream. Provides a boost to hunger, health and hydration. Greatly increases the chance of better genes from crops for a short time.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -16164,6 +16621,15 @@
     "DisplayName": "Red Berry Clone",
     "DisplayDescription": "A clipping of a Red Berry Plant.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 2141654944,
+    "ShortName": "barricade.sandbags.three.quarter",
+    "DisplayName": "#barricade.sandbags.three.quarter",
+    "DisplayDescription": "A protective barricade made out of Sand Bags. Deploy another one on top to build it higher, up to a sandbag pillbox.",
+    "Category": "Construction",
     "IsWearable": false,
     "Wearable": null
   }
