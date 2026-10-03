@@ -8070,7 +8070,7 @@
     "ShortName": "waterjug",
     "DisplayName": "Water Jug",
     "DisplayDescription": "A large jerry can for all kinds of water. Holds up to 5000ml. Careful not to throw it all away!",
-    "Category": "Food",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
