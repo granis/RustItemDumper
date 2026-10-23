@@ -1745,6 +1745,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1716340729,
+    "ShortName": "tunalight.skull",
+    "DisplayName": "Skull Wall Lamp",
+    "DisplayDescription": "Turn your enemies into something useful with this tasteful lamp.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1709878924,
     "ShortName": "humanmeat.raw",
     "DisplayName": "Raw Human Meat",
@@ -6338,6 +6347,15 @@
     }
   },
   {
+    "ItemId": -570638754,
+    "ShortName": "discord.zombie.plushie",
+    "DisplayName": "Zombie Wumpus Plush",
+    "DisplayDescription": "Exclusive to the Rust Shop on Discord!",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -568419968,
     "ShortName": "grub",
     "DisplayName": "Grub",
@@ -9200,6 +9218,15 @@
     "DisplayName": "Black Berry Clone",
     "DisplayDescription": "A clipping of a Black Berry Plant.",
     "Category": "Food",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": 139776459,
+    "ShortName": "halloween.string.lights",
+    "DisplayName": "Halloween String Lights",
+    "DisplayDescription": "Spooky Halloween string lights for your base. Part of the Spooky Decor Bundle.",
+    "Category": "Items",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12824,6 +12851,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 1174330346,
+    "ShortName": "halloweenwreath",
+    "DisplayName": "Halloween Wreath",
+    "DisplayDescription": "A spooky Halloween Wreath for the doors in your base. Part of the Spooky Decor Bundle.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 1174484438,
     "ShortName": "mini fridge",
     "DisplayName": "Mini Fridge",
@@ -15994,6 +16030,49 @@
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
+  },
+  {
+    "ItemId": 1930628359,
+    "ShortName": "alien.costume",
+    "DisplayName": "Alien Costume",
+    "DisplayDescription": "An inflatable alien costume. Acting as a replacement for wooden pants, you can equip this item to look as silly as possible. Three varieties.",
+    "Category": "Attire",
+    "IsWearable": true,
+    "Wearable": {
+      "OccupationOver": 524280,
+      "OccupationUnder": 524280,
+      "IsBackpack": false,
+      "ProtectionProperties": {
+        "Generic": 0.0,
+        "Hunger": 0.0,
+        "Thirst": 0.0,
+        "Cold": 0.0,
+        "Drowned": 0.0,
+        "Heat": 0.25,
+        "Bleeding": 0.0,
+        "Poison": 0.0,
+        "Suicide": 0.0,
+        "Bullet": 0.25,
+        "Slash": 0.4,
+        "Blunt": 0.4,
+        "Fall": 0.0,
+        "Radiation": 0.0,
+        "Bite": 0.8,
+        "Stab": 0.4,
+        "Explosion": 0.4,
+        "RadiationExposure": 0.04,
+        "ColdExposure": 0.0,
+        "Decay": 0.0,
+        "ElectricShock": 0.0,
+        "Arrow": 0.25,
+        "AntiVehicle": 1.0,
+        "Collision": 1.0,
+        "Fun_Water": 0.0,
+        "BeeSting": 0.0,
+        "Paintball": 0.0,
+        "Cannon": 1.0
+      }
+    }
   },
   {
     "ItemId": 1931713481,
