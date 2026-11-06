@@ -825,6 +825,15 @@
     "Wearable": null
   },
   {
+    "ItemId": -1953695556,
+    "ShortName": "shears",
+    "DisplayName": "Shears",
+    "DisplayDescription": "Used to shear wool from sheep. More effective than other weapons and will never hurt a sheep.",
+    "Category": "Tool",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": -1953279770,
     "ShortName": "workbench.upgrade.defensive",
     "DisplayName": "Defensive Workbench Upgrade",
@@ -944,7 +953,7 @@
     "ShortName": "fishtrophy",
     "DisplayName": "Fish Trophy",
     "DisplayDescription": "A wall mountable item to show off your greatest catches. Fish not included.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1005,7 +1014,7 @@
     "ShortName": "goldframe.medium",
     "DisplayName": "Ornate Frame Medium",
     "DisplayDescription": "A medium ornate frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1020,9 +1029,9 @@
   },
   {
     "ItemId": -1896395719,
-    "ShortName": "advancedblueprintfragment",
-    "DisplayName": "Advanced Blueprint Fragment",
-    "DisplayDescription": "Precision schematics with complex information, multiple fragments are necessary for crafting a Tier 3 Workbench.",
+    "ShortName": "blueprintbook",
+    "DisplayName": "Blueprint Book",
+    "DisplayDescription": "A bound collection of precise schematics, used to research Workbench Level 3 items on the tech tree.",
     "Category": "Component",
     "IsWearable": false,
     "Wearable": null
@@ -1167,7 +1176,7 @@
     "ShortName": "goldframe.small",
     "DisplayName": "Ornate Frame Small",
     "DisplayDescription": "A small ornate frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1293,7 +1302,7 @@
     "ShortName": "discord.plushie",
     "DisplayName": "Wumpus Plush",
     "DisplayDescription": "Exclusive to the Rust Shop on Discord!",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1381,7 +1390,7 @@
     "ShortName": "starballoon2025",
     "DisplayName": "Star Balloon",
     "DisplayDescription": "A star-shaped balloon to use as decoration and for you to celebrate. You can write on it.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1442,7 +1451,7 @@
     "ShortName": "easel",
     "DisplayName": "Portable Easel",
     "DisplayDescription": "A portable easel for painting plein air!",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1530,7 +1539,7 @@
     "ShortName": "scrapframe.standing",
     "DisplayName": "Shutter Frame Standing",
     "DisplayDescription": "A standing shutter frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -1750,6 +1759,15 @@
     "DisplayName": "Skull Wall Lamp",
     "DisplayDescription": "Turn your enemies into something useful with this tasteful lamp.",
     "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1716287874,
+    "ShortName": "blueprintpage",
+    "DisplayName": "Blueprint Page",
+    "DisplayDescription": "A partially restored schematic page, used to research Workbench Level 2 items on the tech tree.",
+    "Category": "Component",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2415,7 +2433,16 @@
     "ShortName": "woodframe.medium",
     "DisplayName": "Wood Frame Medium",
     "DisplayDescription": "A medium wooden frame",
-    "Category": "Items",
+    "Category": "Fun",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -1540865198,
+    "ShortName": "pie.crocodile.rich",
+    "DisplayName": "Rich Crocodile Pie",
+    "DisplayDescription": "A crocodile pie enriched with cream, may cause a reptile dysfunction. Causes most animals to fear the player and keep their distance for longer.",
+    "Category": "Food",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2512,7 +2539,7 @@
     "ShortName": "goldframe.standing",
     "DisplayName": "Ornate Frame Standing",
     "DisplayDescription": "A standing ornate frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2855,7 +2882,7 @@
     "ShortName": "woodframe.small",
     "DisplayName": "Wood Frame Small",
     "DisplayDescription": "A small wooden frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2954,7 +2981,7 @@
     "ShortName": "latexclumpballoon2025",
     "DisplayName": "Clump of Latex Balloons",
     "DisplayDescription": "A clump of latex balloons to use as decoration and for you to celebrate.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -2981,7 +3008,7 @@
     "ShortName": "goldframe.xl",
     "DisplayName": "Ornate Frame XL",
     "DisplayDescription": "An extra large ornate frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3112,7 +3139,7 @@
     "ShortName": "sign.pictureframe.portrait",
     "DisplayName": "Portrait Picture Frame",
     "DisplayDescription": "A portrait oriented canvas for artists paintings.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3166,7 +3193,7 @@
     "ShortName": "wantedposter",
     "DisplayName": "Wanted Poster",
     "DisplayDescription": "A poster that can display a given player's face as wanted.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3281,7 +3308,7 @@
     "ShortName": "goldframe.xxl",
     "DisplayName": "Ornate Frame XXL",
     "DisplayDescription": "An extra extra large ornate frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3405,7 +3432,7 @@
     "ShortName": "lightupframe.medium",
     "DisplayName": "Light-Up Frame Medium",
     "DisplayDescription": "A medium Light-up frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3511,7 +3538,7 @@
     "ShortName": "wantedposter.wantedposter3",
     "DisplayName": "Wanted Poster 3",
     "DisplayDescription": "A poster that can display a given player's face as wanted.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3574,7 +3601,7 @@
     "ShortName": "scrapframe.xl",
     "DisplayName": "Shutter Frame XL",
     "DisplayDescription": "An extra large shutter frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -3642,7 +3669,7 @@
     "ShortName": "scrapframe.xxl",
     "DisplayName": "Shutter Frame XXL",
     "DisplayDescription": "An extra extra large shutter frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4093,7 +4120,7 @@
     "ShortName": "scrapframe.large",
     "DisplayName": "Shutter Frame large",
     "DisplayDescription": "A large shutter frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4147,7 +4174,7 @@
     "ShortName": "scrapframe.medium",
     "DisplayName": "Shutter Frame Medium",
     "DisplayDescription": "A medium shutter frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4605,7 +4632,7 @@
     "ShortName": "goldframe.large",
     "DisplayName": "Ornate Frame large",
     "DisplayDescription": "A large ornate frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4614,7 +4641,7 @@
     "ShortName": "sign.pictureframe.xl",
     "DisplayName": "XL Picture Frame",
     "DisplayDescription": "An extra large canvas for artists paintings.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4783,7 +4810,7 @@
     "ShortName": "sign.artistcanvas.s",
     "DisplayName": "Artist Canvas Medium",
     "DisplayDescription": "A medium canvas for seamless murals",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4792,7 +4819,7 @@
     "ShortName": "sign.artistcanvas.l",
     "DisplayName": "Artist Canvas Standing",
     "DisplayDescription": "A standing canvas for seamless murals",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -4801,7 +4828,7 @@
     "ShortName": "sign.artistcanvas.m",
     "DisplayName": "Artist Canvas Large",
     "DisplayDescription": "A large sized canvas for seamless murals",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5036,7 +5063,7 @@
     "ShortName": "trophy2023",
     "DisplayName": "Twitch Rivals Trophy 2023",
     "DisplayDescription": "A trophy dedicated to the survivors of Rust Twitch Rivals 2023",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5188,7 +5215,7 @@
     "ShortName": "huntingtrophysmall",
     "DisplayName": "Small Hunting Trophy",
     "DisplayDescription": "A trophy stand to mount the head of killed animals or enemies.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5287,7 +5314,7 @@
     "ShortName": "sign.pictureframe.landscape",
     "DisplayName": "Landscape Picture Frame",
     "DisplayDescription": "A landscape oriented canvas for artists paintings.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -5375,7 +5402,7 @@
     "ShortName": "sign.artistcanvas.xxl",
     "DisplayName": "Artist Canvas XXL",
     "DisplayDescription": "An extra, extra large canvas for seamless murals",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -6073,7 +6100,7 @@
     "ShortName": "woodframe.large",
     "DisplayName": "Wood Frame Large",
     "DisplayDescription": "A large wooden frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -6179,6 +6206,15 @@
     "ShortName": "clothing.mod.armorinsert_wood",
     "DisplayName": "Wooden Armor Insert",
     "DisplayDescription": "Wood insert for crafted clothes and armor, provides some extra protection from bullets and melee.",
+    "Category": "Items",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
+    "ItemId": -593892104,
+    "ShortName": "clothing.mod.armorinsert_wool",
+    "DisplayName": "Wool Armor Insert",
+    "DisplayDescription": "Wool insert for clothing and armour. Adds cold, melee and projectile protection.",
     "Category": "Items",
     "IsWearable": false,
     "Wearable": null
@@ -6351,7 +6387,7 @@
     "ShortName": "discord.zombie.plushie",
     "DisplayName": "Zombie Wumpus Plush",
     "DisplayDescription": "Exclusive to the Rust Shop on Discord!",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -6647,7 +6683,7 @@
     "ShortName": "scrapframe.small",
     "DisplayName": "Shutter Frame Small",
     "DisplayDescription": "A small shutter frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -7726,7 +7762,7 @@
     "ItemId": -180862419,
     "ShortName": "workbench.upgrade.prototype",
     "DisplayName": "Prototype Workbench Upgrade",
-    "DisplayDescription": "Allows unlocking any tech tree item regardless of progression. Cost is doubled and there is a 25% chance of failure that still consumes resources.",
+    "DisplayDescription": "Allows unlocking any tech tree item regardless of progression. Each attempt has a 25% chance to succeed, and a failed attempt still consumes resources.",
     "Category": "Component",
     "IsWearable": false,
     "Wearable": null
@@ -7839,7 +7875,7 @@
     "ItemId": -160105346,
     "ShortName": "workbench.upgrade.salvage",
     "DisplayName": "Salvage Workbench Upgrade",
-    "DisplayDescription": "Reduces the scrap cost of all tech tree unlocks at this bench by 20%.",
+    "DisplayDescription": "Each blueprint spent on tech tree unlocks at this bench has a 20% chance to not be consumed.",
     "Category": "Component",
     "IsWearable": false,
     "Wearable": null
@@ -7961,9 +7997,9 @@
   },
   {
     "ItemId": -143481979,
-    "ShortName": "basicblueprintfragment",
-    "DisplayName": "Basic Blueprint Fragment",
-    "DisplayDescription": "Damaged diagrams containing partial information to constuct a Tier 2 Workbench for advanced crafting. Several fragments are needed.\n\n20 Basic Fragments can be pieced together to make an Advanced Fragment.",
+    "ShortName": "blueprintfragment",
+    "DisplayName": "Blueprint Fragment",
+    "DisplayDescription": "Damaged diagrams containing partial information, used to research Workbench Level 1 items on the tech tree.\n\n10 Blueprint Fragments can be pieced together to make a Blueprint Page.",
     "Category": "Component",
     "IsWearable": false,
     "Wearable": null
@@ -8163,7 +8199,7 @@
     "ShortName": "circleballoon2025",
     "DisplayName": "Circle Balloon",
     "DisplayDescription": "A circular balloon to use as decoration and for you to celebrate. You can write on it.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -8916,7 +8952,7 @@
     "ItemId": 54265286,
     "ShortName": "pie.crocodile",
     "DisplayName": "Crocodile Pie",
-    "DisplayDescription": "A pie made from crocodile meat, may cause a reptile dysfunction. Boosts hunger, health and hydration. Gives better night vision, including tree markings and ore hotspots, for a short time.",
+    "DisplayDescription": "A pie made from crocodile meat, may cause a reptile dysfunction. Causes most animals to fear the player and keep their distance.",
     "Category": "Food",
     "IsWearable": false,
     "Wearable": null
@@ -9077,7 +9113,7 @@
     "ShortName": "sign.pictureframe.xxl",
     "DisplayName": "XXL Picture Frame",
     "DisplayDescription": "A double extra large canvas for artists paintings.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9208,7 +9244,7 @@
     "ShortName": "sign.pictureframe.tall",
     "DisplayName": "Tall Picture Frame",
     "DisplayDescription": "A tall canvas for artists paintings.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9253,7 +9289,7 @@
     "ShortName": "heavy.scientist.plushie",
     "DisplayName": "Heavy Scientist Plushie",
     "DisplayDescription": "Heavy Scientist Plushie",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9612,7 +9648,7 @@
     "ShortName": "lightup.large",
     "DisplayName": "Light-Up Frame Large",
     "DisplayDescription": "A large light up frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -9872,7 +9908,7 @@
     "ShortName": "wantedposter.wantedposter2",
     "DisplayName": "Wanted Poster 2",
     "DisplayDescription": "A poster that can display a given player's face as wanted.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -10035,7 +10071,7 @@
     "ShortName": "heartballoon2025",
     "DisplayName": "Heart Balloon",
     "DisplayDescription": "A heart-shaped balloon to use as decoration and for you to celebrate. You can write on it.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -10222,7 +10258,7 @@
     "ShortName": "scientist.plushie",
     "DisplayName": "Scientist Plushie",
     "DisplayDescription": "Scientist Plushie",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -10398,7 +10434,7 @@
     "ShortName": "sculpture.ice",
     "DisplayName": "Ice Sculpture",
     "DisplayDescription": "A block of ice you can sculpt and light up with electric power.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -10601,7 +10637,7 @@
     "ShortName": "mixedclumpballoon2025",
     "DisplayName": "Clump of Mixed Balloons",
     "DisplayDescription": "A clump of mixed balloons to use as decoration and for you to celebrate.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12011,7 +12047,7 @@
     "ShortName": "huntingtrophylarge",
     "DisplayName": "Large Hunting Trophy",
     "DisplayDescription": "A large trophy stand to mount the head of killed animals or enemies.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12038,7 +12074,7 @@
     "ShortName": "speechbubbleballoon2025",
     "DisplayName": "Speech Bubble Balloon",
     "DisplayDescription": "A speech bubble-shaped balloon to use as decoration and for you to celebrate. You can write on it.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12174,7 +12210,7 @@
     "ShortName": "trophy",
     "DisplayName": "Twitch Rivals Trophy",
     "DisplayDescription": "A trophy dedicated to the survivors of Rust Twitch Rivals",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -12861,7 +12897,7 @@
   },
   {
     "ItemId": 1174484438,
-    "ShortName": "mini fridge",
+    "ShortName": "minifridge",
     "DisplayName": "Mini Fridge",
     "DisplayDescription": "Ideal for preserving food and keeping items cool.",
     "Category": "Electrical",
@@ -13002,7 +13038,7 @@
     "ShortName": "photoframe.large",
     "DisplayName": "Large Photo Frame",
     "DisplayDescription": "A large frame for your photos.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -13318,7 +13354,7 @@
     "ShortName": "latexballoon2025",
     "DisplayName": "Latex Balloon",
     "DisplayDescription": "A latex balloon to use as decoration and for you to celebrate. You can write on it.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -13931,7 +13967,7 @@
     "ShortName": "lightup.xxl",
     "DisplayName": "Light-Up Frame XXL",
     "DisplayDescription": "An extra extra large light up frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -13967,7 +14003,7 @@
     "ShortName": "wantedposter.wantedposter4",
     "DisplayName": "Wanted Poster 4",
     "DisplayDescription": "A poster that can display a given player's face as wanted.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -14161,7 +14197,7 @@
     "ShortName": "discord.trophy",
     "DisplayName": "Discord Trophy",
     "DisplayDescription": "A companion that reminds you of your youth.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -14400,7 +14436,7 @@
     "ShortName": "sign.artistcanvas.xl",
     "DisplayName": "Artist Canvas XL",
     "DisplayDescription": "An extra large canvas for seamless murals",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -14445,7 +14481,7 @@
     "ShortName": "hazmat.plushy",
     "DisplayName": "Hazmat Plushy",
     "DisplayDescription": "A plushy of your favourite outfit made by the fabulous people at YouTooz.com",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -14626,7 +14662,7 @@
     "ShortName": "sign.artistcanvas.xs",
     "DisplayName": "Artist Canvas Small",
     "DisplayDescription": "A small canvas for seamless murals",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -14969,7 +15005,7 @@
     "ShortName": "lightupframe.small",
     "DisplayName": "Light-Up Frame Small",
     "DisplayDescription": "A small light-up frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -14987,7 +15023,7 @@
     "ShortName": "photoframe.landscape",
     "DisplayName": "Landscape Photo Frame",
     "DisplayDescription": "A landscape oriented canvas for artists paintings.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -15172,7 +15208,7 @@
     "ShortName": "photoframe.portrait",
     "DisplayName": "Portrait Photo Frame",
     "DisplayDescription": "A portrait oriented canvas for artists paintings.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -15375,7 +15411,7 @@
     "ShortName": "woodframe.standing",
     "DisplayName": "Wood Frame Standing",
     "DisplayDescription": "A standing wooden frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -15479,7 +15515,7 @@
     "ShortName": "lightup.xl",
     "DisplayName": "Light-Up Frame XL",
     "DisplayDescription": "An extra large light-up frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -15673,7 +15709,7 @@
     "ShortName": "sculpture.rock",
     "DisplayName": "Stone Sculpture",
     "DisplayDescription": "A block of stone you can sculpt.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -16035,7 +16071,7 @@
     "ItemId": 1930628359,
     "ShortName": "alien.costume",
     "DisplayName": "Alien Costume",
-    "DisplayDescription": "An inflatable alien costume. Acting as a replacement for wooden pants, you can equip this item to look as silly as possible. Three varieties.",
+    "DisplayDescription": "An inflatable alien costume. Acting as a replacement for bone armor, you can equip this item to look as silly as possible. Three varieties.",
     "Category": "Attire",
     "IsWearable": true,
     "Wearable": {
@@ -16124,7 +16160,7 @@
     "ShortName": "lightupframe.standing",
     "DisplayName": "Light-Up Frame Standing",
     "DisplayDescription": "A standing light-up frame",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -16616,6 +16652,15 @@
     "Wearable": null
   },
   {
+    "ItemId": 2125127001,
+    "ShortName": "smg.uzi",
+    "DisplayName": "Uzi",
+    "DisplayDescription": "A compact, fast-firing machine pistol. Hold [+firemode] to extend the stock for better control.",
+    "Category": "Weapon",
+    "IsWearable": false,
+    "Wearable": null
+  },
+  {
     "ItemId": 2126889441,
     "ShortName": "santabeard",
     "DisplayName": "Santa Beard",
@@ -16663,7 +16708,7 @@
     "ShortName": "charity.plushy.04",
     "DisplayName": "Cancer Research UK 2026 Plushie",
     "DisplayDescription": "A soft and squishy plush that provides comfort in your base.\n\nCancer Research UK (reg charity nos. 1089464, SC041666, 1103 and 247)\nwill get 100% of the net sales of the Cancer Research UK Plushie*.  \n\n*Net sales being gross sales less refunds and after Steam platform fees (20%) and sales tax typically around 10-11%.",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -16672,7 +16717,7 @@
     "ShortName": "charity.plushy.01",
     "DisplayName": "Cancer Research UK Plushie",
     "DisplayDescription": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in October 2025 to support Cancer Research UK, each purchase helped fund real-world cancer research.\n\nwww.cancerresearchuk.org",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -16681,7 +16726,7 @@
     "ShortName": "charity.plushy.02",
     "DisplayName": "Ronald McDonald House UK Plushie",
     "DisplayDescription": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in October 2025 to support Ronald McDonald House Charities UK, helping ease the burden on families by providing free ‘home away from home’ accommodation near hospitals.\n\nwww.rmhc.org.uk",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
@@ -16690,7 +16735,7 @@
     "ShortName": "charity.plushy.03",
     "DisplayName": "Ronald McDonald House UK 2026 Plushie",
     "DisplayDescription": "A soft and squishy plush that provides comfort in your base. First sold on the Rust store in July 2026 to support Ronald McDonald House Charities UK, helping ease the burden on families by providing free ‘home away from home’ accommodation near hospitals.\n\nwww.rmhc.org.uk",
-    "Category": "Items",
+    "Category": "Fun",
     "IsWearable": false,
     "Wearable": null
   },
